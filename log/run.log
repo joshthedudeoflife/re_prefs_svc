@@ -1,1386 +1,211 @@
-# Logfile created on 2014-06-27 09:17:18 -0400 by logger.rb/1.2.8
-I, [2014-06-27T09:17:18.853812 #30030]  INFO -- : Started running (KeepBusy): Log file: /Users/joshthedudeoflife/re_prefs_svc/log/run.log
-D, [2014-06-27T09:17:19.050869 #30030] DEBUG -- : Query: #<Mysql2::Result:0x007fee693da3b0> && 0 for SQL:
-SELECT shared_secret FROM clients WHERE name='test_clien' LIMIT 1
-D, [2014-06-27T09:17:19.052013 #30030] DEBUG -- : Query:  && 144 for SQL:
-INSERT INTO clients (name, shared_secret, client_type, created_at) values ('test_clien', 'e0c3fa6298cd26408df2968ed3064d5365ad81af636ebac5fb6c7d45e66792e7', 1, '2014-06-27 09:17:19 -0400')
-D, [2014-06-27T09:17:19.053735 #30030] DEBUG -- : Query: #<Mysql2::Result:0x007fee693e8f78> && 144 for SQL:
-SELECT shared_secret FROM clients WHERE name='test_clien' LIMIT 1
-D, [2014-06-27T09:17:19.054776 #30030] DEBUG -- : Query:  && 0 for SQL:
-DELETE FROM clients WHERE  name = 'test_clien'
-D, [2014-06-27T09:17:19.055159 #30030] DEBUG -- : Query: #<Mysql2::Result:0x007fee693e8280> && 0 for SQL:
-SELECT shared_secret FROM clients WHERE name='test_client' LIMIT 1
-D, [2014-06-27T09:17:19.055948 #30030] DEBUG -- : Query:  && 0 for SQL:
-DELETE FROM clients WHERE  name = 'test_client'
-D, [2014-06-27T09:17:19.056696 #30030] DEBUG -- : Query:  && 145 for SQL:
-INSERT INTO clients (name, shared_secret, client_type, created_at) values ('test_client', 'a09a5b94ec0ea51204546ea62922207b75da00d5d19debe16fe9b950da901eb9', 1, '2014-06-27 09:17:19 -0400')
-D, [2014-06-27T09:17:19.057049 #30030] DEBUG -- : Query: #<Mysql2::Result:0x007fee68e46e30> && 145 for SQL:
-SELECT shared_secret FROM clients WHERE name='test_client' LIMIT 1
-D, [2014-06-27T09:17:19.062725 #30030] DEBUG -- : Query: #<Mysql2::Result:0x007fee68e97d58> && 145 for SQL:
-SELECT shared_secret FROM clients WHERE name='test_clien' LIMIT 1
-D, [2014-06-27T09:17:19.063203 #30030] DEBUG -- : Query: #<Mysql2::Result:0x007fee68e97768> && 145 for SQL:
-SELECT shared_secret FROM clients WHERE name='test_client' LIMIT 1
-D, [2014-06-27T09:17:19.063912 #30030] DEBUG -- : Query:  && 0 for SQL:
-DELETE FROM clients WHERE  name = 'test_clien'
-D, [2014-06-27T09:17:19.064229 #30030] DEBUG -- : Query: #<Mysql2::Result:0x007fee68e95d00> && 0 for SQL:
-SELECT shared_secret FROM clients WHERE name='test_client' LIMIT 1
-D, [2014-06-27T09:17:20.170098 #30030] DEBUG -- : Query: #<Mysql2::Result:0x007fee68eb4d90> && 0 for SQL:
-SELECT shared_secret FROM clients WHERE name='test_client' LIMIT 1
-D, [2014-06-27T09:17:20.170886 #30030] DEBUG -- : Query: #<Mysql2::Result:0x007fee693f31d0> && 0 for SQL:
-SELECT shared_secret FROM clients WHERE name='test_client' LIMIT 1
-I, [2014-06-27T09:17:20.171109 #30030]  INFO -- : Details: GET, {"X-Nonce"=>"8fd5eb2154efbd1cf53ca85be49cb06b3c59c657939689b3399247ec0f2cf004 test_client 1403875039167"}, {:b=>123, :c=>"abc", :adg=>"hello phil", :rand=>"this & this = a question?"}, done, some_controller, {:force_timestamp=>1403875039167}====89ad7d71bc751f2729604cd8bd2f047f0c4f44d41dc2c38e6fd0239ccabe1e92 test_client 1403875039167!=8fd5eb2154efbd1cf53ca85be49cb06b3c59c657939689b3399247ec0f2cf004 test_client 1403875039167
-D, [2014-06-27T09:17:20.171701 #30030] DEBUG -- : Query: #<Mysql2::Result:0x007fee69403f80> && 0 for SQL:
-SELECT shared_secret FROM clients WHERE name='test_clien' LIMIT 1
-D, [2014-06-27T09:17:20.172140 #30030] DEBUG -- : Query: #<Mysql2::Result:0x007fee69403738> && 0 for SQL:
-SELECT shared_secret FROM clients WHERE name='test_clien' LIMIT 1
-D, [2014-06-27T09:17:20.172435 #30030] DEBUG -- : Query: #<Mysql2::Result:0x007fee69403080> && 0 for SQL:
-SELECT shared_secret FROM clients WHERE name='test_clien' LIMIT 1
-D, [2014-06-27T09:17:20.173427 #30030] DEBUG -- : Query:  && 146 for SQL:
-INSERT INTO clients (name, shared_secret, client_type, created_at) values ('test_clien', '434a6df8e242019c8375985417623f7f64ad314fe26c51e7178614b36a6973ae', 1, '2014-06-27 09:17:20 -0400')
-D, [2014-06-27T09:17:20.173857 #30030] DEBUG -- : Query: #<Mysql2::Result:0x007fee69401140> && 146 for SQL:
-SELECT shared_secret FROM clients WHERE name='test_clien' LIMIT 1
-D, [2014-06-27T09:17:20.174204 #30030] DEBUG -- : Query: #<Mysql2::Result:0x007fee69400858> && 146 for SQL:
-SELECT shared_secret FROM clients WHERE name='test_clien' LIMIT 1
-D, [2014-06-27T09:17:20.174665 #30030] DEBUG -- : Query: #<Mysql2::Result:0x007fee69412df0> && 146 for SQL:
-SELECT shared_secret FROM clients WHERE name='test_clien' LIMIT 1
-D, [2014-06-27T09:17:20.175073 #30030] DEBUG -- : Query: #<Mysql2::Result:0x007fee69411590> && 146 for SQL:
-SELECT ottoken FROM request_log WHERE ottoken='aae07a8fee40d031e21232a7fd8bd355b28b4d6c0b2eb35280dd402c3563e01f test_clien 1403875040173' LIMIT 1
-D, [2014-06-27T09:17:20.175815 #30030] DEBUG -- : Query:  && 239 for SQL:
-INSERT INTO request_log (ottoken, action, controller, client, created_at) values (
-          'aae07a8fee40d031e21232a7fd8bd355b28b4d6c0b2eb35280dd402c3563e01f test_clien 1403875040173', 
-          'do', 
-          'some_controller', 
-          'test_clien', '2014-06-27 09:17:20 -0400')
-D, [2014-06-27T09:17:20.176267 #30030] DEBUG -- : Query: #<Mysql2::Result:0x007fee694108c0> && 239 for SQL:
-SELECT shared_secret FROM clients WHERE name='test_clien' LIMIT 1
-I, [2014-06-27T09:17:20.176677 #30030]  INFO -- : Details: GET, {"X-Nonce"=>"aae07a8fee40d031e21232a7fd8bd355b28b4d6c0b2eb35280dd402c3563e01f test_clien 1403875040173"}, {:b=>123, :c=>"abc", :adg=>"hello phil", :rand=>"this & this = a question?", :client=>"test_clien", :ottoken=>"aae07a8fee40d031e21232a7fd8bd355b28b4d6c0b2eb35280dd402c3563e01f test_clien 1403875040173", :action=>"do", :controller=>"some_controller"}, do, some_controller, {:one_time_only=>true, :force_timestamp=>1403875040173}====0e103e4e8427293a8545ecd0c8a306f9f9edce2f61e8e9a76243401cc61386c7 test_clien 1403875040173!=aae07a8fee40d031e21232a7fd8bd355b28b4d6c0b2eb35280dd402c3563e01f test_clien 1403875040173
-D, [2014-06-27T09:17:20.177626 #30030] DEBUG -- : Query:  && 0 for SQL:
-DELETE FROM clients WHERE  name = 'test_clien'
-I, [2014-06-27T09:17:25.348725 #30042]  INFO -- : Started running (KeepBusy): Log file: /Users/joshthedudeoflife/re_prefs_svc/log/run.log
-I, [2014-06-27T09:17:30.063062 #30043]  INFO -- : Started running (KeepBusy): Log file: /Users/joshthedudeoflife/re_prefs_svc/log/run.log
-D, [2014-06-27T09:17:30.253671 #30043] DEBUG -- : Query: #<Mysql2::Result:0x007fdac481e470> && 0 for SQL:
-SELECT shared_secret FROM clients WHERE name='test_clien' LIMIT 1
-D, [2014-06-27T09:17:30.254897 #30043] DEBUG -- : Query:  && 147 for SQL:
-INSERT INTO clients (name, shared_secret, client_type, created_at) values ('test_clien', '01d7c9ae19495f8e275afab0acb01980efc38c0f59b7810b7b6cba31eab6ac5a', 1, '2014-06-27 09:17:30 -0400')
-D, [2014-06-27T09:17:30.256984 #30043] DEBUG -- : Query: #<Mysql2::Result:0x007fdac3e49030> && 147 for SQL:
-SELECT shared_secret FROM clients WHERE name='test_clien' LIMIT 1
-D, [2014-06-27T09:17:30.257933 #30043] DEBUG -- : Query:  && 0 for SQL:
-DELETE FROM clients WHERE  name = 'test_clien'
-D, [2014-06-27T09:17:30.258212 #30043] DEBUG -- : Query: #<Mysql2::Result:0x007fdac3e48338> && 0 for SQL:
-SELECT shared_secret FROM clients WHERE name='test_client' LIMIT 1
-D, [2014-06-27T09:17:30.281524 #30043] DEBUG -- : Query:  && 0 for SQL:
-DELETE FROM clients WHERE  name = 'test_client'
-D, [2014-06-27T09:17:30.282345 #30043] DEBUG -- : Query:  && 148 for SQL:
-INSERT INTO clients (name, shared_secret, client_type, created_at) values ('test_client', 'de2b527d225e17292d3f67072d7750490378d404258d21d7e3ba4d842c6d201d', 1, '2014-06-27 09:17:30 -0400')
-D, [2014-06-27T09:17:30.282689 #30043] DEBUG -- : Query: #<Mysql2::Result:0x007fdac494aec0> && 148 for SQL:
-SELECT shared_secret FROM clients WHERE name='test_client' LIMIT 1
-D, [2014-06-27T09:17:30.287993 #30043] DEBUG -- : Query: #<Mysql2::Result:0x007fdac3bb3e10> && 148 for SQL:
-SELECT shared_secret FROM clients WHERE name='test_clien' LIMIT 1
-D, [2014-06-27T09:17:30.288380 #30043] DEBUG -- : Query: #<Mysql2::Result:0x007fdac3bb3820> && 148 for SQL:
-SELECT shared_secret FROM clients WHERE name='test_client' LIMIT 1
-D, [2014-06-27T09:17:30.289308 #30043] DEBUG -- : Query:  && 0 for SQL:
-DELETE FROM clients WHERE  name = 'test_clien'
-D, [2014-06-27T09:17:30.289671 #30043] DEBUG -- : Query: #<Mysql2::Result:0x007fdac3bb1db8> && 0 for SQL:
-SELECT shared_secret FROM clients WHERE name='test_client' LIMIT 1
-D, [2014-06-27T09:17:31.394505 #30043] DEBUG -- : Query: #<Mysql2::Result:0x007fdac4968ec0> && 0 for SQL:
-SELECT shared_secret FROM clients WHERE name='test_client' LIMIT 1
-D, [2014-06-27T09:17:31.395441 #30043] DEBUG -- : Query: #<Mysql2::Result:0x007fdac3e8b318> && 0 for SQL:
-SELECT shared_secret FROM clients WHERE name='test_client' LIMIT 1
-I, [2014-06-27T09:17:31.395673 #30043]  INFO -- : Details: GET, {"X-Nonce"=>"6030b46236e8738877b152c69df2fce8847429022f9963f5bb11f4d55f189cab test_client 1403875050391"}, {:b=>123, :c=>"abc", :adg=>"hello phil", :rand=>"this & this = a question?"}, done, some_controller, {:force_timestamp=>1403875050391}====747db46a46c1b277ae2ee4be0f13a49e10a9a64e5170706b450a62457e2150fd test_client 1403875050391!=6030b46236e8738877b152c69df2fce8847429022f9963f5bb11f4d55f189cab test_client 1403875050391
-D, [2014-06-27T09:17:31.396131 #30043] DEBUG -- : Query: #<Mysql2::Result:0x007fdac3e88140> && 0 for SQL:
-SELECT shared_secret FROM clients WHERE name='test_clien' LIMIT 1
-D, [2014-06-27T09:17:31.396502 #30043] DEBUG -- : Query: #<Mysql2::Result:0x007fdac3e93888> && 0 for SQL:
-SELECT shared_secret FROM clients WHERE name='test_clien' LIMIT 1
-D, [2014-06-27T09:17:31.396793 #30043] DEBUG -- : Query: #<Mysql2::Result:0x007fdac3e931d0> && 0 for SQL:
-SELECT shared_secret FROM clients WHERE name='test_clien' LIMIT 1
-D, [2014-06-27T09:17:31.397787 #30043] DEBUG -- : Query:  && 149 for SQL:
-INSERT INTO clients (name, shared_secret, client_type, created_at) values ('test_clien', '3fcfc24e00759af194ece13c54eb0613f5472207b6434c08104ff89fba59b67a', 1, '2014-06-27 09:17:31 -0400')
-D, [2014-06-27T09:17:31.398226 #30043] DEBUG -- : Query: #<Mysql2::Result:0x007fdac3e91290> && 149 for SQL:
-SELECT shared_secret FROM clients WHERE name='test_clien' LIMIT 1
-D, [2014-06-27T09:17:31.398562 #30043] DEBUG -- : Query: #<Mysql2::Result:0x007fdac3e909a8> && 149 for SQL:
-SELECT shared_secret FROM clients WHERE name='test_clien' LIMIT 1
-D, [2014-06-27T09:17:31.398972 #30043] DEBUG -- : Query: #<Mysql2::Result:0x007fdac4976f48> && 149 for SQL:
-SELECT shared_secret FROM clients WHERE name='test_clien' LIMIT 1
-D, [2014-06-27T09:17:31.399366 #30043] DEBUG -- : Query: #<Mysql2::Result:0x007fdac49756e8> && 149 for SQL:
-SELECT ottoken FROM request_log WHERE ottoken='2f5625d2fe61a77d352dcd2396a87b8a3b33680d8ceb48db2ab2be4c36f5f175 test_clien 1403875051397' LIMIT 1
-D, [2014-06-27T09:17:31.400212 #30043] DEBUG -- : Query:  && 240 for SQL:
-INSERT INTO request_log (ottoken, action, controller, client, created_at) values (
-          '2f5625d2fe61a77d352dcd2396a87b8a3b33680d8ceb48db2ab2be4c36f5f175 test_clien 1403875051397', 
-          'do', 
-          'some_controller', 
-          'test_clien', '2014-06-27 09:17:31 -0400')
-D, [2014-06-27T09:17:31.400572 #30043] DEBUG -- : Query: #<Mysql2::Result:0x007fdac4974a18> && 240 for SQL:
-SELECT shared_secret FROM clients WHERE name='test_clien' LIMIT 1
-I, [2014-06-27T09:17:31.400857 #30043]  INFO -- : Details: GET, {"X-Nonce"=>"2f5625d2fe61a77d352dcd2396a87b8a3b33680d8ceb48db2ab2be4c36f5f175 test_clien 1403875051397"}, {:b=>123, :c=>"abc", :adg=>"hello phil", :rand=>"this & this = a question?", :client=>"test_clien", :ottoken=>"2f5625d2fe61a77d352dcd2396a87b8a3b33680d8ceb48db2ab2be4c36f5f175 test_clien 1403875051397", :action=>"do", :controller=>"some_controller"}, do, some_controller, {:one_time_only=>true, :force_timestamp=>1403875051397}====219b520a407d0703b9b49418217234608e2055cfb46e53f3a72d4ccd62fbf1dd test_clien 1403875051397!=2f5625d2fe61a77d352dcd2396a87b8a3b33680d8ceb48db2ab2be4c36f5f175 test_clien 1403875051397
-D, [2014-06-27T09:17:31.401748 #30043] DEBUG -- : Query:  && 0 for SQL:
-DELETE FROM clients WHERE  name = 'test_clien'
-D, [2014-06-27T09:17:31.402639 #30043] DEBUG -- : Query: #<Mysql2::Result:0x007fdac4981038> && 0 for SQL:
-SELECT shared_secret FROM clients WHERE name='test_admin' LIMIT 1
-D, [2014-06-27T09:17:31.403563 #30043] DEBUG -- : Query:  && 0 for SQL:
-DELETE FROM clients WHERE  name = 'test_admin'
-D, [2014-06-27T09:17:31.404566 #30043] DEBUG -- : Query:  && 150 for SQL:
-INSERT INTO clients (name, shared_secret, client_type, created_at) values ('test_admin', 'a639072e6369b915f77212724bef48ebdbf4aac288403eaa2f03a7ee31e32bd5', 1, '2014-06-27 09:17:31 -0400')
-I, [2014-06-27T09:17:31.430060 #30042]  INFO -- : Request: controller:admin action:status method:get
-I, [2014-06-27T09:17:31.430626 #30042]  INFO -- : Parameters: {}
-I, [2014-06-27T09:17:31.430686 #30042]  INFO -- : status_get
-D, [2014-06-27T09:17:31.445100 #30042] DEBUG -- : Query: #<Mysql2::Result:0x007fe92b8425d0> && 0 for SQL:
-SELECT shared_secret FROM clients WHERE name='test_admin' LIMIT 1
-D, [2014-06-27T09:17:31.445582 #30042] DEBUG -- : Query: #<Mysql2::Result:0x007fe92b840500> && 0 for SQL:
-SELECT ottoken FROM request_log WHERE ottoken='a021d74ca8b0419fd1c42e3c3a060bb941457e05e34ab7b0b8b5935c248f1634 test_admin 1403875051404' LIMIT 1
-D, [2014-06-27T09:17:31.446396 #30042] DEBUG -- : Query:  && 241 for SQL:
-INSERT INTO request_log (ottoken, action, controller, client, created_at) values (
-          'a021d74ca8b0419fd1c42e3c3a060bb941457e05e34ab7b0b8b5935c248f1634 test_admin 1403875051404', 
-          'status', 
-          'admin', 
-          'test_admin', '2014-06-27 09:17:31 -0400')
-I, [2014-06-27T09:17:31.446520 #30042]  INFO -- : Response: 200 text/json {}
-D, [2014-06-27T09:17:31.449281 #30043] DEBUG -- : Query: #<Mysql2::Result:0x007fdac3ea1708> && 150 for SQL:
-SELECT shared_secret FROM clients WHERE name='test_client' LIMIT 1
-D, [2014-06-27T09:17:31.450392 #30043] DEBUG -- : Query:  && 0 for SQL:
-DELETE FROM clients WHERE  name = 'test_client'
-D, [2014-06-27T09:17:31.451204 #30043] DEBUG -- : Query:  && 151 for SQL:
-INSERT INTO clients (name, shared_secret, client_type, created_at) values ('test_client', 'c93a968b9bcbaa3b2513c8e1e51739c115d21d49dfbd70f8a73c71933e27bf41', 1, '2014-06-27 09:17:31 -0400')
-I, [2014-06-27T09:17:31.454282 #30042]  INFO -- : Request: controller:notification_preferences action:get method:get
-I, [2014-06-27T09:17:31.454387 #30042]  INFO -- : Parameters: {:username=>"phil", :password=>"hello phil"}
-I, [2014-06-27T09:17:31.454438 #30042]  INFO -- : get_get
-I, [2014-06-27T09:17:31.454520 #30042]  INFO -- : Response: 422 text/plain Missing required parameter data
-I, [2014-06-27T09:17:31.458719 #30042]  INFO -- : Request: controller:notification_preferences action:create method:post
-I, [2014-06-27T09:17:31.458823 #30042]  INFO -- : Parameters: {:username=>"phil", :password=>"hello phil", :opt1=>"this", :opt2=>"more", :opt3=>"go for it"}
-I, [2014-06-27T09:17:31.458872 #30042]  INFO -- : create_post
-D, [2014-06-27T09:17:31.459446 #30042] DEBUG -- : Query: #<Mysql2::Result:0x007fe92b872960> && 241 for SQL:
-SELECT shared_secret FROM clients WHERE name='test_client' LIMIT 1
-D, [2014-06-27T09:17:31.459921 #30042] DEBUG -- : Query: #<Mysql2::Result:0x007fe92b870548> && 241 for SQL:
-SELECT ottoken FROM request_log WHERE ottoken='e361966c175310944693da2d02a9d392248789de7286dfb2066f014d240b4f4e test_client 1403875051456' LIMIT 1
-D, [2014-06-27T09:17:31.460725 #30042] DEBUG -- : Query:  && 242 for SQL:
-INSERT INTO request_log (ottoken, action, controller, client, created_at) values (
-          'e361966c175310944693da2d02a9d392248789de7286dfb2066f014d240b4f4e test_client 1403875051456', 
-          'create', 
-          'notification_preferences', 
-          'test_client', '2014-06-27 09:17:31 -0400')
-I, [2014-06-27T09:17:31.460827 #30042]  INFO -- : {:username=>"phil", :password=>"hello phil", :opt1=>"this", :opt2=>"more", :opt3=>"go for it", :client=>"test_client", :ottoken=>"e361966c175310944693da2d02a9d392248789de7286dfb2066f014d240b4f4e test_client 1403875051456", :action=>"create", :controller=>"notification_preferences"}
-I, [2014-06-27T09:17:31.460926 #30042]  INFO -- : Response: 200 text/json {:posted=>"LIKE_THIS!", :opt1=>"this", :opt2=>"more", :opt3=>"go for it"}
-I, [2014-06-27T09:17:31.464709 #30042]  INFO -- : Request: controller:notification_preferences action:update method:put
-I, [2014-06-27T09:17:31.464904 #30042]  INFO -- : Parameters: {:username=>"phil", :password=>"hello phil", :opt1=>"ok", :opt2=>"so", :opt3=>"go for it"}
-I, [2014-06-27T09:17:31.464959 #30042]  INFO -- : update_put
-I, [2014-06-27T09:17:31.465034 #30042]  INFO -- : Response: 422 text/plain Missing required parameter data
-I, [2014-06-27T09:19:00.208122 #30070]  INFO -- : Started running (KeepBusy): Log file: /Users/joshthedudeoflife/re_prefs_svc/log/run.log
-I, [2014-06-27T09:19:04.447028 #30071]  INFO -- : Started running (KeepBusy): Log file: /Users/joshthedudeoflife/re_prefs_svc/log/run.log
-D, [2014-06-27T09:19:04.638316 #30071] DEBUG -- : Query: #<Mysql2::Result:0x007fdf416224d8> && 0 for SQL:
-SELECT shared_secret FROM clients WHERE name='test_clien' LIMIT 1
-D, [2014-06-27T09:19:04.639448 #30071] DEBUG -- : Query:  && 152 for SQL:
-INSERT INTO clients (name, shared_secret, client_type, created_at) values ('test_clien', 'a3ddd6e4cf6f9565641fd2327171f384357e571d2ce75e2694e7bf9966ed0d38', 1, '2014-06-27 09:19:04 -0400')
-D, [2014-06-27T09:19:04.641059 #30071] DEBUG -- : Query: #<Mysql2::Result:0x007fdf4195d080> && 152 for SQL:
-SELECT shared_secret FROM clients WHERE name='test_clien' LIMIT 1
-D, [2014-06-27T09:19:04.641995 #30071] DEBUG -- : Query:  && 0 for SQL:
-DELETE FROM clients WHERE  name = 'test_clien'
-D, [2014-06-27T09:19:04.642365 #30071] DEBUG -- : Query: #<Mysql2::Result:0x007fdf4195c388> && 0 for SQL:
-SELECT shared_secret FROM clients WHERE name='test_client' LIMIT 1
-D, [2014-06-27T09:19:04.643187 #30071] DEBUG -- : Query:  && 0 for SQL:
-DELETE FROM clients WHERE  name = 'test_client'
-D, [2014-06-27T09:19:04.676039 #30071] DEBUG -- : Query:  && 153 for SQL:
-INSERT INTO clients (name, shared_secret, client_type, created_at) values ('test_client', 'd21aed298285fdc70e90c8b9c63a52874ba7672bba84ea8f213071df26643929', 1, '2014-06-27 09:19:04 -0400')
-D, [2014-06-27T09:19:04.676961 #30071] DEBUG -- : Query: #<Mysql2::Result:0x007fdf41636f00> && 153 for SQL:
-SELECT shared_secret FROM clients WHERE name='test_client' LIMIT 1
-D, [2014-06-27T09:19:04.683902 #30071] DEBUG -- : Query: #<Mysql2::Result:0x007fdf4198fe68> && 153 for SQL:
-SELECT shared_secret FROM clients WHERE name='test_clien' LIMIT 1
-D, [2014-06-27T09:19:04.684497 #30071] DEBUG -- : Query: #<Mysql2::Result:0x007fdf4198f878> && 153 for SQL:
-SELECT shared_secret FROM clients WHERE name='test_client' LIMIT 1
-D, [2014-06-27T09:19:04.685561 #30071] DEBUG -- : Query:  && 0 for SQL:
-DELETE FROM clients WHERE  name = 'test_clien'
-D, [2014-06-27T09:19:04.685917 #30071] DEBUG -- : Query: #<Mysql2::Result:0x007fdf4198de10> && 0 for SQL:
-SELECT shared_secret FROM clients WHERE name='test_client' LIMIT 1
-D, [2014-06-27T09:19:05.791799 #30071] DEBUG -- : Query: #<Mysql2::Result:0x007fdf416e4ee8> && 0 for SQL:
-SELECT shared_secret FROM clients WHERE name='test_client' LIMIT 1
-D, [2014-06-27T09:19:05.792601 #30071] DEBUG -- : Query: #<Mysql2::Result:0x007fdf41997348> && 0 for SQL:
-SELECT shared_secret FROM clients WHERE name='test_client' LIMIT 1
-I, [2014-06-27T09:19:05.792863 #30071]  INFO -- : Details: GET, {"X-Nonce"=>"e4a5b1df7055199b5d0bd2527c6d4b0acd90943cbe0546e874897510675cfa9a test_client 1403875144789"}, {:b=>123, :c=>"abc", :adg=>"hello phil", :rand=>"this & this = a question?"}, done, some_controller, {:force_timestamp=>1403875144789}====268b3bbad081ca8cd5770109c76fe30b213795b0e9adc7fcfb40df0e6eb83c9f test_client 1403875144789!=e4a5b1df7055199b5d0bd2527c6d4b0acd90943cbe0546e874897510675cfa9a test_client 1403875144789
-D, [2014-06-27T09:19:05.793388 #30071] DEBUG -- : Query: #<Mysql2::Result:0x007fdf41994170> && 0 for SQL:
-SELECT shared_secret FROM clients WHERE name='test_clien' LIMIT 1
-D, [2014-06-27T09:19:05.793843 #30071] DEBUG -- : Query: #<Mysql2::Result:0x007fdf41b0f8b0> && 0 for SQL:
-SELECT shared_secret FROM clients WHERE name='test_clien' LIMIT 1
-D, [2014-06-27T09:19:05.794200 #30071] DEBUG -- : Query: #<Mysql2::Result:0x007fdf41b0f1f8> && 0 for SQL:
-SELECT shared_secret FROM clients WHERE name='test_clien' LIMIT 1
-D, [2014-06-27T09:19:05.888193 #30071] DEBUG -- : Query:  && 154 for SQL:
-INSERT INTO clients (name, shared_secret, client_type, created_at) values ('test_clien', '5d022cdd9ebec47cac8338f030e597d93264dd981e1faeb8d6be0adcc65b1c11', 1, '2014-06-27 09:19:05 -0400')
-D, [2014-06-27T09:19:05.889053 #30071] DEBUG -- : Query: #<Mysql2::Result:0x007fdf41b0d2b8> && 154 for SQL:
-SELECT shared_secret FROM clients WHERE name='test_clien' LIMIT 1
-D, [2014-06-27T09:19:05.890094 #30071] DEBUG -- : Query: #<Mysql2::Result:0x007fdf41b0c9d0> && 154 for SQL:
-SELECT shared_secret FROM clients WHERE name='test_clien' LIMIT 1
-D, [2014-06-27T09:19:05.890707 #30071] DEBUG -- : Query: #<Mysql2::Result:0x007fdf416eef60> && 154 for SQL:
-SELECT shared_secret FROM clients WHERE name='test_clien' LIMIT 1
-D, [2014-06-27T09:19:05.891162 #30071] DEBUG -- : Query: #<Mysql2::Result:0x007fdf416ed700> && 154 for SQL:
-SELECT ottoken FROM request_log WHERE ottoken='9cb8792850a5401d7391d0e3fefc1bd0c31dd3e2e99d2467fd1b7b9d5fabbf68 test_clien 1403875145888' LIMIT 1
-D, [2014-06-27T09:19:05.893360 #30071] DEBUG -- : Query:  && 243 for SQL:
-INSERT INTO request_log (ottoken, action, controller, client, created_at) values (
-          '9cb8792850a5401d7391d0e3fefc1bd0c31dd3e2e99d2467fd1b7b9d5fabbf68 test_clien 1403875145888', 
-          'do', 
-          'some_controller', 
-          'test_clien', '2014-06-27 09:19:05 -0400')
-D, [2014-06-27T09:19:05.894107 #30071] DEBUG -- : Query: #<Mysql2::Result:0x007fdf416eca30> && 243 for SQL:
-SELECT shared_secret FROM clients WHERE name='test_clien' LIMIT 1
-I, [2014-06-27T09:19:05.894491 #30071]  INFO -- : Details: GET, {"X-Nonce"=>"9cb8792850a5401d7391d0e3fefc1bd0c31dd3e2e99d2467fd1b7b9d5fabbf68 test_clien 1403875145888"}, {:b=>123, :c=>"abc", :adg=>"hello phil", :rand=>"this & this = a question?", :client=>"test_clien", :ottoken=>"9cb8792850a5401d7391d0e3fefc1bd0c31dd3e2e99d2467fd1b7b9d5fabbf68 test_clien 1403875145888", :action=>"do", :controller=>"some_controller"}, do, some_controller, {:one_time_only=>true, :force_timestamp=>1403875145888}====493647527eb107c8c90ad26704760103dfcf88eae108833b5856321e2dcacbb6 test_clien 1403875145888!=9cb8792850a5401d7391d0e3fefc1bd0c31dd3e2e99d2467fd1b7b9d5fabbf68 test_clien 1403875145888
-D, [2014-06-27T09:19:05.895883 #30071] DEBUG -- : Query:  && 0 for SQL:
-DELETE FROM clients WHERE  name = 'test_clien'
-D, [2014-06-27T09:19:05.896816 #30071] DEBUG -- : Query: #<Mysql2::Result:0x007fdf41b1d078> && 0 for SQL:
-SELECT shared_secret FROM clients WHERE name='test_admin' LIMIT 1
-D, [2014-06-27T09:19:05.898045 #30071] DEBUG -- : Query:  && 0 for SQL:
-DELETE FROM clients WHERE  name = 'test_admin'
-D, [2014-06-27T09:19:05.898652 #30071] DEBUG -- : Query:  && 155 for SQL:
-INSERT INTO clients (name, shared_secret, client_type, created_at) values ('test_admin', '56cacc2665dcae8a8adb34a6c0e11398622a229069848578f79bada697273c8d', 1, '2014-06-27 09:19:05 -0400')
-I, [2014-06-27T09:19:05.923875 #30070]  INFO -- : Request: controller:admin action:status method:get
-I, [2014-06-27T09:19:05.924455 #30070]  INFO -- : Parameters: {}
-I, [2014-06-27T09:19:05.924509 #30070]  INFO -- : status_get
-D, [2014-06-27T09:19:05.937196 #30070] DEBUG -- : Query: #<Mysql2::Result:0x007f9b32842400> && 0 for SQL:
-SELECT shared_secret FROM clients WHERE name='test_admin' LIMIT 1
-D, [2014-06-27T09:19:05.937698 #30070] DEBUG -- : Query: #<Mysql2::Result:0x007f9b32840330> && 0 for SQL:
-SELECT ottoken FROM request_log WHERE ottoken='d6366f8a35ffa888f905d142d42ac75a8e98e05f8be7da42a80cb67d6bf1eaf0 test_admin 1403875145898' LIMIT 1
-D, [2014-06-27T09:19:05.938381 #30070] DEBUG -- : Query:  && 244 for SQL:
-INSERT INTO request_log (ottoken, action, controller, client, created_at) values (
-          'd6366f8a35ffa888f905d142d42ac75a8e98e05f8be7da42a80cb67d6bf1eaf0 test_admin 1403875145898', 
-          'status', 
-          'admin', 
-          'test_admin', '2014-06-27 09:19:05 -0400')
-I, [2014-06-27T09:19:05.938509 #30070]  INFO -- : Response: 200 text/json {}
-D, [2014-06-27T09:19:05.940691 #30071] DEBUG -- : Query: #<Mysql2::Result:0x007fdf416fd740> && 155 for SQL:
-SELECT shared_secret FROM clients WHERE name='test_client' LIMIT 1
-D, [2014-06-27T09:19:05.941469 #30071] DEBUG -- : Query:  && 0 for SQL:
-DELETE FROM clients WHERE  name = 'test_client'
-D, [2014-06-27T09:19:05.976258 #30071] DEBUG -- : Query:  && 156 for SQL:
-INSERT INTO clients (name, shared_secret, client_type, created_at) values ('test_client', '8476e482902528f4bd6bc6038a6bc366973479eb18f068fa5a491e7fff1cdfca', 1, '2014-06-27 09:19:05 -0400')
-I, [2014-06-27T09:19:05.981368 #30070]  INFO -- : Request: controller:notification_preferences action:get method:get
-I, [2014-06-27T09:19:05.981470 #30070]  INFO -- : Parameters: {:data=>"phil"}
-I, [2014-06-27T09:19:05.981528 #30070]  INFO -- : get_get
-D, [2014-06-27T09:19:05.982106 #30070] DEBUG -- : Query: #<Mysql2::Result:0x007f9b328616e8> && 244 for SQL:
-SELECT shared_secret FROM clients WHERE name='test_client' LIMIT 1
-D, [2014-06-27T09:19:05.982614 #30070] DEBUG -- : Query: #<Mysql2::Result:0x007f9b3286aea0> && 244 for SQL:
-SELECT ottoken FROM request_log WHERE ottoken='dc91e423193df2c74d4dbb290f4c4c393fcd28c5918e2a701ed757160c6a9896 test_client 1403875145976' LIMIT 1
-D, [2014-06-27T09:19:05.985580 #30070] DEBUG -- : Query:  && 245 for SQL:
-INSERT INTO request_log (ottoken, action, controller, client, created_at) values (
-          'dc91e423193df2c74d4dbb290f4c4c393fcd28c5918e2a701ed757160c6a9896 test_client 1403875145976', 
-          'get', 
-          'notification_preferences', 
-          'test_client', '2014-06-27 09:19:05 -0400')
-I, [2014-06-27T09:19:05.985673 #30070]  INFO -- : {:data=>"phil", :client=>"test_client", :ottoken=>"dc91e423193df2c74d4dbb290f4c4c393fcd28c5918e2a701ed757160c6a9896 test_client 1403875145976", :action=>"get", :controller=>"notification_preferences"}
-I, [2014-06-27T09:19:05.985735 #30070]  INFO -- : {:data=>"phil", :client=>"test_client", :ottoken=>"dc91e423193df2c74d4dbb290f4c4c393fcd28c5918e2a701ed757160c6a9896 test_client 1403875145976", :action=>"get", :controller=>"notification_preferences"}
-W, [2014-06-27T09:19:05.985996 #30070]  WARN -- : Error processing request: #<ArgumentError: unexpected prefix_suffix: nil>
-/Users/joshthedudeoflife/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/2.0.0/tmpdir.rb:117:in `make_tmpname'
-/Users/joshthedudeoflife/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/2.0.0/tmpdir.rb:141:in `create'
-/Users/joshthedudeoflife/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/2.0.0/tempfile.rb:136:in `initialize'
-/Users/joshthedudeoflife/re_prefs_svc/lib/api_models/implementation.rb:35:in `new'
-/Users/joshthedudeoflife/re_prefs_svc/lib/api_models/implementation.rb:35:in `notification_preferences_get_get'
-/Users/joshthedudeoflife/re_prefs_svc/lib/secure_api/api_control.rb:51:in `do_request'
-/Users/joshthedudeoflife/re_prefs_svc/lib/secure_api/api_server.rb:205:in `block (5 levels) in process_http_request'
-/Users/joshthedudeoflife/re_prefs_svc/lib/secure_api/api_server.rb:204:in `catch'
-/Users/joshthedudeoflife/re_prefs_svc/lib/secure_api/api_server.rb:204:in `block (4 levels) in process_http_request'
-/Users/joshthedudeoflife/re_prefs_svc/lib/secure_api/api_server.rb:199:in `catch'
-/Users/joshthedudeoflife/re_prefs_svc/lib/secure_api/api_server.rb:199:in `block (3 levels) in process_http_request'
-/Users/joshthedudeoflife/re_prefs_svc/lib/secure_api/api_server.rb:196:in `catch'
-/Users/joshthedudeoflife/re_prefs_svc/lib/secure_api/api_server.rb:196:in `block (2 levels) in process_http_request'
-/Users/joshthedudeoflife/re_prefs_svc/lib/secure_api/api_server.rb:195:in `catch'
-/Users/joshthedudeoflife/re_prefs_svc/lib/secure_api/api_server.rb:195:in `block in process_http_request'
-/Users/joshthedudeoflife/.rvm/gems/ruby-2.0.0-p353/gems/eventmachine-1.0.3/lib/eventmachine.rb:1037:in `call'
-/Users/joshthedudeoflife/.rvm/gems/ruby-2.0.0-p353/gems/eventmachine-1.0.3/lib/eventmachine.rb:1037:in `block in spawn_threadpool'
-I, [2014-06-27T09:19:05.989803 #30070]  INFO -- : Request: controller:notification_preferences action:create method:post
-I, [2014-06-27T09:19:05.989902 #30070]  INFO -- : Parameters: {:username=>"phil", :password=>"hello phil", :opt1=>"this", :opt2=>"more", :opt3=>"go for it"}
-I, [2014-06-27T09:19:05.989981 #30070]  INFO -- : create_post
-D, [2014-06-27T09:19:05.990505 #30070] DEBUG -- : Query: #<Mysql2::Result:0x007f9b32881f38> && 245 for SQL:
-SELECT shared_secret FROM clients WHERE name='test_client' LIMIT 1
-D, [2014-06-27T09:19:05.990925 #30070] DEBUG -- : Query: #<Mysql2::Result:0x007f9b3288a9a8> && 245 for SQL:
-SELECT ottoken FROM request_log WHERE ottoken='86349a618b2438eeec70f4f70eb0dfe036b301dcc3685f93172c4c8116fb57e0 test_client 1403875145987' LIMIT 1
-D, [2014-06-27T09:19:05.991574 #30070] DEBUG -- : Query:  && 246 for SQL:
-INSERT INTO request_log (ottoken, action, controller, client, created_at) values (
-          '86349a618b2438eeec70f4f70eb0dfe036b301dcc3685f93172c4c8116fb57e0 test_client 1403875145987', 
-          'create', 
-          'notification_preferences', 
-          'test_client', '2014-06-27 09:19:05 -0400')
-I, [2014-06-27T09:19:05.991703 #30070]  INFO -- : {:username=>"phil", :password=>"hello phil", :opt1=>"this", :opt2=>"more", :opt3=>"go for it", :client=>"test_client", :ottoken=>"86349a618b2438eeec70f4f70eb0dfe036b301dcc3685f93172c4c8116fb57e0 test_client 1403875145987", :action=>"create", :controller=>"notification_preferences"}
-I, [2014-06-27T09:19:05.992229 #30070]  INFO -- : Response: 200 text/json {:posted=>"LIKE_THIS!", :opt1=>"this", :opt2=>"more", :opt3=>"go for it"}
-I, [2014-06-27T09:19:05.998750 #30070]  INFO -- : Request: controller:notification_preferences action:update method:put
-I, [2014-06-27T09:19:05.998878 #30070]  INFO -- : Parameters: {:username=>"phil", :password=>"hello phil", :opt1=>"ok", :opt2=>"so", :opt3=>"go for it"}
-I, [2014-06-27T09:19:05.998931 #30070]  INFO -- : update_put
-I, [2014-06-27T09:19:05.999013 #30070]  INFO -- : Response: 422 text/plain Missing required parameter data
-I, [2014-06-27T09:31:00.603187 #30129]  INFO -- : Started running (KeepBusy): Log file: /Users/joshthedudeoflife/re_prefs_svc/log/run.log
-I, [2014-06-27T09:31:03.901746 #30130]  INFO -- : Started running (KeepBusy): Log file: /Users/joshthedudeoflife/re_prefs_svc/log/run.log
-D, [2014-06-27T09:31:04.105554 #30130] DEBUG -- : Query: #<Mysql2::Result:0x007f8908cae4d0> && 0 for SQL:
-SELECT shared_secret FROM clients WHERE name='test_clien' LIMIT 1
-D, [2014-06-27T09:31:04.106529 #30130] DEBUG -- : Query:  && 157 for SQL:
-INSERT INTO clients (name, shared_secret, client_type, created_at) values ('test_clien', '33d9922b2acd08cb171a7b18e2e7b2562d2e15aca942279d454e18e4ca70799c', 1, '2014-06-27 09:31:04 -0400')
-D, [2014-06-27T09:31:04.108178 #30130] DEBUG -- : Query: #<Mysql2::Result:0x007f890950d090> && 157 for SQL:
-SELECT shared_secret FROM clients WHERE name='test_clien' LIMIT 1
-D, [2014-06-27T09:31:04.108978 #30130] DEBUG -- : Query:  && 0 for SQL:
-DELETE FROM clients WHERE  name = 'test_clien'
-D, [2014-06-27T09:31:04.109306 #30130] DEBUG -- : Query: #<Mysql2::Result:0x007f890950c398> && 0 for SQL:
-SELECT shared_secret FROM clients WHERE name='test_client' LIMIT 1
-D, [2014-06-27T09:31:04.130332 #30130] DEBUG -- : Query:  && 0 for SQL:
-DELETE FROM clients WHERE  name = 'test_client'
-D, [2014-06-27T09:31:04.131213 #30130] DEBUG -- : Query:  && 158 for SQL:
-INSERT INTO clients (name, shared_secret, client_type, created_at) values ('test_client', '47ffab56c61e4bf255dea5747e94f869df2cf934eb088624090f92f7b4886d95', 1, '2014-06-27 09:31:04 -0400')
-D, [2014-06-27T09:31:04.131615 #30130] DEBUG -- : Query: #<Mysql2::Result:0x007f8908cb6f40> && 158 for SQL:
-SELECT shared_secret FROM clients WHERE name='test_client' LIMIT 1
-D, [2014-06-27T09:31:04.137277 #30130] DEBUG -- : Query: #<Mysql2::Result:0x007f8908cc7e80> && 158 for SQL:
-SELECT shared_secret FROM clients WHERE name='test_clien' LIMIT 1
-D, [2014-06-27T09:31:04.137663 #30130] DEBUG -- : Query: #<Mysql2::Result:0x007f8908cc7890> && 158 for SQL:
-SELECT shared_secret FROM clients WHERE name='test_client' LIMIT 1
-D, [2014-06-27T09:31:04.138329 #30130] DEBUG -- : Query:  && 0 for SQL:
-DELETE FROM clients WHERE  name = 'test_clien'
-D, [2014-06-27T09:31:04.138630 #30130] DEBUG -- : Query: #<Mysql2::Result:0x007f8908cc5e28> && 0 for SQL:
-SELECT shared_secret FROM clients WHERE name='test_client' LIMIT 1
-D, [2014-06-27T09:31:05.244304 #30130] DEBUG -- : Query: #<Mysql2::Result:0x007f8908ce8f18> && 0 for SQL:
-SELECT shared_secret FROM clients WHERE name='test_client' LIMIT 1
-D, [2014-06-27T09:31:05.245143 #30130] DEBUG -- : Query: #<Mysql2::Result:0x007f890953f360> && 0 for SQL:
-SELECT shared_secret FROM clients WHERE name='test_client' LIMIT 1
-I, [2014-06-27T09:31:05.245403 #30130]  INFO -- : Details: GET, {"X-Nonce"=>"436fc1495f592f3ff5ece1924409cfeb1f31cd85aba8e2b90153d9211a8e0e8f test_client 1403875864241"}, {:b=>123, :c=>"abc", :adg=>"hello phil", :rand=>"this & this = a question?"}, done, some_controller, {:force_timestamp=>1403875864241}====f4d0499e8cf974ffeccb2f022c3046e57411e848edd8c638799a04958424147d test_client 1403875864241!=436fc1495f592f3ff5ece1924409cfeb1f31cd85aba8e2b90153d9211a8e0e8f test_client 1403875864241
-D, [2014-06-27T09:31:05.246092 #30130] DEBUG -- : Query: #<Mysql2::Result:0x007f890953c188> && 0 for SQL:
-SELECT shared_secret FROM clients WHERE name='test_clien' LIMIT 1
-D, [2014-06-27T09:31:05.246561 #30130] DEBUG -- : Query: #<Mysql2::Result:0x007f89095478d0> && 0 for SQL:
-SELECT shared_secret FROM clients WHERE name='test_clien' LIMIT 1
-D, [2014-06-27T09:31:05.246912 #30130] DEBUG -- : Query: #<Mysql2::Result:0x007f8909547218> && 0 for SQL:
-SELECT shared_secret FROM clients WHERE name='test_clien' LIMIT 1
-D, [2014-06-27T09:31:05.248670 #30130] DEBUG -- : Query:  && 159 for SQL:
-INSERT INTO clients (name, shared_secret, client_type, created_at) values ('test_clien', 'bed7bd990ac45556df13ab0ac47fae3fc6863540daa4b415ef7d641d2004540b', 1, '2014-06-27 09:31:05 -0400')
-D, [2014-06-27T09:31:05.249290 #30130] DEBUG -- : Query: #<Mysql2::Result:0x007f89095452d8> && 159 for SQL:
-SELECT shared_secret FROM clients WHERE name='test_clien' LIMIT 1
-D, [2014-06-27T09:31:05.249711 #30130] DEBUG -- : Query: #<Mysql2::Result:0x007f89095449f0> && 159 for SQL:
-SELECT shared_secret FROM clients WHERE name='test_clien' LIMIT 1
-D, [2014-06-27T09:31:05.250236 #30130] DEBUG -- : Query: #<Mysql2::Result:0x007f8908cf2f90> && 159 for SQL:
-SELECT shared_secret FROM clients WHERE name='test_clien' LIMIT 1
-D, [2014-06-27T09:31:05.250714 #30130] DEBUG -- : Query: #<Mysql2::Result:0x007f8908cf1730> && 159 for SQL:
-SELECT ottoken FROM request_log WHERE ottoken='2fb852e5f76d0e341b07e07e359e56c2367b2b41aaa323289e977d7ab2853802 test_clien 1403875865248' LIMIT 1
-D, [2014-06-27T09:31:05.251522 #30130] DEBUG -- : Query:  && 247 for SQL:
-INSERT INTO request_log (ottoken, action, controller, client, created_at) values (
-          '2fb852e5f76d0e341b07e07e359e56c2367b2b41aaa323289e977d7ab2853802 test_clien 1403875865248', 
-          'do', 
-          'some_controller', 
-          'test_clien', '2014-06-27 09:31:05 -0400')
-D, [2014-06-27T09:31:05.251956 #30130] DEBUG -- : Query: #<Mysql2::Result:0x007f8908cf0a60> && 247 for SQL:
-SELECT shared_secret FROM clients WHERE name='test_clien' LIMIT 1
-I, [2014-06-27T09:31:05.252335 #30130]  INFO -- : Details: GET, {"X-Nonce"=>"2fb852e5f76d0e341b07e07e359e56c2367b2b41aaa323289e977d7ab2853802 test_clien 1403875865248"}, {:b=>123, :c=>"abc", :adg=>"hello phil", :rand=>"this & this = a question?", :client=>"test_clien", :ottoken=>"2fb852e5f76d0e341b07e07e359e56c2367b2b41aaa323289e977d7ab2853802 test_clien 1403875865248", :action=>"do", :controller=>"some_controller"}, do, some_controller, {:one_time_only=>true, :force_timestamp=>1403875865248}====d175dce27156212ea337acbbf744bafbe8b9b35013df26a004f5ff681ba88dde test_clien 1403875865248!=2fb852e5f76d0e341b07e07e359e56c2367b2b41aaa323289e977d7ab2853802 test_clien 1403875865248
-D, [2014-06-27T09:31:05.253276 #30130] DEBUG -- : Query:  && 0 for SQL:
-DELETE FROM clients WHERE  name = 'test_clien'
-D, [2014-06-27T09:31:05.254240 #30130] DEBUG -- : Query: #<Mysql2::Result:0x007f890954d0a0> && 0 for SQL:
-SELECT shared_secret FROM clients WHERE name='test_admin' LIMIT 1
-D, [2014-06-27T09:31:05.280472 #30130] DEBUG -- : Query:  && 0 for SQL:
-DELETE FROM clients WHERE  name = 'test_admin'
-D, [2014-06-27T09:31:05.281362 #30130] DEBUG -- : Query:  && 160 for SQL:
-INSERT INTO clients (name, shared_secret, client_type, created_at) values ('test_admin', '41aa9c94cf0d6494082399f27892d5c2ae39c9e8a0b02dac7d899840e2fae9dc', 1, '2014-06-27 09:31:05 -0400')
-I, [2014-06-27T09:31:05.309089 #30129]  INFO -- : Request: controller:admin action:status method:get
-I, [2014-06-27T09:31:05.309734 #30129]  INFO -- : Parameters: {}
-I, [2014-06-27T09:31:05.309792 #30129]  INFO -- : status_get
-D, [2014-06-27T09:31:05.322603 #30129] DEBUG -- : Query: #<Mysql2::Result:0x007fd28c042548> && 0 for SQL:
-SELECT shared_secret FROM clients WHERE name='test_admin' LIMIT 1
-D, [2014-06-27T09:31:05.323097 #30129] DEBUG -- : Query: #<Mysql2::Result:0x007fd28c040518> && 0 for SQL:
-SELECT ottoken FROM request_log WHERE ottoken='1b3babbf3dbaedf78b1c99131e00d89c5f1ef351182c3ef4b89ef6466fda249e test_admin 1403875865281' LIMIT 1
-D, [2014-06-27T09:31:05.324010 #30129] DEBUG -- : Query:  && 248 for SQL:
-INSERT INTO request_log (ottoken, action, controller, client, created_at) values (
-          '1b3babbf3dbaedf78b1c99131e00d89c5f1ef351182c3ef4b89ef6466fda249e test_admin 1403875865281', 
-          'status', 
-          'admin', 
-          'test_admin', '2014-06-27 09:31:05 -0400')
-I, [2014-06-27T09:31:05.324144 #30129]  INFO -- : Response: 200 text/json {}
-D, [2014-06-27T09:31:05.326544 #30130] DEBUG -- : Query: #<Mysql2::Result:0x007f8909565768> && 160 for SQL:
-SELECT shared_secret FROM clients WHERE name='test_client' LIMIT 1
-D, [2014-06-27T09:31:05.327377 #30130] DEBUG -- : Query:  && 0 for SQL:
-DELETE FROM clients WHERE  name = 'test_client'
-D, [2014-06-27T09:31:05.328282 #30130] DEBUG -- : Query:  && 161 for SQL:
-INSERT INTO clients (name, shared_secret, client_type, created_at) values ('test_client', '84ddd80a79b59f3f8f5af12817944b3b6e846d76b8e947224064341e2eb62b74', 1, '2014-06-27 09:31:05 -0400')
-I, [2014-06-27T09:31:05.330800 #30129]  INFO -- : Request: controller:notification_preferences action:get method:get
-I, [2014-06-27T09:31:05.330887 #30129]  INFO -- : Parameters: {:data=>""}
-I, [2014-06-27T09:31:05.330937 #30129]  INFO -- : get_get
-D, [2014-06-27T09:31:05.331447 #30129] DEBUG -- : Query: #<Mysql2::Result:0x007fd28c061718> && 248 for SQL:
-SELECT shared_secret FROM clients WHERE name='test_client' LIMIT 1
-D, [2014-06-27T09:31:05.331820 #30129] DEBUG -- : Query: #<Mysql2::Result:0x007fd28c06aef8> && 248 for SQL:
-SELECT ottoken FROM request_log WHERE ottoken='32f3223dd37b8c8ab3201d9f1096ac281b283ece03005d08926dcfff1151da09 test_client 1403875865328' LIMIT 1
-D, [2014-06-27T09:31:05.332463 #30129] DEBUG -- : Query:  && 249 for SQL:
-INSERT INTO request_log (ottoken, action, controller, client, created_at) values (
-          '32f3223dd37b8c8ab3201d9f1096ac281b283ece03005d08926dcfff1151da09 test_client 1403875865328', 
-          'get', 
-          'notification_preferences', 
-          'test_client', '2014-06-27 09:31:05 -0400')
-I, [2014-06-27T09:31:05.332563 #30129]  INFO -- : {:data=>"", :client=>"test_client", :ottoken=>"32f3223dd37b8c8ab3201d9f1096ac281b283ece03005d08926dcfff1151da09 test_client 1403875865328", :action=>"get", :controller=>"notification_preferences"}
-I, [2014-06-27T09:31:05.332622 #30129]  INFO -- : {:data=>"", :client=>"test_client", :ottoken=>"32f3223dd37b8c8ab3201d9f1096ac281b283ece03005d08926dcfff1151da09 test_client 1403875865328", :action=>"get", :controller=>"notification_preferences"}
-W, [2014-06-27T09:31:05.332872 #30129]  WARN -- : Error processing request: #<ArgumentError: unexpected prefix_suffix: nil>
-/Users/joshthedudeoflife/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/2.0.0/tmpdir.rb:117:in `make_tmpname'
-/Users/joshthedudeoflife/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/2.0.0/tmpdir.rb:141:in `create'
-/Users/joshthedudeoflife/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/2.0.0/tempfile.rb:136:in `initialize'
-/Users/joshthedudeoflife/re_prefs_svc/lib/api_models/implementation.rb:35:in `new'
-/Users/joshthedudeoflife/re_prefs_svc/lib/api_models/implementation.rb:35:in `notification_preferences_get_get'
-/Users/joshthedudeoflife/re_prefs_svc/lib/secure_api/api_control.rb:51:in `do_request'
-/Users/joshthedudeoflife/re_prefs_svc/lib/secure_api/api_server.rb:205:in `block (5 levels) in process_http_request'
-/Users/joshthedudeoflife/re_prefs_svc/lib/secure_api/api_server.rb:204:in `catch'
-/Users/joshthedudeoflife/re_prefs_svc/lib/secure_api/api_server.rb:204:in `block (4 levels) in process_http_request'
-/Users/joshthedudeoflife/re_prefs_svc/lib/secure_api/api_server.rb:199:in `catch'
-/Users/joshthedudeoflife/re_prefs_svc/lib/secure_api/api_server.rb:199:in `block (3 levels) in process_http_request'
-/Users/joshthedudeoflife/re_prefs_svc/lib/secure_api/api_server.rb:196:in `catch'
-/Users/joshthedudeoflife/re_prefs_svc/lib/secure_api/api_server.rb:196:in `block (2 levels) in process_http_request'
-/Users/joshthedudeoflife/re_prefs_svc/lib/secure_api/api_server.rb:195:in `catch'
-/Users/joshthedudeoflife/re_prefs_svc/lib/secure_api/api_server.rb:195:in `block in process_http_request'
-/Users/joshthedudeoflife/.rvm/gems/ruby-2.0.0-p353/gems/eventmachine-1.0.3/lib/eventmachine.rb:1037:in `call'
-/Users/joshthedudeoflife/.rvm/gems/ruby-2.0.0-p353/gems/eventmachine-1.0.3/lib/eventmachine.rb:1037:in `block in spawn_threadpool'
-I, [2014-06-27T09:31:05.336819 #30129]  INFO -- : Request: controller:notification_preferences action:create method:post
-I, [2014-06-27T09:31:05.336924 #30129]  INFO -- : Parameters: {:username=>"phil", :password=>"hello phil", :opt1=>"this", :opt2=>"more", :opt3=>"go for it"}
-I, [2014-06-27T09:31:05.336976 #30129]  INFO -- : create_post
-D, [2014-06-27T09:31:05.337578 #30129] DEBUG -- : Query: #<Mysql2::Result:0x007fd28c082148> && 249 for SQL:
-SELECT shared_secret FROM clients WHERE name='test_client' LIMIT 1
-D, [2014-06-27T09:31:05.338079 #30129] DEBUG -- : Query: #<Mysql2::Result:0x007fd28c08aa00> && 249 for SQL:
-SELECT ottoken FROM request_log WHERE ottoken='ed42233ee4f5e9774606898bbc9d161a5ca186857bfaf5d1f123cf96efeff412 test_client 1403875865334' LIMIT 1
-D, [2014-06-27T09:31:05.339662 #30129] DEBUG -- : Query:  && 250 for SQL:
-INSERT INTO request_log (ottoken, action, controller, client, created_at) values (
-          'ed42233ee4f5e9774606898bbc9d161a5ca186857bfaf5d1f123cf96efeff412 test_client 1403875865334', 
-          'create', 
-          'notification_preferences', 
-          'test_client', '2014-06-27 09:31:05 -0400')
-I, [2014-06-27T09:31:05.339827 #30129]  INFO -- : {:username=>"phil", :password=>"hello phil", :opt1=>"this", :opt2=>"more", :opt3=>"go for it", :client=>"test_client", :ottoken=>"ed42233ee4f5e9774606898bbc9d161a5ca186857bfaf5d1f123cf96efeff412 test_client 1403875865334", :action=>"create", :controller=>"notification_preferences"}
-I, [2014-06-27T09:31:05.339928 #30129]  INFO -- : Response: 200 text/json {:posted=>"LIKE_THIS!", :opt1=>"this", :opt2=>"more", :opt3=>"go for it"}
-I, [2014-06-27T09:31:05.343436 #30129]  INFO -- : Request: controller:notification_preferences action:update method:put
-I, [2014-06-27T09:31:05.343535 #30129]  INFO -- : Parameters: {:username=>"phil", :password=>"hello phil", :opt1=>"ok", :opt2=>"so", :opt3=>"go for it"}
-I, [2014-06-27T09:31:05.343585 #30129]  INFO -- : update_put
-I, [2014-06-27T09:31:05.343660 #30129]  INFO -- : Response: 422 text/plain Missing required parameter data
-I, [2014-06-27T09:32:30.231622 #30157]  INFO -- : Started running (KeepBusy): Log file: /Users/joshthedudeoflife/re_prefs_svc/log/run.log
-I, [2014-06-27T09:32:33.767990 #30158]  INFO -- : Started running (KeepBusy): Log file: /Users/joshthedudeoflife/re_prefs_svc/log/run.log
-D, [2014-06-27T09:32:33.961051 #30158] DEBUG -- : Query: #<Mysql2::Result:0x007fe5f46ce580> && 0 for SQL:
-SELECT shared_secret FROM clients WHERE name='test_clien' LIMIT 1
-D, [2014-06-27T09:32:33.962136 #30158] DEBUG -- : Query:  && 162 for SQL:
-INSERT INTO clients (name, shared_secret, client_type, created_at) values ('test_clien', 'bbd36844bc8652d4fe10c4a9da3716053d73dd905b1a06aa86dbc05203001560', 1, '2014-06-27 09:32:33 -0400')
-D, [2014-06-27T09:32:33.963706 #30158] DEBUG -- : Query: #<Mysql2::Result:0x007fe5f4775150> && 162 for SQL:
-SELECT shared_secret FROM clients WHERE name='test_clien' LIMIT 1
-D, [2014-06-27T09:32:33.964649 #30158] DEBUG -- : Query:  && 0 for SQL:
-DELETE FROM clients WHERE  name = 'test_clien'
-D, [2014-06-27T09:32:33.965009 #30158] DEBUG -- : Query: #<Mysql2::Result:0x007fe5f4774458> && 0 for SQL:
-SELECT shared_secret FROM clients WHERE name='test_client' LIMIT 1
-D, [2014-06-27T09:32:33.966061 #30158] DEBUG -- : Query:  && 0 for SQL:
-DELETE FROM clients WHERE  name = 'test_client'
-D, [2014-06-27T09:32:33.967121 #30158] DEBUG -- : Query:  && 163 for SQL:
-INSERT INTO clients (name, shared_secret, client_type, created_at) values ('test_client', '2e98de18ac8f29923316c5a2e3da7d250d875342451d622eb4f54e51071d5da6', 1, '2014-06-27 09:32:33 -0400')
-D, [2014-06-27T09:32:33.967496 #30158] DEBUG -- : Query: #<Mysql2::Result:0x007fe5f3a86fe8> && 163 for SQL:
-SELECT shared_secret FROM clients WHERE name='test_client' LIMIT 1
-D, [2014-06-27T09:32:33.972987 #30158] DEBUG -- : Query: #<Mysql2::Result:0x007fe5f47b7f50> && 163 for SQL:
-SELECT shared_secret FROM clients WHERE name='test_clien' LIMIT 1
-D, [2014-06-27T09:32:33.973375 #30158] DEBUG -- : Query: #<Mysql2::Result:0x007fe5f47b7960> && 163 for SQL:
-SELECT shared_secret FROM clients WHERE name='test_client' LIMIT 1
-D, [2014-06-27T09:32:33.974269 #30158] DEBUG -- : Query:  && 0 for SQL:
-DELETE FROM clients WHERE  name = 'test_clien'
-D, [2014-06-27T09:32:33.974651 #30158] DEBUG -- : Query: #<Mysql2::Result:0x007fe5f47b5ef8> && 0 for SQL:
-SELECT shared_secret FROM clients WHERE name='test_client' LIMIT 1
-D, [2014-06-27T09:32:35.080369 #30158] DEBUG -- : Query: #<Mysql2::Result:0x007fe5f3aa4fe8> && 0 for SQL:
-SELECT shared_secret FROM clients WHERE name='test_client' LIMIT 1
-D, [2014-06-27T09:32:35.081339 #30158] DEBUG -- : Query: #<Mysql2::Result:0x007fe5f3aaf448> && 0 for SQL:
-SELECT shared_secret FROM clients WHERE name='test_client' LIMIT 1
-I, [2014-06-27T09:32:35.081620 #30158]  INFO -- : Details: GET, {"X-Nonce"=>"28132cfb39d2dc380ce9140700581916feab3d0e504c951e4e6fe66b3c053938 test_client 1403875954077"}, {:b=>123, :c=>"abc", :adg=>"hello phil", :rand=>"this & this = a question?"}, done, some_controller, {:force_timestamp=>1403875954077}====23aadc00e6bf12618506949eb16b39f6b3a4829c77a3efa7fa53cf51cc3fa464 test_client 1403875954077!=28132cfb39d2dc380ce9140700581916feab3d0e504c951e4e6fe66b3c053938 test_client 1403875954077
-D, [2014-06-27T09:32:35.082149 #30158] DEBUG -- : Query: #<Mysql2::Result:0x007fe5f3aac270> && 0 for SQL:
-SELECT shared_secret FROM clients WHERE name='test_clien' LIMIT 1
-D, [2014-06-27T09:32:35.082575 #30158] DEBUG -- : Query: #<Mysql2::Result:0x007fe5f3ab79b8> && 0 for SQL:
-SELECT shared_secret FROM clients WHERE name='test_clien' LIMIT 1
-D, [2014-06-27T09:32:35.082915 #30158] DEBUG -- : Query: #<Mysql2::Result:0x007fe5f3ab7300> && 0 for SQL:
-SELECT shared_secret FROM clients WHERE name='test_clien' LIMIT 1
-D, [2014-06-27T09:32:35.083713 #30158] DEBUG -- : Query:  && 164 for SQL:
-INSERT INTO clients (name, shared_secret, client_type, created_at) values ('test_clien', '73d709078ef0fd811a9ae1944740e99f397e3902d97d6e174efe1a0d2d1b588f', 1, '2014-06-27 09:32:35 -0400')
-D, [2014-06-27T09:32:35.084300 #30158] DEBUG -- : Query: #<Mysql2::Result:0x007fe5f3ab53c0> && 164 for SQL:
-SELECT shared_secret FROM clients WHERE name='test_clien' LIMIT 1
-D, [2014-06-27T09:32:35.084704 #30158] DEBUG -- : Query: #<Mysql2::Result:0x007fe5f3ab4ad8> && 164 for SQL:
-SELECT shared_secret FROM clients WHERE name='test_clien' LIMIT 1
-D, [2014-06-27T09:32:35.085214 #30158] DEBUG -- : Query: #<Mysql2::Result:0x007fe5f47c7068> && 164 for SQL:
-SELECT shared_secret FROM clients WHERE name='test_clien' LIMIT 1
-D, [2014-06-27T09:32:35.085685 #30158] DEBUG -- : Query: #<Mysql2::Result:0x007fe5f47c5808> && 164 for SQL:
-SELECT ottoken FROM request_log WHERE ottoken='9b660441368e42aed677f836fc1a17f3e944f1ff319c47dfd34a4fb51662d967 test_clien 1403875955083' LIMIT 1
-D, [2014-06-27T09:32:35.086381 #30158] DEBUG -- : Query:  && 251 for SQL:
-INSERT INTO request_log (ottoken, action, controller, client, created_at) values (
-          '9b660441368e42aed677f836fc1a17f3e944f1ff319c47dfd34a4fb51662d967 test_clien 1403875955083', 
-          'do', 
-          'some_controller', 
-          'test_clien', '2014-06-27 09:32:35 -0400')
-D, [2014-06-27T09:32:35.086846 #30158] DEBUG -- : Query: #<Mysql2::Result:0x007fe5f47c4b38> && 251 for SQL:
-SELECT shared_secret FROM clients WHERE name='test_clien' LIMIT 1
-I, [2014-06-27T09:32:35.087202 #30158]  INFO -- : Details: GET, {"X-Nonce"=>"9b660441368e42aed677f836fc1a17f3e944f1ff319c47dfd34a4fb51662d967 test_clien 1403875955083"}, {:b=>123, :c=>"abc", :adg=>"hello phil", :rand=>"this & this = a question?", :client=>"test_clien", :ottoken=>"9b660441368e42aed677f836fc1a17f3e944f1ff319c47dfd34a4fb51662d967 test_clien 1403875955083", :action=>"do", :controller=>"some_controller"}, do, some_controller, {:one_time_only=>true, :force_timestamp=>1403875955083}====8deaf4e6d8faf1019bceecfebf16117ee8af781f3b789d4aed7d5f26abe7a597 test_clien 1403875955083!=9b660441368e42aed677f836fc1a17f3e944f1ff319c47dfd34a4fb51662d967 test_clien 1403875955083
-D, [2014-06-27T09:32:35.088026 #30158] DEBUG -- : Query:  && 0 for SQL:
-DELETE FROM clients WHERE  name = 'test_clien'
-D, [2014-06-27T09:32:35.088990 #30158] DEBUG -- : Query: #<Mysql2::Result:0x007fe5f47cd170> && 0 for SQL:
-SELECT shared_secret FROM clients WHERE name='test_admin' LIMIT 1
-D, [2014-06-27T09:32:35.089860 #30158] DEBUG -- : Query:  && 0 for SQL:
-DELETE FROM clients WHERE  name = 'test_admin'
-D, [2014-06-27T09:32:35.090653 #30158] DEBUG -- : Query:  && 165 for SQL:
-INSERT INTO clients (name, shared_secret, client_type, created_at) values ('test_admin', '3cc1a7625ca63887a38f5406112d2c6220e2c1fab0a48549da6cd835ce5f26f7', 1, '2014-06-27 09:32:35 -0400')
-I, [2014-06-27T09:32:35.117328 #30157]  INFO -- : Request: controller:admin action:status method:get
-I, [2014-06-27T09:32:35.117709 #30157]  INFO -- : Parameters: {}
-I, [2014-06-27T09:32:35.117765 #30157]  INFO -- : status_get
-D, [2014-06-27T09:32:35.130374 #30157] DEBUG -- : Query: #<Mysql2::Result:0x007fbe530423d8> && 0 for SQL:
-SELECT shared_secret FROM clients WHERE name='test_admin' LIMIT 1
-D, [2014-06-27T09:32:35.130855 #30157] DEBUG -- : Query: #<Mysql2::Result:0x007fbe530400d8> && 0 for SQL:
-SELECT ottoken FROM request_log WHERE ottoken='43b117635f9c1788b65509b5fa859e988e32d54b36cb180850a93e784069771b test_admin 1403875955091' LIMIT 1
-D, [2014-06-27T09:32:35.131663 #30157] DEBUG -- : Query:  && 252 for SQL:
-INSERT INTO request_log (ottoken, action, controller, client, created_at) values (
-          '43b117635f9c1788b65509b5fa859e988e32d54b36cb180850a93e784069771b test_admin 1403875955091', 
-          'status', 
-          'admin', 
-          'test_admin', '2014-06-27 09:32:35 -0400')
-I, [2014-06-27T09:32:35.131789 #30157]  INFO -- : Response: 200 text/json {}
-D, [2014-06-27T09:32:35.133972 #30158] DEBUG -- : Query: #<Mysql2::Result:0x007fe5f3acd830> && 165 for SQL:
-SELECT shared_secret FROM clients WHERE name='test_client' LIMIT 1
-D, [2014-06-27T09:32:35.134753 #30158] DEBUG -- : Query:  && 0 for SQL:
-DELETE FROM clients WHERE  name = 'test_client'
-D, [2014-06-27T09:32:35.135634 #30158] DEBUG -- : Query:  && 166 for SQL:
-INSERT INTO clients (name, shared_secret, client_type, created_at) values ('test_client', '8d99e573d8dab65530b68532b7bc065a52229b8de918d1e800354543e0d789bd', 1, '2014-06-27 09:32:35 -0400')
-I, [2014-06-27T09:32:35.139171 #30157]  INFO -- : Request: controller:notification_preferences action:get method:get
-I, [2014-06-27T09:32:35.139274 #30157]  INFO -- : Parameters: {:data=>""}
-I, [2014-06-27T09:32:35.139324 #30157]  INFO -- : get_get
-D, [2014-06-27T09:32:35.139937 #30157] DEBUG -- : Query: #<Mysql2::Result:0x007fbe53061468> && 252 for SQL:
-SELECT shared_secret FROM clients WHERE name='test_client' LIMIT 1
-D, [2014-06-27T09:32:35.140485 #30157] DEBUG -- : Query: #<Mysql2::Result:0x007fbe5306ac20> && 252 for SQL:
-SELECT ottoken FROM request_log WHERE ottoken='b3a4bb2d740c5e77a229307dff9ea74b666c464d536085eb799a6799f2c07a86 test_client 1403875955135' LIMIT 1
-D, [2014-06-27T09:32:35.147908 #30157] DEBUG -- : Query:  && 253 for SQL:
-INSERT INTO request_log (ottoken, action, controller, client, created_at) values (
-          'b3a4bb2d740c5e77a229307dff9ea74b666c464d536085eb799a6799f2c07a86 test_client 1403875955135', 
-          'get', 
-          'notification_preferences', 
-          'test_client', '2014-06-27 09:32:35 -0400')
-I, [2014-06-27T09:32:35.148076 #30157]  INFO -- : {:data=>"", :client=>"test_client", :ottoken=>"b3a4bb2d740c5e77a229307dff9ea74b666c464d536085eb799a6799f2c07a86 test_client 1403875955135", :action=>"get", :controller=>"notification_preferences"}
-I, [2014-06-27T09:32:35.148145 #30157]  INFO -- : {:data=>"", :client=>"test_client", :ottoken=>"b3a4bb2d740c5e77a229307dff9ea74b666c464d536085eb799a6799f2c07a86 test_client 1403875955135", :action=>"get", :controller=>"notification_preferences"}
-W, [2014-06-27T09:32:35.148425 #30157]  WARN -- : Error processing request: #<ArgumentError: unexpected prefix_suffix: nil>
-/Users/joshthedudeoflife/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/2.0.0/tmpdir.rb:117:in `make_tmpname'
-/Users/joshthedudeoflife/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/2.0.0/tmpdir.rb:141:in `create'
-/Users/joshthedudeoflife/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/2.0.0/tempfile.rb:136:in `initialize'
-/Users/joshthedudeoflife/re_prefs_svc/lib/api_models/implementation.rb:35:in `new'
-/Users/joshthedudeoflife/re_prefs_svc/lib/api_models/implementation.rb:35:in `notification_preferences_get_get'
-/Users/joshthedudeoflife/re_prefs_svc/lib/secure_api/api_control.rb:51:in `do_request'
-/Users/joshthedudeoflife/re_prefs_svc/lib/secure_api/api_server.rb:205:in `block (5 levels) in process_http_request'
-/Users/joshthedudeoflife/re_prefs_svc/lib/secure_api/api_server.rb:204:in `catch'
-/Users/joshthedudeoflife/re_prefs_svc/lib/secure_api/api_server.rb:204:in `block (4 levels) in process_http_request'
-/Users/joshthedudeoflife/re_prefs_svc/lib/secure_api/api_server.rb:199:in `catch'
-/Users/joshthedudeoflife/re_prefs_svc/lib/secure_api/api_server.rb:199:in `block (3 levels) in process_http_request'
-/Users/joshthedudeoflife/re_prefs_svc/lib/secure_api/api_server.rb:196:in `catch'
-/Users/joshthedudeoflife/re_prefs_svc/lib/secure_api/api_server.rb:196:in `block (2 levels) in process_http_request'
-/Users/joshthedudeoflife/re_prefs_svc/lib/secure_api/api_server.rb:195:in `catch'
-/Users/joshthedudeoflife/re_prefs_svc/lib/secure_api/api_server.rb:195:in `block in process_http_request'
-/Users/joshthedudeoflife/.rvm/gems/ruby-2.0.0-p353/gems/eventmachine-1.0.3/lib/eventmachine.rb:1037:in `call'
-/Users/joshthedudeoflife/.rvm/gems/ruby-2.0.0-p353/gems/eventmachine-1.0.3/lib/eventmachine.rb:1037:in `block in spawn_threadpool'
-I, [2014-06-27T09:32:35.152728 #30157]  INFO -- : Request: controller:notification_preferences action:create method:post
-I, [2014-06-27T09:32:35.152830 #30157]  INFO -- : Parameters: {:username=>"phil", :password=>"hello phil", :opt1=>"this", :opt2=>"more", :opt3=>"go for it"}
-I, [2014-06-27T09:32:35.152881 #30157]  INFO -- : create_post
-D, [2014-06-27T09:32:35.153409 #30157] DEBUG -- : Query: #<Mysql2::Result:0x007fbe530818f8> && 253 for SQL:
-SELECT shared_secret FROM clients WHERE name='test_client' LIMIT 1
-D, [2014-06-27T09:32:35.153789 #30157] DEBUG -- : Query: #<Mysql2::Result:0x007fbe5308a908> && 253 for SQL:
-SELECT ottoken FROM request_log WHERE ottoken='48b62322564dfa82d601a9e19cc4bebf47e9dba36a918fe95489f21490e8bb59 test_client 1403875955150' LIMIT 1
-D, [2014-06-27T09:32:35.156133 #30157] DEBUG -- : Query:  && 254 for SQL:
-INSERT INTO request_log (ottoken, action, controller, client, created_at) values (
-          '48b62322564dfa82d601a9e19cc4bebf47e9dba36a918fe95489f21490e8bb59 test_client 1403875955150', 
-          'create', 
-          'notification_preferences', 
-          'test_client', '2014-06-27 09:32:35 -0400')
-I, [2014-06-27T09:32:35.156236 #30157]  INFO -- : {:username=>"phil", :password=>"hello phil", :opt1=>"this", :opt2=>"more", :opt3=>"go for it", :client=>"test_client", :ottoken=>"48b62322564dfa82d601a9e19cc4bebf47e9dba36a918fe95489f21490e8bb59 test_client 1403875955150", :action=>"create", :controller=>"notification_preferences"}
-I, [2014-06-27T09:32:35.156351 #30157]  INFO -- : Response: 200 text/json {:posted=>"LIKE_THIS!", :opt1=>"this", :opt2=>"more", :opt3=>"go for it"}
-I, [2014-06-27T09:32:35.159880 #30157]  INFO -- : Request: controller:notification_preferences action:update method:put
-I, [2014-06-27T09:32:35.159979 #30157]  INFO -- : Parameters: {:username=>"phil", :password=>"hello phil", :opt1=>"ok", :opt2=>"so", :opt3=>"go for it"}
-I, [2014-06-27T09:32:35.160029 #30157]  INFO -- : update_put
-I, [2014-06-27T09:32:35.160104 #30157]  INFO -- : Response: 422 text/plain Missing required parameter data
-I, [2014-06-27T09:33:29.929804 #30157]  INFO -- : Request: controller:notification_preferences action:update method:put
-I, [2014-06-27T09:33:29.929973 #30157]  INFO -- : Parameters: {:username=>"ABC", :name=>"def", :id=>"abc", :data=>"{\"assetclass\":[\"A\",\"B\",\"C\",\"D\"],\"states\":[\"Alabama\",\"Alaska\",\"Arizona\",\"Arkansas\",\"California\",\"Colorado\",\"Connecticut\",\"Delaware\",\"District Of Columbia\",\"Florida\",\"Georgia\",\"Hawaii\",\"Idaho\",\"Illinois\",\"Indiana\",\"Iowa\",\"Kansas\",\"Kentucky\",\"Louisiana\",\"Maine\",\"Maryland\",\"Massachusetts\",\"Michigan\",\"Minnesota\",\"Mississippi\",\"Missouri\",\"Montana\",\"Nebraska\",\"Nevada\",\"New Hampshire\",\"New Jersey\",\"New Mexico\",\"New York\",\"North Carolina\",\"North Dakota\",\"Ohio\",\"Oklahoma\",\"Oregon\",\"Pennsylvania\",\"Rhode Island\",\"South Carolina\",\"South Dakota\",\"Tennessee\",\"Texas\",\"Utah\",\"Vermont\",\"Virginia\",\"Washington\",\"West Virginia\",\"Wisconsin\",\"Wyoming\"],\"investments\":{\"minimum\":50001,\"maximum\":60000}}"}
-I, [2014-06-27T09:33:29.930045 #30157]  INFO -- : update_put
-D, [2014-06-27T09:33:29.930738 #30157] DEBUG -- : Query: #<Mysql2::Result:0x007fbe5310ede8> && 254 for SQL:
+# Logfile created on 2014-07-01 10:46:43 -0400 by logger.rb/41954
+I, [2014-07-01T10:46:43.750676 #49332]  INFO -- : Started running (KeepBusy): Log file: /Users/joshthedudeoflife/re_prefs_svc/log/run.log
+I, [2014-07-01T10:47:03.435122 #49332]  INFO -- : Request: controller:notification_preferences action:update method:put
+I, [2014-07-01T10:47:03.435389 #49332]  INFO -- : Parameters: {:username=>"ABC", :name=>"def", :id=>"abc", :data=>"{\"assetclass\":[\"B\"],\"states\":[\"Alaska\"],\"investments\":{\"minimum\":\"50001\",\"maximum\":\"60000\"}}"}
+I, [2014-07-01T10:47:03.435857 #49332]  INFO -- : update_put
+D, [2014-07-01T10:47:03.476479 #49332] DEBUG -- : Query: #<Mysql2::Result:0x007f9602048680> && 0 for SQL:
 SELECT shared_secret FROM clients WHERE name='re_portal_prefs_1' LIMIT 1
-D, [2014-06-27T09:33:29.931767 #30157] DEBUG -- : Query: #<Mysql2::Result:0x007fbe540078e0> && 254 for SQL:
-SELECT ottoken FROM request_log WHERE ottoken='9fe2fc151e02cf32d7768026ba6632cab67bf7442b3a293030dd77da804038b0 re_portal_prefs_1 1403876009868' LIMIT 1
-D, [2014-06-27T09:33:29.932622 #30157] DEBUG -- : Query:  && 255 for SQL:
+D, [2014-07-01T10:47:03.477337 #49332] DEBUG -- : Query: #<Mysql2::Result:0x007f9602061310> && 0 for SQL:
+SELECT ottoken FROM request_log WHERE ottoken='4a306d506cb174451d65f49c421595079c967f7e2a3293750cdc3a22b2507fb2 re_portal_prefs_1 1404226023309' LIMIT 1
+D, [2014-07-01T10:47:03.478580 #49332] DEBUG -- : Query:  && 546 for SQL:
 INSERT INTO request_log (ottoken, action, controller, client, created_at) values (
-          '9fe2fc151e02cf32d7768026ba6632cab67bf7442b3a293030dd77da804038b0 re_portal_prefs_1 1403876009868', 
+          '4a306d506cb174451d65f49c421595079c967f7e2a3293750cdc3a22b2507fb2 re_portal_prefs_1 1404226023309', 
           'update', 
           'notification_preferences', 
-          're_portal_prefs_1', '2014-06-27 09:33:29 -0400')
-I, [2014-06-27T09:33:29.932765 #30157]  INFO -- : {:username=>"ABC", :name=>"def", :id=>"abc", :data=>"{\"assetclass\":[\"A\",\"B\",\"C\",\"D\"],\"states\":[\"Alabama\",\"Alaska\",\"Arizona\",\"Arkansas\",\"California\",\"Colorado\",\"Connecticut\",\"Delaware\",\"District Of Columbia\",\"Florida\",\"Georgia\",\"Hawaii\",\"Idaho\",\"Illinois\",\"Indiana\",\"Iowa\",\"Kansas\",\"Kentucky\",\"Louisiana\",\"Maine\",\"Maryland\",\"Massachusetts\",\"Michigan\",\"Minnesota\",\"Mississippi\",\"Missouri\",\"Montana\",\"Nebraska\",\"Nevada\",\"New Hampshire\",\"New Jersey\",\"New Mexico\",\"New York\",\"North Carolina\",\"North Dakota\",\"Ohio\",\"Oklahoma\",\"Oregon\",\"Pennsylvania\",\"Rhode Island\",\"South Carolina\",\"South Dakota\",\"Tennessee\",\"Texas\",\"Utah\",\"Vermont\",\"Virginia\",\"Washington\",\"West Virginia\",\"Wisconsin\",\"Wyoming\"],\"investments\":{\"minimum\":50001,\"maximum\":60000}}", :client=>"re_portal_prefs_1", :ottoken=>"9fe2fc151e02cf32d7768026ba6632cab67bf7442b3a293030dd77da804038b0 re_portal_prefs_1 1403876009868", :action=>"update", :controller=>"notification_preferences"}
-I, [2014-06-27T09:33:29.933146 #30157]  INFO -- : /var/folders/fc/90zsg_ts5hz_bjq2sh04xgbw0000gn/T/abc20140627-30157-1gaua9b
-I, [2014-06-27T09:33:29.933388 #30157]  INFO -- : Response: 200 text/json {:data=>"{\"assetclass\":[\"A\",\"B\",\"C\",\"D\"],\"states\":[\"Alabama\",\"Alaska\",\"Arizona\",\"Arkansas\",\"California\",\"Colorado\",\"Connecticut\",\"Delaware\",\"District Of Columbia\",\"Florida\",\"Georgia\",\"Hawaii\",\"Idaho\",\"Illinois\",\"Indiana\",\"Iowa\",\"Kansas\",\"Kentucky\",\"Louisiana\",\"Maine\",\"Maryland\",\"Massachusetts\",\"Michigan\",\"Minnesota\",\"Mississippi\",\"Missouri\",\"Montana\",\"Nebraska\",\"Nevada\",\"New Hampshire\",\"New Jersey\",\"New Mexico\",\"New York\",\"North Carolina\",\"North Dakota\",\"Ohio\",\"Oklahoma\",\"Oregon\",\"Pennsylvania\",\"Rhode Island\",\"South Carolina\",\"South Dakota\",\"Tennessee\",\"Texas\",\"Utah\",\"Vermont\",\"Virginia\",\"Washington\",\"West Virginia\",\"Wisconsin\",\"Wyoming\"],\"investments\":{\"minimum\":50001,\"maximum\":60000}}"}
-I, [2014-06-27T09:38:57.749090 #30204]  INFO -- : Started running (KeepBusy): Log file: /Users/joshthedudeoflife/re_prefs_svc/log/run.log
-I, [2014-06-27T09:39:01.278234 #30205]  INFO -- : Started running (KeepBusy): Log file: /Users/joshthedudeoflife/re_prefs_svc/log/run.log
-D, [2014-06-27T09:39:01.458856 #30205] DEBUG -- : Query: #<Mysql2::Result:0x007fa03d63a558> && 0 for SQL:
-SELECT shared_secret FROM clients WHERE name='test_clien' LIMIT 1
-D, [2014-06-27T09:39:01.459982 #30205] DEBUG -- : Query:  && 167 for SQL:
-INSERT INTO clients (name, shared_secret, client_type, created_at) values ('test_clien', 'ef5d7adc26ea0b01819e2958b60df873cd45327d73d1f1deca683425fde1864d', 1, '2014-06-27 09:39:01 -0400')
-D, [2014-06-27T09:39:01.461568 #30205] DEBUG -- : Query: #<Mysql2::Result:0x007fa03d649120> && 167 for SQL:
-SELECT shared_secret FROM clients WHERE name='test_clien' LIMIT 1
-D, [2014-06-27T09:39:01.462451 #30205] DEBUG -- : Query:  && 0 for SQL:
-DELETE FROM clients WHERE  name = 'test_clien'
-D, [2014-06-27T09:39:01.462779 #30205] DEBUG -- : Query: #<Mysql2::Result:0x007fa03d648428> && 0 for SQL:
-SELECT shared_secret FROM clients WHERE name='test_client' LIMIT 1
-D, [2014-06-27T09:39:01.463708 #30205] DEBUG -- : Query:  && 0 for SQL:
-DELETE FROM clients WHERE  name = 'test_client'
-D, [2014-06-27T09:39:01.496089 #30205] DEBUG -- : Query:  && 168 for SQL:
-INSERT INTO clients (name, shared_secret, client_type, created_at) values ('test_client', '62f89f8aebaf1df6b93a87add946b11ff744a5e737851facf4a477073fbd1d9d', 1, '2014-06-27 09:39:01 -0400')
-D, [2014-06-27T09:39:01.496916 #30205] DEBUG -- : Query: #<Mysql2::Result:0x007fa03d652fb8> && 168 for SQL:
-SELECT shared_secret FROM clients WHERE name='test_client' LIMIT 1
-D, [2014-06-27T09:39:01.503586 #30205] DEBUG -- : Query: #<Mysql2::Result:0x007fa03c3a3ef8> && 168 for SQL:
-SELECT shared_secret FROM clients WHERE name='test_clien' LIMIT 1
-D, [2014-06-27T09:39:01.504015 #30205] DEBUG -- : Query: #<Mysql2::Result:0x007fa03c3a3908> && 168 for SQL:
-SELECT shared_secret FROM clients WHERE name='test_client' LIMIT 1
-D, [2014-06-27T09:39:01.504787 #30205] DEBUG -- : Query:  && 0 for SQL:
-DELETE FROM clients WHERE  name = 'test_clien'
-D, [2014-06-27T09:39:01.505165 #30205] DEBUG -- : Query: #<Mysql2::Result:0x007fa03c3a1ea0> && 0 for SQL:
-SELECT shared_secret FROM clients WHERE name='test_client' LIMIT 1
-D, [2014-06-27T09:39:02.610890 #30205] DEBUG -- : Query: #<Mysql2::Result:0x007fa03d670f90> && 0 for SQL:
-SELECT shared_secret FROM clients WHERE name='test_client' LIMIT 1
-D, [2014-06-27T09:39:02.611688 #30205] DEBUG -- : Query: #<Mysql2::Result:0x007fa03c3ab3d8> && 0 for SQL:
-SELECT shared_secret FROM clients WHERE name='test_client' LIMIT 1
-I, [2014-06-27T09:39:02.611930 #30205]  INFO -- : Details: GET, {"X-Nonce"=>"db585bed065345d4afb11a5bb0c70368b5988ee6e9e44e405686d6b7f1285ab3 test_client 1403876341608"}, {:b=>123, :c=>"abc", :adg=>"hello phil", :rand=>"this & this = a question?"}, done, some_controller, {:force_timestamp=>1403876341608}====783e9814504a826b7a0637d00a925cb006c397f0b421bd7aae5708193e8edb4c test_client 1403876341608!=db585bed065345d4afb11a5bb0c70368b5988ee6e9e44e405686d6b7f1285ab3 test_client 1403876341608
-D, [2014-06-27T09:39:02.612457 #30205] DEBUG -- : Query: #<Mysql2::Result:0x007fa03c3a8200> && 0 for SQL:
-SELECT shared_secret FROM clients WHERE name='test_clien' LIMIT 1
-D, [2014-06-27T09:39:02.612879 #30205] DEBUG -- : Query: #<Mysql2::Result:0x007fa03c3b3948> && 0 for SQL:
-SELECT shared_secret FROM clients WHERE name='test_clien' LIMIT 1
-D, [2014-06-27T09:39:02.613264 #30205] DEBUG -- : Query: #<Mysql2::Result:0x007fa03c3b3290> && 0 for SQL:
-SELECT shared_secret FROM clients WHERE name='test_clien' LIMIT 1
-D, [2014-06-27T09:39:02.614041 #30205] DEBUG -- : Query:  && 169 for SQL:
-INSERT INTO clients (name, shared_secret, client_type, created_at) values ('test_clien', '6e861af923fb01aab44f955cabe9c4139ee2028f595e13f94f615b5974656d58', 1, '2014-06-27 09:39:02 -0400')
-D, [2014-06-27T09:39:02.614566 #30205] DEBUG -- : Query: #<Mysql2::Result:0x007fa03c3b1350> && 169 for SQL:
-SELECT shared_secret FROM clients WHERE name='test_clien' LIMIT 1
-D, [2014-06-27T09:39:02.614948 #30205] DEBUG -- : Query: #<Mysql2::Result:0x007fa03c3b0a68> && 169 for SQL:
-SELECT shared_secret FROM clients WHERE name='test_clien' LIMIT 1
-D, [2014-06-27T09:39:02.615442 #30205] DEBUG -- : Query: #<Mysql2::Result:0x007fa03c3beff0> && 169 for SQL:
-SELECT shared_secret FROM clients WHERE name='test_clien' LIMIT 1
-D, [2014-06-27T09:39:02.616586 #30205] DEBUG -- : Query: #<Mysql2::Result:0x007fa03c3bd790> && 169 for SQL:
-SELECT ottoken FROM request_log WHERE ottoken='5a9505af8302a0afe00f49bd329129d3258d813ac0f46004aa8d393908c3ff9e test_clien 1403876342614' LIMIT 1
-D, [2014-06-27T09:39:02.617350 #30205] DEBUG -- : Query:  && 256 for SQL:
-INSERT INTO request_log (ottoken, action, controller, client, created_at) values (
-          '5a9505af8302a0afe00f49bd329129d3258d813ac0f46004aa8d393908c3ff9e test_clien 1403876342614', 
-          'do', 
-          'some_controller', 
-          'test_clien', '2014-06-27 09:39:02 -0400')
-D, [2014-06-27T09:39:02.618159 #30205] DEBUG -- : Query: #<Mysql2::Result:0x007fa03c3bcac0> && 256 for SQL:
-SELECT shared_secret FROM clients WHERE name='test_clien' LIMIT 1
-I, [2014-06-27T09:39:02.618501 #30205]  INFO -- : Details: GET, {"X-Nonce"=>"5a9505af8302a0afe00f49bd329129d3258d813ac0f46004aa8d393908c3ff9e test_clien 1403876342614"}, {:b=>123, :c=>"abc", :adg=>"hello phil", :rand=>"this & this = a question?", :client=>"test_clien", :ottoken=>"5a9505af8302a0afe00f49bd329129d3258d813ac0f46004aa8d393908c3ff9e test_clien 1403876342614", :action=>"do", :controller=>"some_controller"}, do, some_controller, {:one_time_only=>true, :force_timestamp=>1403876342614}====990ca18ea892760b62e63919dfdd25e00845480fdb1029544e7123db5294673a test_clien 1403876342614!=5a9505af8302a0afe00f49bd329129d3258d813ac0f46004aa8d393908c3ff9e test_clien 1403876342614
-D, [2014-06-27T09:39:02.619282 #30205] DEBUG -- : Query:  && 0 for SQL:
-DELETE FROM clients WHERE  name = 'test_clien'
-D, [2014-06-27T09:39:02.620080 #30205] DEBUG -- : Query: #<Mysql2::Result:0x007fa03d6790f0> && 0 for SQL:
-SELECT shared_secret FROM clients WHERE name='test_admin' LIMIT 1
-D, [2014-06-27T09:39:02.620757 #30205] DEBUG -- : Query:  && 0 for SQL:
-DELETE FROM clients WHERE  name = 'test_admin'
-D, [2014-06-27T09:39:02.621353 #30205] DEBUG -- : Query:  && 170 for SQL:
-INSERT INTO clients (name, shared_secret, client_type, created_at) values ('test_admin', '6b869815d2413ad3a3e1c12d18f76793a68512eb5ba3a3cbb64f9d0c83b4ffe0', 1, '2014-06-27 09:39:02 -0400')
-I, [2014-06-27T09:39:02.646074 #30204]  INFO -- : Request: controller:admin action:status method:get
-I, [2014-06-27T09:39:02.646722 #30204]  INFO -- : Parameters: {}
-I, [2014-06-27T09:39:02.646782 #30204]  INFO -- : status_get
-D, [2014-06-27T09:39:02.659618 #30204] DEBUG -- : Query: #<Mysql2::Result:0x007f8ce98423f8> && 0 for SQL:
-SELECT shared_secret FROM clients WHERE name='test_admin' LIMIT 1
-D, [2014-06-27T09:39:02.661264 #30204] DEBUG -- : Query: #<Mysql2::Result:0x007f8ce98402d8> && 0 for SQL:
-SELECT ottoken FROM request_log WHERE ottoken='08f720097cfac6162377efbcd1453f810cdd6eda4b47448477a277a046b685c1 test_admin 1403876342621' LIMIT 1
-D, [2014-06-27T09:39:02.662310 #30204] DEBUG -- : Query:  && 257 for SQL:
-INSERT INTO request_log (ottoken, action, controller, client, created_at) values (
-          '08f720097cfac6162377efbcd1453f810cdd6eda4b47448477a277a046b685c1 test_admin 1403876342621', 
-          'status', 
-          'admin', 
-          'test_admin', '2014-06-27 09:39:02 -0400')
-I, [2014-06-27T09:39:02.662468 #30204]  INFO -- : Response: 200 text/json {}
-D, [2014-06-27T09:39:02.664467 #30205] DEBUG -- : Query: #<Mysql2::Result:0x007fa03c3d17b8> && 170 for SQL:
-SELECT shared_secret FROM clients WHERE name='test_client' LIMIT 1
-D, [2014-06-27T09:39:02.665301 #30205] DEBUG -- : Query:  && 0 for SQL:
-DELETE FROM clients WHERE  name = 'test_client'
-D, [2014-06-27T09:39:02.665941 #30205] DEBUG -- : Query:  && 171 for SQL:
-INSERT INTO clients (name, shared_secret, client_type, created_at) values ('test_client', '1d6ad2b27dc83e82fc3e4d4e0504778f62a10ef7a75464020eac51f487e057f0', 1, '2014-06-27 09:39:02 -0400')
-I, [2014-06-27T09:39:02.668365 #30204]  INFO -- : Request: controller:notification_preferences action:this method:get
-I, [2014-06-27T09:39:02.668463 #30204]  INFO -- : Parameters: {:data=>""}
-I, [2014-06-27T09:39:02.668512 #30204]  INFO -- : this_get
-D, [2014-06-27T09:39:02.669029 #30204] DEBUG -- : Query: #<Mysql2::Result:0x007f8ce98615c8> && 257 for SQL:
-SELECT shared_secret FROM clients WHERE name='test_client' LIMIT 1
-D, [2014-06-27T09:39:02.669412 #30204] DEBUG -- : Query: #<Mysql2::Result:0x007f8ce986ac68> && 257 for SQL:
-SELECT ottoken FROM request_log WHERE ottoken='a6b36053b94fe7081808240f17a0c639dded30eb3f89bc3cc7168e285b5e6d4a test_client 1403876342666' LIMIT 1
-D, [2014-06-27T09:39:02.688202 #30204] DEBUG -- : Query:  && 258 for SQL:
-INSERT INTO request_log (ottoken, action, controller, client, created_at) values (
-          'a6b36053b94fe7081808240f17a0c639dded30eb3f89bc3cc7168e285b5e6d4a test_client 1403876342666', 
-          'this', 
-          'notification_preferences', 
-          'test_client', '2014-06-27 09:39:02 -0400')
-I, [2014-06-27T09:39:02.688369 #30204]  INFO -- : {:data=>"", :client=>"test_client", :ottoken=>"a6b36053b94fe7081808240f17a0c639dded30eb3f89bc3cc7168e285b5e6d4a test_client 1403876342666", :action=>"this", :controller=>"notification_preferences"}
-I, [2014-06-27T09:39:02.688434 #30204]  INFO -- : {:data=>"", :client=>"test_client", :ottoken=>"a6b36053b94fe7081808240f17a0c639dded30eb3f89bc3cc7168e285b5e6d4a test_client 1403876342666", :action=>"this", :controller=>"notification_preferences"}
-W, [2014-06-27T09:39:02.688711 #30204]  WARN -- : Error processing request: #<ArgumentError: unexpected prefix_suffix: nil>
-/Users/joshthedudeoflife/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/2.0.0/tmpdir.rb:117:in `make_tmpname'
-/Users/joshthedudeoflife/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/2.0.0/tmpdir.rb:141:in `create'
-/Users/joshthedudeoflife/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/2.0.0/tempfile.rb:136:in `initialize'
-/Users/joshthedudeoflife/re_prefs_svc/lib/api_models/implementation.rb:35:in `new'
-/Users/joshthedudeoflife/re_prefs_svc/lib/api_models/implementation.rb:35:in `notification_preferences_this_get'
-/Users/joshthedudeoflife/re_prefs_svc/lib/secure_api/api_control.rb:51:in `do_request'
-/Users/joshthedudeoflife/re_prefs_svc/lib/secure_api/api_server.rb:205:in `block (5 levels) in process_http_request'
-/Users/joshthedudeoflife/re_prefs_svc/lib/secure_api/api_server.rb:204:in `catch'
-/Users/joshthedudeoflife/re_prefs_svc/lib/secure_api/api_server.rb:204:in `block (4 levels) in process_http_request'
-/Users/joshthedudeoflife/re_prefs_svc/lib/secure_api/api_server.rb:199:in `catch'
-/Users/joshthedudeoflife/re_prefs_svc/lib/secure_api/api_server.rb:199:in `block (3 levels) in process_http_request'
-/Users/joshthedudeoflife/re_prefs_svc/lib/secure_api/api_server.rb:196:in `catch'
-/Users/joshthedudeoflife/re_prefs_svc/lib/secure_api/api_server.rb:196:in `block (2 levels) in process_http_request'
-/Users/joshthedudeoflife/re_prefs_svc/lib/secure_api/api_server.rb:195:in `catch'
-/Users/joshthedudeoflife/re_prefs_svc/lib/secure_api/api_server.rb:195:in `block in process_http_request'
-/Users/joshthedudeoflife/.rvm/gems/ruby-2.0.0-p353/gems/eventmachine-1.0.3/lib/eventmachine.rb:1037:in `call'
-/Users/joshthedudeoflife/.rvm/gems/ruby-2.0.0-p353/gems/eventmachine-1.0.3/lib/eventmachine.rb:1037:in `block in spawn_threadpool'
-I, [2014-06-27T09:39:02.693402 #30204]  INFO -- : Request: controller:notification_preferences action:create method:post
-I, [2014-06-27T09:39:02.693516 #30204]  INFO -- : Parameters: {:username=>"phil", :password=>"hello phil", :opt1=>"this", :opt2=>"more", :opt3=>"go for it"}
-I, [2014-06-27T09:39:02.693568 #30204]  INFO -- : create_post
-D, [2014-06-27T09:39:02.694109 #30204] DEBUG -- : Query: #<Mysql2::Result:0x007f8ce9881c60> && 258 for SQL:
-SELECT shared_secret FROM clients WHERE name='test_client' LIMIT 1
-D, [2014-06-27T09:39:02.694495 #30204] DEBUG -- : Query: #<Mysql2::Result:0x007f8ce988a9c8> && 258 for SQL:
-SELECT ottoken FROM request_log WHERE ottoken='250baf6ef0a362d9d2657b8b971afc39b3f186646af443fad34615cf0280efe5 test_client 1403876342690' LIMIT 1
-D, [2014-06-27T09:39:02.695231 #30204] DEBUG -- : Query:  && 259 for SQL:
-INSERT INTO request_log (ottoken, action, controller, client, created_at) values (
-          '250baf6ef0a362d9d2657b8b971afc39b3f186646af443fad34615cf0280efe5 test_client 1403876342690', 
-          'create', 
-          'notification_preferences', 
-          'test_client', '2014-06-27 09:39:02 -0400')
-I, [2014-06-27T09:39:02.695323 #30204]  INFO -- : {:username=>"phil", :password=>"hello phil", :opt1=>"this", :opt2=>"more", :opt3=>"go for it", :client=>"test_client", :ottoken=>"250baf6ef0a362d9d2657b8b971afc39b3f186646af443fad34615cf0280efe5 test_client 1403876342690", :action=>"create", :controller=>"notification_preferences"}
-I, [2014-06-27T09:39:02.695421 #30204]  INFO -- : Response: 200 text/json {:posted=>"LIKE_THIS!", :opt1=>"this", :opt2=>"more", :opt3=>"go for it"}
-I, [2014-06-27T09:39:02.699678 #30204]  INFO -- : Request: controller:notification_preferences action:update method:put
-I, [2014-06-27T09:39:02.699781 #30204]  INFO -- : Parameters: {:username=>"phil", :password=>"hello phil", :opt1=>"ok", :opt2=>"so", :opt3=>"go for it"}
-I, [2014-06-27T09:39:02.699832 #30204]  INFO -- : update_put
-I, [2014-06-27T09:39:02.699907 #30204]  INFO -- : Response: 422 text/plain Missing required parameter data
-I, [2014-06-27T09:39:26.584141 #30227]  INFO -- : Started running (KeepBusy): Log file: /Users/joshthedudeoflife/re_prefs_svc/log/run.log
-I, [2014-06-27T09:39:30.856431 #30229]  INFO -- : Started running (KeepBusy): Log file: /Users/joshthedudeoflife/re_prefs_svc/log/run.log
-D, [2014-06-27T09:39:31.045748 #30229] DEBUG -- : Query: #<Mysql2::Result:0x007fe21abfa578> && 0 for SQL:
-SELECT shared_secret FROM clients WHERE name='test_clien' LIMIT 1
-D, [2014-06-27T09:39:31.046936 #30229] DEBUG -- : Query:  && 172 for SQL:
-INSERT INTO clients (name, shared_secret, client_type, created_at) values ('test_clien', 'b6aa8fb11657c9bbf7614713b2166d67bc3f10a46254386be0aac4117175744c', 1, '2014-06-27 09:39:31 -0400')
-D, [2014-06-27T09:39:31.048652 #30229] DEBUG -- : Query: #<Mysql2::Result:0x007fe21ac09140> && 172 for SQL:
-SELECT shared_secret FROM clients WHERE name='test_clien' LIMIT 1
-D, [2014-06-27T09:39:31.049508 #30229] DEBUG -- : Query:  && 0 for SQL:
-DELETE FROM clients WHERE  name = 'test_clien'
-D, [2014-06-27T09:39:31.049882 #30229] DEBUG -- : Query: #<Mysql2::Result:0x007fe21ac08448> && 0 for SQL:
-SELECT shared_secret FROM clients WHERE name='test_client' LIMIT 1
-D, [2014-06-27T09:39:31.085642 #30229] DEBUG -- : Query:  && 0 for SQL:
-DELETE FROM clients WHERE  name = 'test_client'
-D, [2014-06-27T09:39:31.087429 #30229] DEBUG -- : Query:  && 173 for SQL:
-INSERT INTO clients (name, shared_secret, client_type, created_at) values ('test_client', '49a6a69de752388bb775777af841e196447253aaac18fca3de71801ff228d972', 1, '2014-06-27 09:39:31 -0400')
-D, [2014-06-27T09:39:31.088078 #30229] DEBUG -- : Query: #<Mysql2::Result:0x007fe21a592fc8> && 173 for SQL:
-SELECT shared_secret FROM clients WHERE name='test_client' LIMIT 1
-D, [2014-06-27T09:39:31.095045 #30229] DEBUG -- : Query: #<Mysql2::Result:0x007fe21a3a3f00> && 173 for SQL:
-SELECT shared_secret FROM clients WHERE name='test_clien' LIMIT 1
-D, [2014-06-27T09:39:31.095493 #30229] DEBUG -- : Query: #<Mysql2::Result:0x007fe21a3a3910> && 173 for SQL:
-SELECT shared_secret FROM clients WHERE name='test_client' LIMIT 1
-D, [2014-06-27T09:39:31.096552 #30229] DEBUG -- : Query:  && 0 for SQL:
-DELETE FROM clients WHERE  name = 'test_clien'
-D, [2014-06-27T09:39:31.097001 #30229] DEBUG -- : Query: #<Mysql2::Result:0x007fe21a3a1ea8> && 0 for SQL:
-SELECT shared_secret FROM clients WHERE name='test_client' LIMIT 1
-D, [2014-06-27T09:39:32.202906 #30229] DEBUG -- : Query: #<Mysql2::Result:0x007fe21ac30f88> && 0 for SQL:
-SELECT shared_secret FROM clients WHERE name='test_client' LIMIT 1
-D, [2014-06-27T09:39:32.203737 #30229] DEBUG -- : Query: #<Mysql2::Result:0x007fe21ac3b3e8> && 0 for SQL:
-SELECT shared_secret FROM clients WHERE name='test_client' LIMIT 1
-I, [2014-06-27T09:39:32.203993 #30229]  INFO -- : Details: GET, {"X-Nonce"=>"00352bcb2cc349bd4ac616b63cd3f1f7324846576b2999516da46d6c5cc489e3 test_client 1403876371200"}, {:b=>123, :c=>"abc", :adg=>"hello phil", :rand=>"this & this = a question?"}, done, some_controller, {:force_timestamp=>1403876371200}====ea0876f0097f0d613880725d5ddcddd1313f62ee3ed392c05a706f758c4f0d20 test_client 1403876371200!=00352bcb2cc349bd4ac616b63cd3f1f7324846576b2999516da46d6c5cc489e3 test_client 1403876371200
-D, [2014-06-27T09:39:32.204508 #30229] DEBUG -- : Query: #<Mysql2::Result:0x007fe21ac38210> && 0 for SQL:
-SELECT shared_secret FROM clients WHERE name='test_clien' LIMIT 1
-D, [2014-06-27T09:39:32.205026 #30229] DEBUG -- : Query: #<Mysql2::Result:0x007fe21ac43958> && 0 for SQL:
-SELECT shared_secret FROM clients WHERE name='test_clien' LIMIT 1
-D, [2014-06-27T09:39:32.205491 #30229] DEBUG -- : Query: #<Mysql2::Result:0x007fe21ac432a0> && 0 for SQL:
-SELECT shared_secret FROM clients WHERE name='test_clien' LIMIT 1
-D, [2014-06-27T09:39:32.206581 #30229] DEBUG -- : Query:  && 174 for SQL:
-INSERT INTO clients (name, shared_secret, client_type, created_at) values ('test_clien', '37261a3747964ed4faf98240987e53d63c572e4237a456089881ad58d0757e6a', 1, '2014-06-27 09:39:32 -0400')
-D, [2014-06-27T09:39:32.207087 #30229] DEBUG -- : Query: #<Mysql2::Result:0x007fe21ac41360> && 174 for SQL:
-SELECT shared_secret FROM clients WHERE name='test_clien' LIMIT 1
-D, [2014-06-27T09:39:32.207485 #30229] DEBUG -- : Query: #<Mysql2::Result:0x007fe21ac40a78> && 174 for SQL:
-SELECT shared_secret FROM clients WHERE name='test_clien' LIMIT 1
-D, [2014-06-27T09:39:32.208110 #30229] DEBUG -- : Query: #<Mysql2::Result:0x007fe21ac4b018> && 174 for SQL:
-SELECT shared_secret FROM clients WHERE name='test_clien' LIMIT 1
-D, [2014-06-27T09:39:32.208641 #30229] DEBUG -- : Query: #<Mysql2::Result:0x007fe21ac497b8> && 174 for SQL:
-SELECT ottoken FROM request_log WHERE ottoken='45aa8c462e6e1f92b0eedac1f73603e6cd555138a0e341c7c04dee2d28ff3f4d test_clien 1403876372206' LIMIT 1
-D, [2014-06-27T09:39:32.209560 #30229] DEBUG -- : Query:  && 260 for SQL:
-INSERT INTO request_log (ottoken, action, controller, client, created_at) values (
-          '45aa8c462e6e1f92b0eedac1f73603e6cd555138a0e341c7c04dee2d28ff3f4d test_clien 1403876372206', 
-          'do', 
-          'some_controller', 
-          'test_clien', '2014-06-27 09:39:32 -0400')
-D, [2014-06-27T09:39:32.209988 #30229] DEBUG -- : Query: #<Mysql2::Result:0x007fe21ac48ae8> && 260 for SQL:
-SELECT shared_secret FROM clients WHERE name='test_clien' LIMIT 1
-I, [2014-06-27T09:39:32.210337 #30229]  INFO -- : Details: GET, {"X-Nonce"=>"45aa8c462e6e1f92b0eedac1f73603e6cd555138a0e341c7c04dee2d28ff3f4d test_clien 1403876372206"}, {:b=>123, :c=>"abc", :adg=>"hello phil", :rand=>"this & this = a question?", :client=>"test_clien", :ottoken=>"45aa8c462e6e1f92b0eedac1f73603e6cd555138a0e341c7c04dee2d28ff3f4d test_clien 1403876372206", :action=>"do", :controller=>"some_controller"}, do, some_controller, {:one_time_only=>true, :force_timestamp=>1403876372206}====2bedea471b9eb171311134f61c42f6282c56108e7439e1ca08bae5782747cb7e test_clien 1403876372206!=45aa8c462e6e1f92b0eedac1f73603e6cd555138a0e341c7c04dee2d28ff3f4d test_clien 1403876372206
-D, [2014-06-27T09:39:32.211229 #30229] DEBUG -- : Query:  && 0 for SQL:
-DELETE FROM clients WHERE  name = 'test_clien'
-D, [2014-06-27T09:39:32.212440 #30229] DEBUG -- : Query: #<Mysql2::Result:0x007fe21ac51120> && 0 for SQL:
-SELECT shared_secret FROM clients WHERE name='test_admin' LIMIT 1
-D, [2014-06-27T09:39:32.244076 #30229] DEBUG -- : Query:  && 0 for SQL:
-DELETE FROM clients WHERE  name = 'test_admin'
-D, [2014-06-27T09:39:32.245134 #30229] DEBUG -- : Query:  && 175 for SQL:
-INSERT INTO clients (name, shared_secret, client_type, created_at) values ('test_admin', '19f1a73ceb28af7a315e90791a38e834c4b9f9096e400c785aafad2684795833', 1, '2014-06-27 09:39:32 -0400')
-I, [2014-06-27T09:39:32.271867 #30227]  INFO -- : Request: controller:admin action:status method:get
-I, [2014-06-27T09:39:32.272429 #30227]  INFO -- : Parameters: {}
-I, [2014-06-27T09:39:32.272484 #30227]  INFO -- : status_get
-D, [2014-06-27T09:39:32.285423 #30227] DEBUG -- : Query: #<Mysql2::Result:0x007fcc33842568> && 0 for SQL:
-SELECT shared_secret FROM clients WHERE name='test_admin' LIMIT 1
-D, [2014-06-27T09:39:32.286028 #30227] DEBUG -- : Query: #<Mysql2::Result:0x007fcc33840768> && 0 for SQL:
-SELECT ottoken FROM request_log WHERE ottoken='2c0028678c00b583df8400ea8abdda6e1c1a9b0d5237120f799bcd2b8678f876 test_admin 1403876372245' LIMIT 1
-D, [2014-06-27T09:39:32.286889 #30227] DEBUG -- : Query:  && 261 for SQL:
-INSERT INTO request_log (ottoken, action, controller, client, created_at) values (
-          '2c0028678c00b583df8400ea8abdda6e1c1a9b0d5237120f799bcd2b8678f876 test_admin 1403876372245', 
-          'status', 
-          'admin', 
-          'test_admin', '2014-06-27 09:39:32 -0400')
-I, [2014-06-27T09:39:32.287014 #30227]  INFO -- : Response: 200 text/json {}
-D, [2014-06-27T09:39:32.289479 #30229] DEBUG -- : Query: #<Mysql2::Result:0x007fe21a611800> && 175 for SQL:
-SELECT shared_secret FROM clients WHERE name='test_client' LIMIT 1
-D, [2014-06-27T09:39:32.290541 #30229] DEBUG -- : Query:  && 0 for SQL:
-DELETE FROM clients WHERE  name = 'test_client'
-D, [2014-06-27T09:39:32.291450 #30229] DEBUG -- : Query:  && 176 for SQL:
-INSERT INTO clients (name, shared_secret, client_type, created_at) values ('test_client', 'f5981647c55cfd85ba22f12372bdda92c36410a6ffeebc7fcf1ec84ecefd52c2', 1, '2014-06-27 09:39:32 -0400')
-I, [2014-06-27T09:39:32.293749 #30227]  INFO -- : Request: controller:notification_preferences action:this method:get
-I, [2014-06-27T09:39:32.293836 #30227]  INFO -- : Parameters: {:data=>""}
-I, [2014-06-27T09:39:32.293885 #30227]  INFO -- : this_get
-D, [2014-06-27T09:39:32.294385 #30227] DEBUG -- : Query: #<Mysql2::Result:0x007fcc33861788> && 261 for SQL:
-SELECT shared_secret FROM clients WHERE name='test_client' LIMIT 1
-D, [2014-06-27T09:39:32.294755 #30227] DEBUG -- : Query: #<Mysql2::Result:0x007fcc3386b058> && 261 for SQL:
-SELECT ottoken FROM request_log WHERE ottoken='28b6b31b8e31d4afd4db5a7c2678bcb0433b63445047513a692f5afaa0c38443 test_client 1403876372291' LIMIT 1
-D, [2014-06-27T09:39:32.295489 #30227] DEBUG -- : Query:  && 262 for SQL:
-INSERT INTO request_log (ottoken, action, controller, client, created_at) values (
-          '28b6b31b8e31d4afd4db5a7c2678bcb0433b63445047513a692f5afaa0c38443 test_client 1403876372291', 
-          'this', 
-          'notification_preferences', 
-          'test_client', '2014-06-27 09:39:32 -0400')
-I, [2014-06-27T09:39:32.295574 #30227]  INFO -- : {:data=>"", :client=>"test_client", :ottoken=>"28b6b31b8e31d4afd4db5a7c2678bcb0433b63445047513a692f5afaa0c38443 test_client 1403876372291", :action=>"this", :controller=>"notification_preferences"}
-I, [2014-06-27T09:39:32.295631 #30227]  INFO -- : {:data=>"", :client=>"test_client", :ottoken=>"28b6b31b8e31d4afd4db5a7c2678bcb0433b63445047513a692f5afaa0c38443 test_client 1403876372291", :action=>"this", :controller=>"notification_preferences"}
-W, [2014-06-27T09:39:32.295878 #30227]  WARN -- : Error processing request: #<ArgumentError: unexpected prefix_suffix: nil>
-/Users/joshthedudeoflife/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/2.0.0/tmpdir.rb:117:in `make_tmpname'
-/Users/joshthedudeoflife/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/2.0.0/tmpdir.rb:141:in `create'
-/Users/joshthedudeoflife/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/2.0.0/tempfile.rb:136:in `initialize'
-/Users/joshthedudeoflife/re_prefs_svc/lib/api_models/implementation.rb:35:in `new'
-/Users/joshthedudeoflife/re_prefs_svc/lib/api_models/implementation.rb:35:in `notification_preferences_this_get'
-/Users/joshthedudeoflife/re_prefs_svc/lib/secure_api/api_control.rb:51:in `do_request'
-/Users/joshthedudeoflife/re_prefs_svc/lib/secure_api/api_server.rb:205:in `block (5 levels) in process_http_request'
-/Users/joshthedudeoflife/re_prefs_svc/lib/secure_api/api_server.rb:204:in `catch'
-/Users/joshthedudeoflife/re_prefs_svc/lib/secure_api/api_server.rb:204:in `block (4 levels) in process_http_request'
-/Users/joshthedudeoflife/re_prefs_svc/lib/secure_api/api_server.rb:199:in `catch'
-/Users/joshthedudeoflife/re_prefs_svc/lib/secure_api/api_server.rb:199:in `block (3 levels) in process_http_request'
-/Users/joshthedudeoflife/re_prefs_svc/lib/secure_api/api_server.rb:196:in `catch'
-/Users/joshthedudeoflife/re_prefs_svc/lib/secure_api/api_server.rb:196:in `block (2 levels) in process_http_request'
-/Users/joshthedudeoflife/re_prefs_svc/lib/secure_api/api_server.rb:195:in `catch'
-/Users/joshthedudeoflife/re_prefs_svc/lib/secure_api/api_server.rb:195:in `block in process_http_request'
-/Users/joshthedudeoflife/.rvm/gems/ruby-2.0.0-p353/gems/eventmachine-1.0.3/lib/eventmachine.rb:1037:in `call'
-/Users/joshthedudeoflife/.rvm/gems/ruby-2.0.0-p353/gems/eventmachine-1.0.3/lib/eventmachine.rb:1037:in `block in spawn_threadpool'
-I, [2014-06-27T09:39:32.301066 #30227]  INFO -- : Request: controller:notification_preferences action:create method:post
-I, [2014-06-27T09:39:32.301171 #30227]  INFO -- : Parameters: {:username=>"phil", :password=>"hello phil", :opt1=>"this", :opt2=>"more", :opt3=>"go for it"}
-I, [2014-06-27T09:39:32.301228 #30227]  INFO -- : create_post
-D, [2014-06-27T09:39:32.301744 #30227] DEBUG -- : Query: #<Mysql2::Result:0x007fcc33882028> && 262 for SQL:
-SELECT shared_secret FROM clients WHERE name='test_client' LIMIT 1
-D, [2014-06-27T09:39:32.302125 #30227] DEBUG -- : Query: #<Mysql2::Result:0x007fcc3388aac0> && 262 for SQL:
-SELECT ottoken FROM request_log WHERE ottoken='51ebfb684935176e184e7d90d62a514a892babfcdb7e03d7ed82f67b2e71f6cf test_client 1403876372297' LIMIT 1
-D, [2014-06-27T09:39:32.302903 #30227] DEBUG -- : Query:  && 263 for SQL:
-INSERT INTO request_log (ottoken, action, controller, client, created_at) values (
-          '51ebfb684935176e184e7d90d62a514a892babfcdb7e03d7ed82f67b2e71f6cf test_client 1403876372297', 
-          'create', 
-          'notification_preferences', 
-          'test_client', '2014-06-27 09:39:32 -0400')
-I, [2014-06-27T09:39:32.302997 #30227]  INFO -- : {:username=>"phil", :password=>"hello phil", :opt1=>"this", :opt2=>"more", :opt3=>"go for it", :client=>"test_client", :ottoken=>"51ebfb684935176e184e7d90d62a514a892babfcdb7e03d7ed82f67b2e71f6cf test_client 1403876372297", :action=>"create", :controller=>"notification_preferences"}
-I, [2014-06-27T09:39:32.303100 #30227]  INFO -- : Response: 200 text/json {:posted=>"LIKE_THIS!", :opt1=>"this", :opt2=>"more", :opt3=>"go for it"}
-I, [2014-06-27T09:39:32.306587 #30227]  INFO -- : Request: controller:notification_preferences action:update method:put
-I, [2014-06-27T09:39:32.306693 #30227]  INFO -- : Parameters: {:username=>"phil", :password=>"hello phil", :opt1=>"ok", :opt2=>"so", :opt3=>"go for it"}
-I, [2014-06-27T09:39:32.306748 #30227]  INFO -- : update_put
-I, [2014-06-27T09:39:32.306824 #30227]  INFO -- : Response: 422 text/plain Missing required parameter data
-I, [2014-06-27T09:41:01.571595 #30253]  INFO -- : Started running (KeepBusy): Log file: /Users/joshthedudeoflife/re_prefs_svc/log/run.log
-I, [2014-06-27T09:41:04.997641 #30254]  INFO -- : Started running (KeepBusy): Log file: /Users/joshthedudeoflife/re_prefs_svc/log/run.log
-D, [2014-06-27T09:41:05.177344 #30254] DEBUG -- : Query: #<Mysql2::Result:0x007fa8d3bfa580> && 0 for SQL:
-SELECT shared_secret FROM clients WHERE name='test_clien' LIMIT 1
-D, [2014-06-27T09:41:05.178542 #30254] DEBUG -- : Query:  && 177 for SQL:
-INSERT INTO clients (name, shared_secret, client_type, created_at) values ('test_clien', 'd6fe84e42734345b9b5897dd52daa8892057d3a86686b9596a5e947851dcc3f0', 1, '2014-06-27 09:41:05 -0400')
-D, [2014-06-27T09:41:05.180097 #30254] DEBUG -- : Query: #<Mysql2::Result:0x007fa8d45bd158> && 177 for SQL:
-SELECT shared_secret FROM clients WHERE name='test_clien' LIMIT 1
-D, [2014-06-27T09:41:05.181068 #30254] DEBUG -- : Query:  && 0 for SQL:
-DELETE FROM clients WHERE  name = 'test_clien'
-D, [2014-06-27T09:41:05.181598 #30254] DEBUG -- : Query: #<Mysql2::Result:0x007fa8d45bc460> && 0 for SQL:
-SELECT shared_secret FROM clients WHERE name='test_client' LIMIT 1
-D, [2014-06-27T09:41:05.454960 #30254] DEBUG -- : Query:  && 0 for SQL:
-DELETE FROM clients WHERE  name = 'test_client'
-D, [2014-06-27T09:41:05.456224 #30254] DEBUG -- : Query:  && 178 for SQL:
-INSERT INTO clients (name, shared_secret, client_type, created_at) values ('test_client', '0d222abe624f628b5a851215447f2eaf2550034c539fce5e12aa82b23a2d8afc', 1, '2014-06-27 09:41:05 -0400')
-D, [2014-06-27T09:41:05.456728 #30254] DEBUG -- : Query: #<Mysql2::Result:0x007fa8d45cf010> && 178 for SQL:
-SELECT shared_secret FROM clients WHERE name='test_client' LIMIT 1
-D, [2014-06-27T09:41:05.463214 #30254] DEBUG -- : Query: #<Mysql2::Result:0x007fa8d3c23f48> && 178 for SQL:
-SELECT shared_secret FROM clients WHERE name='test_clien' LIMIT 1
-D, [2014-06-27T09:41:05.464198 #30254] DEBUG -- : Query: #<Mysql2::Result:0x007fa8d3c23958> && 178 for SQL:
-SELECT shared_secret FROM clients WHERE name='test_client' LIMIT 1
-D, [2014-06-27T09:41:05.465014 #30254] DEBUG -- : Query:  && 0 for SQL:
-DELETE FROM clients WHERE  name = 'test_clien'
-D, [2014-06-27T09:41:05.465361 #30254] DEBUG -- : Query: #<Mysql2::Result:0x007fa8d3c21ef0> && 0 for SQL:
-SELECT shared_secret FROM clients WHERE name='test_client' LIMIT 1
-D, [2014-06-27T09:41:06.571285 #30254] DEBUG -- : Query: #<Mysql2::Result:0x007fa8d4604fd0> && 0 for SQL:
-SELECT shared_secret FROM clients WHERE name='test_client' LIMIT 1
-D, [2014-06-27T09:41:06.572034 #30254] DEBUG -- : Query: #<Mysql2::Result:0x007fa8d460f430> && 0 for SQL:
-SELECT shared_secret FROM clients WHERE name='test_client' LIMIT 1
-I, [2014-06-27T09:41:06.572256 #30254]  INFO -- : Details: GET, {"X-Nonce"=>"6b014e62418967703d4e981aadcc3ded590914f124b55e6b79d2045c0203ac5f test_client 1403876465568"}, {:b=>123, :c=>"abc", :adg=>"hello phil", :rand=>"this & this = a question?"}, done, some_controller, {:force_timestamp=>1403876465568}====a80c0e4d195e291dc6c757837dbd7814f0da3bc77369010e7ea6e5a0b1ff8968 test_client 1403876465568!=6b014e62418967703d4e981aadcc3ded590914f124b55e6b79d2045c0203ac5f test_client 1403876465568
-D, [2014-06-27T09:41:06.572699 #30254] DEBUG -- : Query: #<Mysql2::Result:0x007fa8d460c258> && 0 for SQL:
-SELECT shared_secret FROM clients WHERE name='test_clien' LIMIT 1
-D, [2014-06-27T09:41:06.573056 #30254] DEBUG -- : Query: #<Mysql2::Result:0x007fa8d46179a0> && 0 for SQL:
-SELECT shared_secret FROM clients WHERE name='test_clien' LIMIT 1
-D, [2014-06-27T09:41:06.573348 #30254] DEBUG -- : Query: #<Mysql2::Result:0x007fa8d46172e8> && 0 for SQL:
-SELECT shared_secret FROM clients WHERE name='test_clien' LIMIT 1
-D, [2014-06-27T09:41:06.574358 #30254] DEBUG -- : Query:  && 179 for SQL:
-INSERT INTO clients (name, shared_secret, client_type, created_at) values ('test_clien', '28fa865f41e0e3f1fdac4297326d6e0d7bfb4ebb1c8373211210f4d1c2e76711', 1, '2014-06-27 09:41:06 -0400')
-D, [2014-06-27T09:41:06.574831 #30254] DEBUG -- : Query: #<Mysql2::Result:0x007fa8d46153a8> && 179 for SQL:
-SELECT shared_secret FROM clients WHERE name='test_clien' LIMIT 1
-D, [2014-06-27T09:41:06.575279 #30254] DEBUG -- : Query: #<Mysql2::Result:0x007fa8d4614ac0> && 179 for SQL:
-SELECT shared_secret FROM clients WHERE name='test_clien' LIMIT 1
-D, [2014-06-27T09:41:06.575794 #30254] DEBUG -- : Query: #<Mysql2::Result:0x007fa8d3c2b040> && 179 for SQL:
-SELECT shared_secret FROM clients WHERE name='test_clien' LIMIT 1
-D, [2014-06-27T09:41:06.576237 #30254] DEBUG -- : Query: #<Mysql2::Result:0x007fa8d3c297e0> && 179 for SQL:
-SELECT ottoken FROM request_log WHERE ottoken='f2e58787391b6eb13ab1bdc7c2e6c4eab6c78ab8accd89c49f67d23e09d6d967 test_clien 1403876466574' LIMIT 1
-D, [2014-06-27T09:41:06.613358 #30254] DEBUG -- : Query:  && 264 for SQL:
-INSERT INTO request_log (ottoken, action, controller, client, created_at) values (
-          'f2e58787391b6eb13ab1bdc7c2e6c4eab6c78ab8accd89c49f67d23e09d6d967 test_clien 1403876466574', 
-          'do', 
-          'some_controller', 
-          'test_clien', '2014-06-27 09:41:06 -0400')
-D, [2014-06-27T09:41:06.614049 #30254] DEBUG -- : Query: #<Mysql2::Result:0x007fa8d3c28b10> && 264 for SQL:
-SELECT shared_secret FROM clients WHERE name='test_clien' LIMIT 1
-I, [2014-06-27T09:41:06.614447 #30254]  INFO -- : Details: GET, {"X-Nonce"=>"f2e58787391b6eb13ab1bdc7c2e6c4eab6c78ab8accd89c49f67d23e09d6d967 test_clien 1403876466574"}, {:b=>123, :c=>"abc", :adg=>"hello phil", :rand=>"this & this = a question?", :client=>"test_clien", :ottoken=>"f2e58787391b6eb13ab1bdc7c2e6c4eab6c78ab8accd89c49f67d23e09d6d967 test_clien 1403876466574", :action=>"do", :controller=>"some_controller"}, do, some_controller, {:one_time_only=>true, :force_timestamp=>1403876466574}====24f4cb7677257df146bbac4413a8b4f13c128ea36b766e82f17a48e1b76460f6 test_clien 1403876466574!=f2e58787391b6eb13ab1bdc7c2e6c4eab6c78ab8accd89c49f67d23e09d6d967 test_clien 1403876466574
-D, [2014-06-27T09:41:06.615417 #30254] DEBUG -- : Query:  && 0 for SQL:
-DELETE FROM clients WHERE  name = 'test_clien'
-D, [2014-06-27T09:41:06.616502 #30254] DEBUG -- : Query: #<Mysql2::Result:0x007fa8d461d148> && 0 for SQL:
-SELECT shared_secret FROM clients WHERE name='test_admin' LIMIT 1
-D, [2014-06-27T09:41:06.617512 #30254] DEBUG -- : Query:  && 0 for SQL:
-DELETE FROM clients WHERE  name = 'test_admin'
-D, [2014-06-27T09:41:06.618333 #30254] DEBUG -- : Query:  && 180 for SQL:
-INSERT INTO clients (name, shared_secret, client_type, created_at) values ('test_admin', 'd338e61ea2bf2b5b4dda21226903237630690c5bb3f8f1ef277737700040cf3a', 1, '2014-06-27 09:41:06 -0400')
-I, [2014-06-27T09:41:06.645572 #30253]  INFO -- : Request: controller:admin action:status method:get
-I, [2014-06-27T09:41:06.645900 #30253]  INFO -- : Parameters: {}
-I, [2014-06-27T09:41:06.645979 #30253]  INFO -- : status_get
-D, [2014-06-27T09:41:06.660842 #30253] DEBUG -- : Query: #<Mysql2::Result:0x007f87320425e8> && 0 for SQL:
-SELECT shared_secret FROM clients WHERE name='test_admin' LIMIT 1
-D, [2014-06-27T09:41:06.661428 #30253] DEBUG -- : Query: #<Mysql2::Result:0x007f87320407c0> && 0 for SQL:
-SELECT ottoken FROM request_log WHERE ottoken='29ad214fbd2f6bee02779787fa302db423d864f193c9eb97c83bb131cb48274a test_admin 1403876466618' LIMIT 1
-D, [2014-06-27T09:41:06.662275 #30253] DEBUG -- : Query:  && 265 for SQL:
-INSERT INTO request_log (ottoken, action, controller, client, created_at) values (
-          '29ad214fbd2f6bee02779787fa302db423d864f193c9eb97c83bb131cb48274a test_admin 1403876466618', 
-          'status', 
-          'admin', 
-          'test_admin', '2014-06-27 09:41:06 -0400')
-I, [2014-06-27T09:41:06.662428 #30253]  INFO -- : Response: 200 text/json {}
-D, [2014-06-27T09:41:06.672025 #30254] DEBUG -- : Query: #<Mysql2::Result:0x007fa8d4645828> && 180 for SQL:
-SELECT shared_secret FROM clients WHERE name='test_client' LIMIT 1
-D, [2014-06-27T09:41:06.674631 #30254] DEBUG -- : Query:  && 0 for SQL:
-DELETE FROM clients WHERE  name = 'test_client'
-D, [2014-06-27T09:41:06.675440 #30254] DEBUG -- : Query:  && 181 for SQL:
-INSERT INTO clients (name, shared_secret, client_type, created_at) values ('test_client', '2c373bcf46c12ceada71a8536c08f5f346bc4f5cceb00c797dd9945a9a346de8', 1, '2014-06-27 09:41:06 -0400')
-I, [2014-06-27T09:41:06.678253 #30253]  INFO -- : Request: controller:notification_preferences action:get method:get
-I, [2014-06-27T09:41:06.678352 #30253]  INFO -- : Parameters: {:data=>""}
-I, [2014-06-27T09:41:06.678405 #30253]  INFO -- : get_get
-D, [2014-06-27T09:41:06.678968 #30253] DEBUG -- : Query: #<Mysql2::Result:0x007f87320617e0> && 265 for SQL:
-SELECT shared_secret FROM clients WHERE name='test_client' LIMIT 1
-D, [2014-06-27T09:41:06.679484 #30253] DEBUG -- : Query: #<Mysql2::Result:0x007f873206b010> && 265 for SQL:
-SELECT ottoken FROM request_log WHERE ottoken='84c717e98611909c3ce244d70436260530b4737eef2c769489c2de8c879217ed test_client 1403876466675' LIMIT 1
-D, [2014-06-27T09:41:06.680260 #30253] DEBUG -- : Query:  && 266 for SQL:
-INSERT INTO request_log (ottoken, action, controller, client, created_at) values (
-          '84c717e98611909c3ce244d70436260530b4737eef2c769489c2de8c879217ed test_client 1403876466675', 
-          'get', 
-          'notification_preferences', 
-          'test_client', '2014-06-27 09:41:06 -0400')
-I, [2014-06-27T09:41:06.680386 #30253]  INFO -- : {:data=>"", :client=>"test_client", :ottoken=>"84c717e98611909c3ce244d70436260530b4737eef2c769489c2de8c879217ed test_client 1403876466675", :action=>"get", :controller=>"notification_preferences"}
-I, [2014-06-27T09:41:06.680693 #30253]  INFO -- : {:data=>"", :client=>"test_client", :ottoken=>"84c717e98611909c3ce244d70436260530b4737eef2c769489c2de8c879217ed test_client 1403876466675", :action=>"get", :controller=>"notification_preferences"}
-W, [2014-06-27T09:41:06.680982 #30253]  WARN -- : Error processing request: #<ArgumentError: unexpected prefix_suffix: nil>
-/Users/joshthedudeoflife/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/2.0.0/tmpdir.rb:117:in `make_tmpname'
-/Users/joshthedudeoflife/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/2.0.0/tmpdir.rb:141:in `create'
-/Users/joshthedudeoflife/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/2.0.0/tempfile.rb:136:in `initialize'
-/Users/joshthedudeoflife/re_prefs_svc/lib/api_models/implementation.rb:35:in `new'
-/Users/joshthedudeoflife/re_prefs_svc/lib/api_models/implementation.rb:35:in `notification_preferences_get_get'
-/Users/joshthedudeoflife/re_prefs_svc/lib/secure_api/api_control.rb:51:in `do_request'
-/Users/joshthedudeoflife/re_prefs_svc/lib/secure_api/api_server.rb:205:in `block (5 levels) in process_http_request'
-/Users/joshthedudeoflife/re_prefs_svc/lib/secure_api/api_server.rb:204:in `catch'
-/Users/joshthedudeoflife/re_prefs_svc/lib/secure_api/api_server.rb:204:in `block (4 levels) in process_http_request'
-/Users/joshthedudeoflife/re_prefs_svc/lib/secure_api/api_server.rb:199:in `catch'
-/Users/joshthedudeoflife/re_prefs_svc/lib/secure_api/api_server.rb:199:in `block (3 levels) in process_http_request'
-/Users/joshthedudeoflife/re_prefs_svc/lib/secure_api/api_server.rb:196:in `catch'
-/Users/joshthedudeoflife/re_prefs_svc/lib/secure_api/api_server.rb:196:in `block (2 levels) in process_http_request'
-/Users/joshthedudeoflife/re_prefs_svc/lib/secure_api/api_server.rb:195:in `catch'
-/Users/joshthedudeoflife/re_prefs_svc/lib/secure_api/api_server.rb:195:in `block in process_http_request'
-/Users/joshthedudeoflife/.rvm/gems/ruby-2.0.0-p353/gems/eventmachine-1.0.3/lib/eventmachine.rb:1037:in `call'
-/Users/joshthedudeoflife/.rvm/gems/ruby-2.0.0-p353/gems/eventmachine-1.0.3/lib/eventmachine.rb:1037:in `block in spawn_threadpool'
-I, [2014-06-27T09:41:06.685329 #30253]  INFO -- : Request: controller:notification_preferences action:create method:post
-I, [2014-06-27T09:41:06.685429 #30253]  INFO -- : Parameters: {:username=>"phil", :password=>"hello phil", :opt1=>"this", :opt2=>"more", :opt3=>"go for it"}
-I, [2014-06-27T09:41:06.685481 #30253]  INFO -- : create_post
-D, [2014-06-27T09:41:06.685996 #30253] DEBUG -- : Query: #<Mysql2::Result:0x007f8732082198> && 266 for SQL:
-SELECT shared_secret FROM clients WHERE name='test_client' LIMIT 1
-D, [2014-06-27T09:41:06.686376 #30253] DEBUG -- : Query: #<Mysql2::Result:0x007f873208ab90> && 266 for SQL:
-SELECT ottoken FROM request_log WHERE ottoken='f9c4e2141e4d235960dde8cfa58f1e7b42ee364bb3f70d5299ac8df3e8d3d857 test_client 1403876466682' LIMIT 1
-D, [2014-06-27T09:41:06.688183 #30253] DEBUG -- : Query:  && 267 for SQL:
-INSERT INTO request_log (ottoken, action, controller, client, created_at) values (
-          'f9c4e2141e4d235960dde8cfa58f1e7b42ee364bb3f70d5299ac8df3e8d3d857 test_client 1403876466682', 
-          'create', 
-          'notification_preferences', 
-          'test_client', '2014-06-27 09:41:06 -0400')
-I, [2014-06-27T09:41:06.688343 #30253]  INFO -- : {:username=>"phil", :password=>"hello phil", :opt1=>"this", :opt2=>"more", :opt3=>"go for it", :client=>"test_client", :ottoken=>"f9c4e2141e4d235960dde8cfa58f1e7b42ee364bb3f70d5299ac8df3e8d3d857 test_client 1403876466682", :action=>"create", :controller=>"notification_preferences"}
-I, [2014-06-27T09:41:06.688446 #30253]  INFO -- : Response: 200 text/json {:posted=>"LIKE_THIS!", :opt1=>"this", :opt2=>"more", :opt3=>"go for it"}
-I, [2014-06-27T09:41:06.691946 #30253]  INFO -- : Request: controller:notification_preferences action:update method:put
-I, [2014-06-27T09:41:06.692043 #30253]  INFO -- : Parameters: {:username=>"phil", :password=>"hello phil", :opt1=>"ok", :opt2=>"so", :opt3=>"go for it"}
-I, [2014-06-27T09:41:06.692093 #30253]  INFO -- : update_put
-I, [2014-06-27T09:41:06.692169 #30253]  INFO -- : Response: 422 text/plain Missing required parameter data
-I, [2014-06-27T09:45:44.324094 #30289]  INFO -- : Started running (KeepBusy): Log file: /Users/joshthedudeoflife/re_prefs_svc/log/run.log
-I, [2014-06-27T09:45:48.427833 #30290]  INFO -- : Started running (KeepBusy): Log file: /Users/joshthedudeoflife/re_prefs_svc/log/run.log
-D, [2014-06-27T09:45:48.615035 #30290] DEBUG -- : Query: #<Mysql2::Result:0x007f7f73c1e590> && 0 for SQL:
-SELECT shared_secret FROM clients WHERE name='test_clien' LIMIT 1
-D, [2014-06-27T09:45:48.616207 #30290] DEBUG -- : Query:  && 182 for SQL:
-INSERT INTO clients (name, shared_secret, client_type, created_at) values ('test_clien', '6838d3a18a4a9937db1682a7bd0774fad46318a96b1a8334aa15457a5fdaa99b', 1, '2014-06-27 09:45:48 -0400')
-D, [2014-06-27T09:45:48.617842 #30290] DEBUG -- : Query: #<Mysql2::Result:0x007f7f72d25160> && 182 for SQL:
-SELECT shared_secret FROM clients WHERE name='test_clien' LIMIT 1
-D, [2014-06-27T09:45:48.618729 #30290] DEBUG -- : Query:  && 0 for SQL:
-DELETE FROM clients WHERE  name = 'test_clien'
-D, [2014-06-27T09:45:48.619048 #30290] DEBUG -- : Query: #<Mysql2::Result:0x007f7f72d24468> && 0 for SQL:
-SELECT shared_secret FROM clients WHERE name='test_client' LIMIT 1
-D, [2014-06-27T09:45:48.619937 #30290] DEBUG -- : Query:  && 0 for SQL:
-DELETE FROM clients WHERE  name = 'test_client'
-D, [2014-06-27T09:45:48.620680 #30290] DEBUG -- : Query:  && 183 for SQL:
-INSERT INTO clients (name, shared_secret, client_type, created_at) values ('test_client', 'ff856fb607ce6e37d7313e44064baefd49fbbae472df926f83d95b9394b8c1ee', 1, '2014-06-27 09:45:48 -0400')
-D, [2014-06-27T09:45:48.621020 #30290] DEBUG -- : Query: #<Mysql2::Result:0x007f7f73c27000> && 183 for SQL:
-SELECT shared_secret FROM clients WHERE name='test_client' LIMIT 1
-D, [2014-06-27T09:45:48.626359 #30290] DEBUG -- : Query: #<Mysql2::Result:0x007f7f73c37f40> && 183 for SQL:
-SELECT shared_secret FROM clients WHERE name='test_clien' LIMIT 1
-D, [2014-06-27T09:45:48.626742 #30290] DEBUG -- : Query: #<Mysql2::Result:0x007f7f73c37950> && 183 for SQL:
-SELECT shared_secret FROM clients WHERE name='test_client' LIMIT 1
-D, [2014-06-27T09:45:48.627394 #30290] DEBUG -- : Query:  && 0 for SQL:
-DELETE FROM clients WHERE  name = 'test_clien'
-D, [2014-06-27T09:45:48.627698 #30290] DEBUG -- : Query: #<Mysql2::Result:0x007f7f73c35ee8> && 0 for SQL:
-SELECT shared_secret FROM clients WHERE name='test_client' LIMIT 1
-D, [2014-06-27T09:45:49.733110 #30290] DEBUG -- : Query: #<Mysql2::Result:0x007f7f73c54fc8> && 0 for SQL:
-SELECT shared_secret FROM clients WHERE name='test_client' LIMIT 1
-D, [2014-06-27T09:45:49.733951 #30290] DEBUG -- : Query: #<Mysql2::Result:0x007f7f73c5f428> && 0 for SQL:
-SELECT shared_secret FROM clients WHERE name='test_client' LIMIT 1
-I, [2014-06-27T09:45:49.734202 #30290]  INFO -- : Details: GET, {"X-Nonce"=>"d57e3995881b88ee7a425b78962caf4b5045341fe8577eb2ca4ddcffb33d2a3b test_client 1403876748730"}, {:b=>123, :c=>"abc", :adg=>"hello phil", :rand=>"this & this = a question?"}, done, some_controller, {:force_timestamp=>1403876748730}====ea1cb27413900c5ef025a57d30366da5740d7b74bdf067b2128dd6b7f77f89b0 test_client 1403876748730!=d57e3995881b88ee7a425b78962caf4b5045341fe8577eb2ca4ddcffb33d2a3b test_client 1403876748730
-D, [2014-06-27T09:45:49.734886 #30290] DEBUG -- : Query: #<Mysql2::Result:0x007f7f73c5c250> && 0 for SQL:
-SELECT shared_secret FROM clients WHERE name='test_clien' LIMIT 1
-D, [2014-06-27T09:45:49.735878 #30290] DEBUG -- : Query: #<Mysql2::Result:0x007f7f73c67998> && 0 for SQL:
-SELECT shared_secret FROM clients WHERE name='test_clien' LIMIT 1
-D, [2014-06-27T09:45:49.736256 #30290] DEBUG -- : Query: #<Mysql2::Result:0x007f7f73c672e0> && 0 for SQL:
-SELECT shared_secret FROM clients WHERE name='test_clien' LIMIT 1
-D, [2014-06-27T09:45:49.737312 #30290] DEBUG -- : Query:  && 184 for SQL:
-INSERT INTO clients (name, shared_secret, client_type, created_at) values ('test_clien', 'd12110f40df5b419e34ff458430c0d4adfd7af8eda0771199ae6ac6167d5eaf2', 1, '2014-06-27 09:45:49 -0400')
-D, [2014-06-27T09:45:49.738252 #30290] DEBUG -- : Query: #<Mysql2::Result:0x007f7f73c653a0> && 184 for SQL:
-SELECT shared_secret FROM clients WHERE name='test_clien' LIMIT 1
-D, [2014-06-27T09:45:49.738873 #30290] DEBUG -- : Query: #<Mysql2::Result:0x007f7f73c64ab8> && 184 for SQL:
-SELECT shared_secret FROM clients WHERE name='test_clien' LIMIT 1
-D, [2014-06-27T09:45:49.739537 #30290] DEBUG -- : Query: #<Mysql2::Result:0x007f7f72d5b058> && 184 for SQL:
-SELECT shared_secret FROM clients WHERE name='test_clien' LIMIT 1
-D, [2014-06-27T09:45:49.740031 #30290] DEBUG -- : Query: #<Mysql2::Result:0x007f7f72d597f8> && 184 for SQL:
-SELECT ottoken FROM request_log WHERE ottoken='1b0b17eca4dd2579b00c268c0a70cd88f3915eb955caed691fe2df0780949110 test_clien 1403876749737' LIMIT 1
-D, [2014-06-27T09:45:49.740963 #30290] DEBUG -- : Query:  && 268 for SQL:
-INSERT INTO request_log (ottoken, action, controller, client, created_at) values (
-          '1b0b17eca4dd2579b00c268c0a70cd88f3915eb955caed691fe2df0780949110 test_clien 1403876749737', 
-          'do', 
-          'some_controller', 
-          'test_clien', '2014-06-27 09:45:49 -0400')
-D, [2014-06-27T09:45:49.741346 #30290] DEBUG -- : Query: #<Mysql2::Result:0x007f7f72d58b28> && 268 for SQL:
-SELECT shared_secret FROM clients WHERE name='test_clien' LIMIT 1
-I, [2014-06-27T09:45:49.741653 #30290]  INFO -- : Details: GET, {"X-Nonce"=>"1b0b17eca4dd2579b00c268c0a70cd88f3915eb955caed691fe2df0780949110 test_clien 1403876749737"}, {:b=>123, :c=>"abc", :adg=>"hello phil", :rand=>"this & this = a question?", :client=>"test_clien", :ottoken=>"1b0b17eca4dd2579b00c268c0a70cd88f3915eb955caed691fe2df0780949110 test_clien 1403876749737", :action=>"do", :controller=>"some_controller"}, do, some_controller, {:one_time_only=>true, :force_timestamp=>1403876749737}====1120a8081b1229207dc2e2893349dd96db77da1ab36d7454ee6ccab89e7754a2 test_clien 1403876749737!=1b0b17eca4dd2579b00c268c0a70cd88f3915eb955caed691fe2df0780949110 test_clien 1403876749737
-D, [2014-06-27T09:45:49.742614 #30290] DEBUG -- : Query:  && 0 for SQL:
-DELETE FROM clients WHERE  name = 'test_clien'
-D, [2014-06-27T09:45:49.743447 #30290] DEBUG -- : Query: #<Mysql2::Result:0x007f7f73c6d168> && 0 for SQL:
-SELECT shared_secret FROM clients WHERE name='test_admin' LIMIT 1
-D, [2014-06-27T09:45:49.744304 #30290] DEBUG -- : Query:  && 0 for SQL:
-DELETE FROM clients WHERE  name = 'test_admin'
-D, [2014-06-27T09:45:49.745146 #30290] DEBUG -- : Query:  && 185 for SQL:
-INSERT INTO clients (name, shared_secret, client_type, created_at) values ('test_admin', '1fe0cd5386a5a542dcd509f168790215174fac0bcd18c182960c96fca5a2a23d', 1, '2014-06-27 09:45:49 -0400')
-I, [2014-06-27T09:45:49.769971 #30289]  INFO -- : Request: controller:admin action:status method:get
-I, [2014-06-27T09:45:49.770533 #30289]  INFO -- : Parameters: {}
-I, [2014-06-27T09:45:49.770591 #30289]  INFO -- : status_get
-D, [2014-06-27T09:45:49.784384 #30289] DEBUG -- : Query: #<Mysql2::Result:0x007fd8420425c8> && 0 for SQL:
-SELECT shared_secret FROM clients WHERE name='test_admin' LIMIT 1
-D, [2014-06-27T09:45:49.785133 #30289] DEBUG -- : Query: #<Mysql2::Result:0x007fd842040638> && 0 for SQL:
-SELECT ottoken FROM request_log WHERE ottoken='9b183adc3b3ff058cd8b2506d71b30eeec6d5dba18f489a00e7c83dc07e613ab test_admin 1403876749745' LIMIT 1
-D, [2014-06-27T09:45:49.787926 #30289] DEBUG -- : Query:  && 269 for SQL:
-INSERT INTO request_log (ottoken, action, controller, client, created_at) values (
-          '9b183adc3b3ff058cd8b2506d71b30eeec6d5dba18f489a00e7c83dc07e613ab test_admin 1403876749745', 
-          'status', 
-          'admin', 
-          'test_admin', '2014-06-27 09:45:49 -0400')
-I, [2014-06-27T09:45:49.788074 #30289]  INFO -- : Response: 200 text/json {}
-D, [2014-06-27T09:45:49.790103 #30290] DEBUG -- : Query: #<Mysql2::Result:0x007f7f73c95848> && 185 for SQL:
-SELECT shared_secret FROM clients WHERE name='test_client' LIMIT 1
-D, [2014-06-27T09:45:49.790840 #30290] DEBUG -- : Query:  && 0 for SQL:
-DELETE FROM clients WHERE  name = 'test_client'
-D, [2014-06-27T09:45:49.791460 #30290] DEBUG -- : Query:  && 186 for SQL:
-INSERT INTO clients (name, shared_secret, client_type, created_at) values ('test_client', '146057e23e6d9acd62a8eb09d63b891aba227e3e60a455cc74f68505df18b656', 1, '2014-06-27 09:45:49 -0400')
-I, [2014-06-27T09:45:49.793733 #30289]  INFO -- : Request: controller:notification_preferences action:get method:get
-I, [2014-06-27T09:45:49.793833 #30289]  INFO -- : Parameters: {:data=>""}
-I, [2014-06-27T09:45:49.793977 #30289]  INFO -- : get_get
-D, [2014-06-27T09:45:49.795514 #30289] DEBUG -- : Query: #<Mysql2::Result:0x007fd842061770> && 269 for SQL:
-SELECT shared_secret FROM clients WHERE name='test_client' LIMIT 1
-D, [2014-06-27T09:45:49.797233 #30289] DEBUG -- : Query: #<Mysql2::Result:0x007fd84206afc8> && 269 for SQL:
-SELECT ottoken FROM request_log WHERE ottoken='248b78e1a91453c2651673b3a83847d37c4140bcc636ac42ddaa29acaefd6a81 test_client 1403876749791' LIMIT 1
-D, [2014-06-27T09:45:49.805174 #30289] DEBUG -- : Query:  && 270 for SQL:
-INSERT INTO request_log (ottoken, action, controller, client, created_at) values (
-          '248b78e1a91453c2651673b3a83847d37c4140bcc636ac42ddaa29acaefd6a81 test_client 1403876749791', 
-          'get', 
-          'notification_preferences', 
-          'test_client', '2014-06-27 09:45:49 -0400')
-I, [2014-06-27T09:45:49.805427 #30289]  INFO -- : {:data=>"", :client=>"test_client", :ottoken=>"248b78e1a91453c2651673b3a83847d37c4140bcc636ac42ddaa29acaefd6a81 test_client 1403876749791", :action=>"get", :controller=>"notification_preferences"}
-I, [2014-06-27T09:45:49.805544 #30289]  INFO -- : Response: 200 text/json {:data=>""}
-I, [2014-06-27T09:45:49.811209 #30289]  INFO -- : Request: controller:notification_preferences action:create method:post
-I, [2014-06-27T09:45:49.811324 #30289]  INFO -- : Parameters: {:username=>"phil", :password=>"hello phil", :opt1=>"this", :opt2=>"more", :opt3=>"go for it"}
-I, [2014-06-27T09:45:49.811419 #30289]  INFO -- : create_post
-D, [2014-06-27T09:45:49.812168 #30289] DEBUG -- : Query: #<Mysql2::Result:0x007fd842083730> && 270 for SQL:
-SELECT shared_secret FROM clients WHERE name='test_client' LIMIT 1
-D, [2014-06-27T09:45:49.812848 #30289] DEBUG -- : Query: #<Mysql2::Result:0x007fd842080968> && 270 for SQL:
-SELECT ottoken FROM request_log WHERE ottoken='b0d4055f9cb78eb717810b9bbbe1faf8d0fced82d2327d734fa4d37a803e576e test_client 1403876749806' LIMIT 1
-D, [2014-06-27T09:45:49.821732 #30289] DEBUG -- : Query:  && 271 for SQL:
-INSERT INTO request_log (ottoken, action, controller, client, created_at) values (
-          'b0d4055f9cb78eb717810b9bbbe1faf8d0fced82d2327d734fa4d37a803e576e test_client 1403876749806', 
-          'create', 
-          'notification_preferences', 
-          'test_client', '2014-06-27 09:45:49 -0400')
-I, [2014-06-27T09:45:49.821962 #30289]  INFO -- : {:username=>"phil", :password=>"hello phil", :opt1=>"this", :opt2=>"more", :opt3=>"go for it", :client=>"test_client", :ottoken=>"b0d4055f9cb78eb717810b9bbbe1faf8d0fced82d2327d734fa4d37a803e576e test_client 1403876749806", :action=>"create", :controller=>"notification_preferences"}
-I, [2014-06-27T09:45:49.822207 #30289]  INFO -- : Response: 200 text/json {:posted=>"LIKE_THIS!", :opt1=>"this", :opt2=>"more", :opt3=>"go for it"}
-I, [2014-06-27T09:45:49.826138 #30289]  INFO -- : Request: controller:notification_preferences action:update method:put
-I, [2014-06-27T09:45:49.826242 #30289]  INFO -- : Parameters: {:username=>"phil", :password=>"hello phil", :opt1=>"ok", :opt2=>"so", :opt3=>"go for it"}
-I, [2014-06-27T09:45:49.826293 #30289]  INFO -- : update_put
-I, [2014-06-27T09:45:49.826369 #30289]  INFO -- : Response: 422 text/plain Missing required parameter data
-I, [2014-06-27T09:46:55.221874 #30315]  INFO -- : Started running (KeepBusy): Log file: /Users/joshthedudeoflife/re_prefs_svc/log/run.log
-I, [2014-06-27T09:46:58.437052 #30316]  INFO -- : Started running (KeepBusy): Log file: /Users/joshthedudeoflife/re_prefs_svc/log/run.log
-D, [2014-06-27T09:46:58.616959 #30316] DEBUG -- : Query: #<Mysql2::Result:0x007ff9794425f8> && 0 for SQL:
-SELECT shared_secret FROM clients WHERE name='test_clien' LIMIT 1
-D, [2014-06-27T09:46:58.618033 #30316] DEBUG -- : Query:  && 187 for SQL:
-INSERT INTO clients (name, shared_secret, client_type, created_at) values ('test_clien', 'bb0e38c97b15b4b6c550097b52cb06060447aeb648179f48775a8d1a1ad0cef5', 1, '2014-06-27 09:46:58 -0400')
-D, [2014-06-27T09:46:58.619750 #30316] DEBUG -- : Query: #<Mysql2::Result:0x007ff9794511c0> && 187 for SQL:
-SELECT shared_secret FROM clients WHERE name='test_clien' LIMIT 1
-D, [2014-06-27T09:46:58.620659 #30316] DEBUG -- : Query:  && 0 for SQL:
-DELETE FROM clients WHERE  name = 'test_clien'
-D, [2014-06-27T09:46:58.620983 #30316] DEBUG -- : Query: #<Mysql2::Result:0x007ff9794504c8> && 0 for SQL:
-SELECT shared_secret FROM clients WHERE name='test_client' LIMIT 1
-D, [2014-06-27T09:46:58.645749 #30316] DEBUG -- : Query:  && 0 for SQL:
-DELETE FROM clients WHERE  name = 'test_client'
-D, [2014-06-27T09:46:58.646684 #30316] DEBUG -- : Query:  && 188 for SQL:
-INSERT INTO clients (name, shared_secret, client_type, created_at) values ('test_client', '886f20c708368e2b4be447ddbe395bfc9e4b182b410153bee929695d01b0fe4e', 1, '2014-06-27 09:46:58 -0400')
-D, [2014-06-27T09:46:58.647082 #30316] DEBUG -- : Query: #<Mysql2::Result:0x007ff979d0b040> && 188 for SQL:
-SELECT shared_secret FROM clients WHERE name='test_client' LIMIT 1
-D, [2014-06-27T09:46:58.652835 #30316] DEBUG -- : Query: #<Mysql2::Result:0x007ff979483fa8> && 188 for SQL:
-SELECT shared_secret FROM clients WHERE name='test_clien' LIMIT 1
-D, [2014-06-27T09:46:58.653256 #30316] DEBUG -- : Query: #<Mysql2::Result:0x007ff9794839b8> && 188 for SQL:
-SELECT shared_secret FROM clients WHERE name='test_client' LIMIT 1
-D, [2014-06-27T09:46:58.653924 #30316] DEBUG -- : Query:  && 0 for SQL:
-DELETE FROM clients WHERE  name = 'test_clien'
-D, [2014-06-27T09:46:58.654235 #30316] DEBUG -- : Query: #<Mysql2::Result:0x007ff979481f50> && 0 for SQL:
-SELECT shared_secret FROM clients WHERE name='test_client' LIMIT 1
-D, [2014-06-27T09:46:59.759303 #30316] DEBUG -- : Query: #<Mysql2::Result:0x007ff979d78ff0> && 0 for SQL:
-SELECT shared_secret FROM clients WHERE name='test_client' LIMIT 1
-D, [2014-06-27T09:46:59.760089 #30316] DEBUG -- : Query: #<Mysql2::Result:0x007ff979d7f468> && 0 for SQL:
-SELECT shared_secret FROM clients WHERE name='test_client' LIMIT 1
-I, [2014-06-27T09:46:59.760344 #30316]  INFO -- : Details: GET, {"X-Nonce"=>"0e6923b7b0cbf26e7b14e451087593218c6149f459abc7c9f7b976460daf7119 test_client 1403876818756"}, {:b=>123, :c=>"abc", :adg=>"hello phil", :rand=>"this & this = a question?"}, done, some_controller, {:force_timestamp=>1403876818756}====258f358b601cefb78410b6e7b65d6c452a2ae9ac7ed9225af63ed62d4f85e34e test_client 1403876818756!=0e6923b7b0cbf26e7b14e451087593218c6149f459abc7c9f7b976460daf7119 test_client 1403876818756
-D, [2014-06-27T09:46:59.760852 #30316] DEBUG -- : Query: #<Mysql2::Result:0x007ff979d7c290> && 0 for SQL:
-SELECT shared_secret FROM clients WHERE name='test_clien' LIMIT 1
-D, [2014-06-27T09:46:59.761228 #30316] DEBUG -- : Query: #<Mysql2::Result:0x007ff979d839c8> && 0 for SQL:
-SELECT shared_secret FROM clients WHERE name='test_clien' LIMIT 1
-D, [2014-06-27T09:46:59.761561 #30316] DEBUG -- : Query: #<Mysql2::Result:0x007ff979d83310> && 0 for SQL:
-SELECT shared_secret FROM clients WHERE name='test_clien' LIMIT 1
-D, [2014-06-27T09:46:59.762626 #30316] DEBUG -- : Query:  && 189 for SQL:
-INSERT INTO clients (name, shared_secret, client_type, created_at) values ('test_clien', '18bd95e41f801388bc7fd391f682250c72b49720d39f762b66cfbafa1463d74b', 1, '2014-06-27 09:46:59 -0400')
-D, [2014-06-27T09:46:59.763097 #30316] DEBUG -- : Query: #<Mysql2::Result:0x007ff979d813d0> && 189 for SQL:
-SELECT shared_secret FROM clients WHERE name='test_clien' LIMIT 1
-D, [2014-06-27T09:46:59.763496 #30316] DEBUG -- : Query: #<Mysql2::Result:0x007ff979d80ae8> && 189 for SQL:
-SELECT shared_secret FROM clients WHERE name='test_clien' LIMIT 1
-D, [2014-06-27T09:46:59.764876 #30316] DEBUG -- : Query: #<Mysql2::Result:0x007ff979d87078> && 189 for SQL:
-SELECT shared_secret FROM clients WHERE name='test_clien' LIMIT 1
-D, [2014-06-27T09:46:59.765661 #30316] DEBUG -- : Query: #<Mysql2::Result:0x007ff979d85818> && 189 for SQL:
-SELECT ottoken FROM request_log WHERE ottoken='8d8f69b75650c66ff581ca95835759eb782516e9cac31e6957ed687225956b0b test_clien 1403876819762' LIMIT 1
-D, [2014-06-27T09:46:59.766646 #30316] DEBUG -- : Query:  && 272 for SQL:
-INSERT INTO request_log (ottoken, action, controller, client, created_at) values (
-          '8d8f69b75650c66ff581ca95835759eb782516e9cac31e6957ed687225956b0b test_clien 1403876819762', 
-          'do', 
-          'some_controller', 
-          'test_clien', '2014-06-27 09:46:59 -0400')
-D, [2014-06-27T09:46:59.767047 #30316] DEBUG -- : Query: #<Mysql2::Result:0x007ff979d84b48> && 272 for SQL:
-SELECT shared_secret FROM clients WHERE name='test_clien' LIMIT 1
-I, [2014-06-27T09:46:59.767346 #30316]  INFO -- : Details: GET, {"X-Nonce"=>"8d8f69b75650c66ff581ca95835759eb782516e9cac31e6957ed687225956b0b test_clien 1403876819762"}, {:b=>123, :c=>"abc", :adg=>"hello phil", :rand=>"this & this = a question?", :client=>"test_clien", :ottoken=>"8d8f69b75650c66ff581ca95835759eb782516e9cac31e6957ed687225956b0b test_clien 1403876819762", :action=>"do", :controller=>"some_controller"}, do, some_controller, {:one_time_only=>true, :force_timestamp=>1403876819762}====25f25e0948550adc5df26169860ebadefee0caf4f92d63b2ae006f90d9b91d1e test_clien 1403876819762!=8d8f69b75650c66ff581ca95835759eb782516e9cac31e6957ed687225956b0b test_clien 1403876819762
-D, [2014-06-27T09:46:59.768190 #30316] DEBUG -- : Query:  && 0 for SQL:
-DELETE FROM clients WHERE  name = 'test_clien'
-D, [2014-06-27T09:46:59.769045 #30316] DEBUG -- : Query: #<Mysql2::Result:0x007ff979d89198> && 0 for SQL:
-SELECT shared_secret FROM clients WHERE name='test_admin' LIMIT 1
-D, [2014-06-27T09:46:59.804441 #30316] DEBUG -- : Query:  && 0 for SQL:
-DELETE FROM clients WHERE  name = 'test_admin'
-D, [2014-06-27T09:46:59.805451 #30316] DEBUG -- : Query:  && 190 for SQL:
-INSERT INTO clients (name, shared_secret, client_type, created_at) values ('test_admin', 'be62127830a364db23761c6ff6d1f6d6ede2f802e374866ee0e2f39c03fdb808', 1, '2014-06-27 09:46:59 -0400')
-I, [2014-06-27T09:46:59.833309 #30315]  INFO -- : Request: controller:admin action:status method:get
-I, [2014-06-27T09:46:59.833453 #30315]  INFO -- : Parameters: {}
-I, [2014-06-27T09:46:59.833511 #30315]  INFO -- : status_get
-D, [2014-06-27T09:46:59.849006 #30315] DEBUG -- : Query: #<Mysql2::Result:0x007fc56a042568> && 0 for SQL:
-SELECT shared_secret FROM clients WHERE name='test_admin' LIMIT 1
-D, [2014-06-27T09:46:59.849573 #30315] DEBUG -- : Query: #<Mysql2::Result:0x007fc56a040768> && 0 for SQL:
-SELECT ottoken FROM request_log WHERE ottoken='ce32d79d17e0ea8eafede622f16fddf3ca42c698c2789c0cad2e29a0a2a3ccd7 test_admin 1403876819805' LIMIT 1
-D, [2014-06-27T09:46:59.851429 #30315] DEBUG -- : Query:  && 273 for SQL:
-INSERT INTO request_log (ottoken, action, controller, client, created_at) values (
-          'ce32d79d17e0ea8eafede622f16fddf3ca42c698c2789c0cad2e29a0a2a3ccd7 test_admin 1403876819805', 
-          'status', 
-          'admin', 
-          'test_admin', '2014-06-27 09:46:59 -0400')
-I, [2014-06-27T09:46:59.856275 #30315]  INFO -- : Response: 200 text/json {}
-D, [2014-06-27T09:46:59.861246 #30316] DEBUG -- : Query: #<Mysql2::Result:0x007ff979499858> && 190 for SQL:
-SELECT shared_secret FROM clients WHERE name='test_client' LIMIT 1
-D, [2014-06-27T09:46:59.862561 #30316] DEBUG -- : Query:  && 0 for SQL:
-DELETE FROM clients WHERE  name = 'test_client'
-D, [2014-06-27T09:46:59.863311 #30316] DEBUG -- : Query:  && 191 for SQL:
-INSERT INTO clients (name, shared_secret, client_type, created_at) values ('test_client', '4e8964fbebb0bfa9b94e8b12bb9dff56a6a32d2c2a37f536d916c2b1cef5fbec', 1, '2014-06-27 09:46:59 -0400')
-I, [2014-06-27T09:46:59.868186 #30315]  INFO -- : Request: controller:notification_preferences action:get method:get
-I, [2014-06-27T09:46:59.868277 #30315]  INFO -- : Parameters: {:data=>"stuff"}
-I, [2014-06-27T09:46:59.868328 #30315]  INFO -- : get_get
-D, [2014-06-27T09:46:59.868876 #30315] DEBUG -- : Query: #<Mysql2::Result:0x007fc56a0617b0> && 273 for SQL:
-SELECT shared_secret FROM clients WHERE name='test_client' LIMIT 1
-D, [2014-06-27T09:46:59.869276 #30315] DEBUG -- : Query: #<Mysql2::Result:0x007fc56a06b080> && 273 for SQL:
-SELECT ottoken FROM request_log WHERE ottoken='3a321161f815f55e0451958f1561c3116d19c826ed95359c0b2585eff2363237 test_client 1403876819866' LIMIT 1
-D, [2014-06-27T09:46:59.869952 #30315] DEBUG -- : Query:  && 274 for SQL:
-INSERT INTO request_log (ottoken, action, controller, client, created_at) values (
-          '3a321161f815f55e0451958f1561c3116d19c826ed95359c0b2585eff2363237 test_client 1403876819866', 
-          'get', 
-          'notification_preferences', 
-          'test_client', '2014-06-27 09:46:59 -0400')
-I, [2014-06-27T09:46:59.870069 #30315]  INFO -- : {:data=>"stuff", :client=>"test_client", :ottoken=>"3a321161f815f55e0451958f1561c3116d19c826ed95359c0b2585eff2363237 test_client 1403876819866", :action=>"get", :controller=>"notification_preferences"}
-I, [2014-06-27T09:46:59.870158 #30315]  INFO -- : Response: 200 text/json {:data=>"stuff"}
-I, [2014-06-27T09:46:59.873803 #30315]  INFO -- : Request: controller:notification_preferences action:create method:post
-I, [2014-06-27T09:46:59.873899 #30315]  INFO -- : Parameters: {:username=>"phil", :password=>"hello phil", :opt1=>"this", :opt2=>"more", :opt3=>"go for it"}
-I, [2014-06-27T09:46:59.873949 #30315]  INFO -- : create_post
-D, [2014-06-27T09:46:59.874462 #30315] DEBUG -- : Query: #<Mysql2::Result:0x007fc56a0836a8> && 274 for SQL:
-SELECT shared_secret FROM clients WHERE name='test_client' LIMIT 1
-D, [2014-06-27T09:46:59.874839 #30315] DEBUG -- : Query: #<Mysql2::Result:0x007fc56a080958> && 274 for SQL:
-SELECT ottoken FROM request_log WHERE ottoken='d61d714cc910ca478dc004dbdbb2f33622f688d65111487b6a7ce9dd46288c5c test_client 1403876819871' LIMIT 1
-D, [2014-06-27T09:46:59.875573 #30315] DEBUG -- : Query:  && 275 for SQL:
-INSERT INTO request_log (ottoken, action, controller, client, created_at) values (
-          'd61d714cc910ca478dc004dbdbb2f33622f688d65111487b6a7ce9dd46288c5c test_client 1403876819871', 
-          'create', 
-          'notification_preferences', 
-          'test_client', '2014-06-27 09:46:59 -0400')
-I, [2014-06-27T09:46:59.875668 #30315]  INFO -- : {:username=>"phil", :password=>"hello phil", :opt1=>"this", :opt2=>"more", :opt3=>"go for it", :client=>"test_client", :ottoken=>"d61d714cc910ca478dc004dbdbb2f33622f688d65111487b6a7ce9dd46288c5c test_client 1403876819871", :action=>"create", :controller=>"notification_preferences"}
-I, [2014-06-27T09:46:59.875762 #30315]  INFO -- : Response: 200 text/json {:posted=>"LIKE_THIS!", :opt1=>"this", :opt2=>"more", :opt3=>"go for it"}
-I, [2014-06-27T09:46:59.879325 #30315]  INFO -- : Request: controller:notification_preferences action:update method:put
-I, [2014-06-27T09:46:59.879435 #30315]  INFO -- : Parameters: {:username=>"phil", :password=>"hello phil", :opt1=>"ok", :opt2=>"so", :opt3=>"go for it"}
-I, [2014-06-27T09:46:59.879486 #30315]  INFO -- : update_put
-I, [2014-06-27T09:46:59.879564 #30315]  INFO -- : Response: 422 text/plain Missing required parameter data
-I, [2014-06-27T09:47:21.052705 #30338]  INFO -- : Started running (KeepBusy): Log file: /Users/joshthedudeoflife/re_prefs_svc/log/run.log
-I, [2014-06-27T09:47:24.220605 #30339]  INFO -- : Started running (KeepBusy): Log file: /Users/joshthedudeoflife/re_prefs_svc/log/run.log
-D, [2014-06-27T09:47:24.403202 #30339] DEBUG -- : Query: #<Mysql2::Result:0x007fea4adaa638> && 0 for SQL:
-SELECT shared_secret FROM clients WHERE name='test_clien' LIMIT 1
-D, [2014-06-27T09:47:24.404366 #30339] DEBUG -- : Query:  && 192 for SQL:
-INSERT INTO clients (name, shared_secret, client_type, created_at) values ('test_clien', '8652d8b26fbbfa675b7e287beee0b13ee3e006a3eb7ac05551dd2b7e6207448c', 1, '2014-06-27 09:47:24 -0400')
-D, [2014-06-27T09:47:24.406169 #30339] DEBUG -- : Query: #<Mysql2::Result:0x007fea4b43d1d0> && 192 for SQL:
-SELECT shared_secret FROM clients WHERE name='test_clien' LIMIT 1
-D, [2014-06-27T09:47:24.407074 #30339] DEBUG -- : Query:  && 0 for SQL:
-DELETE FROM clients WHERE  name = 'test_clien'
-D, [2014-06-27T09:47:24.407410 #30339] DEBUG -- : Query: #<Mysql2::Result:0x007fea4b43c4d8> && 0 for SQL:
-SELECT shared_secret FROM clients WHERE name='test_client' LIMIT 1
-D, [2014-06-27T09:47:24.408271 #30339] DEBUG -- : Query:  && 0 for SQL:
-DELETE FROM clients WHERE  name = 'test_client'
-D, [2014-06-27T09:47:24.409019 #30339] DEBUG -- : Query:  && 193 for SQL:
-INSERT INTO clients (name, shared_secret, client_type, created_at) values ('test_client', '5fe2be391d81be066a83b0962e7a7acba82d163348e7a2c94708093ad87332c2', 1, '2014-06-27 09:47:24 -0400')
-D, [2014-06-27T09:47:24.409454 #30339] DEBUG -- : Query: #<Mysql2::Result:0x007fea4adb3080> && 193 for SQL:
-SELECT shared_secret FROM clients WHERE name='test_client' LIMIT 1
-D, [2014-06-27T09:47:24.414970 #30339] DEBUG -- : Query: #<Mysql2::Result:0x007fea4ade8028> && 193 for SQL:
-SELECT shared_secret FROM clients WHERE name='test_clien' LIMIT 1
-D, [2014-06-27T09:47:24.415360 #30339] DEBUG -- : Query: #<Mysql2::Result:0x007fea4adf39c8> && 193 for SQL:
-SELECT shared_secret FROM clients WHERE name='test_client' LIMIT 1
-D, [2014-06-27T09:47:24.416031 #30339] DEBUG -- : Query:  && 0 for SQL:
-DELETE FROM clients WHERE  name = 'test_clien'
-D, [2014-06-27T09:47:24.416334 #30339] DEBUG -- : Query: #<Mysql2::Result:0x007fea4adf1f60> && 0 for SQL:
-SELECT shared_secret FROM clients WHERE name='test_client' LIMIT 1
-D, [2014-06-27T09:47:25.520964 #30339] DEBUG -- : Query: #<Mysql2::Result:0x007fea4ae11040> && 0 for SQL:
-SELECT shared_secret FROM clients WHERE name='test_client' LIMIT 1
-D, [2014-06-27T09:47:25.521767 #30339] DEBUG -- : Query: #<Mysql2::Result:0x007fea4b4374b0> && 0 for SQL:
-SELECT shared_secret FROM clients WHERE name='test_client' LIMIT 1
-I, [2014-06-27T09:47:25.522009 #30339]  INFO -- : Details: GET, {"X-Nonce"=>"014b81d7a53e2cea73625b623114a8b69a8dc30ad0387650c98b05a8ed91737f test_client 1403876844518"}, {:b=>123, :c=>"abc", :adg=>"hello phil", :rand=>"this & this = a question?"}, done, some_controller, {:force_timestamp=>1403876844518}====1295c39210dbefbe10a7f3d8ca1821d2a6af10479dccc418ffeef93e5e5c3202 test_client 1403876844518!=014b81d7a53e2cea73625b623114a8b69a8dc30ad0387650c98b05a8ed91737f test_client 1403876844518
-D, [2014-06-27T09:47:25.522548 #30339] DEBUG -- : Query: #<Mysql2::Result:0x007fea4b4342d8> && 0 for SQL:
-SELECT shared_secret FROM clients WHERE name='test_clien' LIMIT 1
-D, [2014-06-27T09:47:25.522982 #30339] DEBUG -- : Query: #<Mysql2::Result:0x007fea4b447a18> && 0 for SQL:
-SELECT shared_secret FROM clients WHERE name='test_clien' LIMIT 1
-D, [2014-06-27T09:47:25.523285 #30339] DEBUG -- : Query: #<Mysql2::Result:0x007fea4b447360> && 0 for SQL:
-SELECT shared_secret FROM clients WHERE name='test_clien' LIMIT 1
-D, [2014-06-27T09:47:25.524162 #30339] DEBUG -- : Query:  && 194 for SQL:
-INSERT INTO clients (name, shared_secret, client_type, created_at) values ('test_clien', '2659365d3095b26b5241255fa816142ca72c8c3d2732a20d75f39ca2d3b01fe9', 1, '2014-06-27 09:47:25 -0400')
-D, [2014-06-27T09:47:25.524598 #30339] DEBUG -- : Query: #<Mysql2::Result:0x007fea4b445420> && 194 for SQL:
-SELECT shared_secret FROM clients WHERE name='test_clien' LIMIT 1
-D, [2014-06-27T09:47:25.525217 #30339] DEBUG -- : Query: #<Mysql2::Result:0x007fea4b444b38> && 194 for SQL:
-SELECT shared_secret FROM clients WHERE name='test_clien' LIMIT 1
-D, [2014-06-27T09:47:25.525710 #30339] DEBUG -- : Query: #<Mysql2::Result:0x007fea4ae1b0b8> && 194 for SQL:
-SELECT shared_secret FROM clients WHERE name='test_clien' LIMIT 1
-D, [2014-06-27T09:47:25.526122 #30339] DEBUG -- : Query: #<Mysql2::Result:0x007fea4ae19858> && 194 for SQL:
-SELECT ottoken FROM request_log WHERE ottoken='1d5d23c0983c949f7e547489f521e76a59ed6cf25486f0ec8ba645ba455eb2c7 test_clien 1403876845524' LIMIT 1
-D, [2014-06-27T09:47:25.526914 #30339] DEBUG -- : Query:  && 276 for SQL:
-INSERT INTO request_log (ottoken, action, controller, client, created_at) values (
-          '1d5d23c0983c949f7e547489f521e76a59ed6cf25486f0ec8ba645ba455eb2c7 test_clien 1403876845524', 
-          'do', 
-          'some_controller', 
-          'test_clien', '2014-06-27 09:47:25 -0400')
-D, [2014-06-27T09:47:25.527275 #30339] DEBUG -- : Query: #<Mysql2::Result:0x007fea4ae18b88> && 276 for SQL:
-SELECT shared_secret FROM clients WHERE name='test_clien' LIMIT 1
-I, [2014-06-27T09:47:25.527580 #30339]  INFO -- : Details: GET, {"X-Nonce"=>"1d5d23c0983c949f7e547489f521e76a59ed6cf25486f0ec8ba645ba455eb2c7 test_clien 1403876845524"}, {:b=>123, :c=>"abc", :adg=>"hello phil", :rand=>"this & this = a question?", :client=>"test_clien", :ottoken=>"1d5d23c0983c949f7e547489f521e76a59ed6cf25486f0ec8ba645ba455eb2c7 test_clien 1403876845524", :action=>"do", :controller=>"some_controller"}, do, some_controller, {:one_time_only=>true, :force_timestamp=>1403876845524}====e740425c7b4596cfc5f7f4d383a68c7b8e1c423dbe75c2ae0bcb1840092931af test_clien 1403876845524!=1d5d23c0983c949f7e547489f521e76a59ed6cf25486f0ec8ba645ba455eb2c7 test_clien 1403876845524
-D, [2014-06-27T09:47:25.528282 #30339] DEBUG -- : Query:  && 0 for SQL:
-DELETE FROM clients WHERE  name = 'test_clien'
-D, [2014-06-27T09:47:25.529090 #30339] DEBUG -- : Query: #<Mysql2::Result:0x007fea4b44d1c0> && 0 for SQL:
-SELECT shared_secret FROM clients WHERE name='test_admin' LIMIT 1
-D, [2014-06-27T09:47:25.529905 #30339] DEBUG -- : Query:  && 0 for SQL:
-DELETE FROM clients WHERE  name = 'test_admin'
-D, [2014-06-27T09:47:25.530612 #30339] DEBUG -- : Query:  && 195 for SQL:
-INSERT INTO clients (name, shared_secret, client_type, created_at) values ('test_admin', '559967cda0c406fce3d8079f9f5a5ce90d534a54cd6e5026e06796ac455a4a95', 1, '2014-06-27 09:47:25 -0400')
-I, [2014-06-27T09:47:25.555618 #30338]  INFO -- : Request: controller:admin action:status method:get
-I, [2014-06-27T09:47:25.556168 #30338]  INFO -- : Parameters: {}
-I, [2014-06-27T09:47:25.556225 #30338]  INFO -- : status_get
-D, [2014-06-27T09:47:25.568838 #30338] DEBUG -- : Query: #<Mysql2::Result:0x007fbcf3842558> && 0 for SQL:
-SELECT shared_secret FROM clients WHERE name='test_admin' LIMIT 1
-D, [2014-06-27T09:47:25.569322 #30338] DEBUG -- : Query: #<Mysql2::Result:0x007fbcf3840500> && 0 for SQL:
-SELECT ottoken FROM request_log WHERE ottoken='9f805cbee232cd3d3c061a3eb1a48989d98a910eff2b34b31c64604cf9047c04 test_admin 1403876845530' LIMIT 1
-D, [2014-06-27T09:47:25.570321 #30338] DEBUG -- : Query:  && 277 for SQL:
-INSERT INTO request_log (ottoken, action, controller, client, created_at) values (
-          '9f805cbee232cd3d3c061a3eb1a48989d98a910eff2b34b31c64604cf9047c04 test_admin 1403876845530', 
-          'status', 
-          'admin', 
-          'test_admin', '2014-06-27 09:47:25 -0400')
-I, [2014-06-27T09:47:25.570467 #30338]  INFO -- : Response: 200 text/json {}
-D, [2014-06-27T09:47:25.572748 #30339] DEBUG -- : Query: #<Mysql2::Result:0x007fea4b4758a0> && 195 for SQL:
-SELECT shared_secret FROM clients WHERE name='test_client' LIMIT 1
-D, [2014-06-27T09:47:25.573495 #30339] DEBUG -- : Query:  && 0 for SQL:
-DELETE FROM clients WHERE  name = 'test_client'
-D, [2014-06-27T09:47:25.574111 #30339] DEBUG -- : Query:  && 196 for SQL:
-INSERT INTO clients (name, shared_secret, client_type, created_at) values ('test_client', 'c3a8258b7e87c7634d246ba3b70ccdd7e4aa56cbdc3c9e395ebe235d48670404', 1, '2014-06-27 09:47:25 -0400')
-I, [2014-06-27T09:47:25.576409 #30338]  INFO -- : Request: controller:notification_preferences action:get method:get
-I, [2014-06-27T09:47:25.576497 #30338]  INFO -- : Parameters: {:data=>"stuff"}
-I, [2014-06-27T09:47:25.576546 #30338]  INFO -- : get_get
-D, [2014-06-27T09:47:25.577058 #30338] DEBUG -- : Query: #<Mysql2::Result:0x007fbcf3861890> && 277 for SQL:
-SELECT shared_secret FROM clients WHERE name='test_client' LIMIT 1
-D, [2014-06-27T09:47:25.577435 #30338] DEBUG -- : Query: #<Mysql2::Result:0x007fbcf386b098> && 277 for SQL:
-SELECT ottoken FROM request_log WHERE ottoken='f2fb171589ffdb6dc035339d082b9ea35cfe46f8c0cc28f36c4c7438b6541375 test_client 1403876845574' LIMIT 1
-D, [2014-06-27T09:47:25.578122 #30338] DEBUG -- : Query:  && 278 for SQL:
-INSERT INTO request_log (ottoken, action, controller, client, created_at) values (
-          'f2fb171589ffdb6dc035339d082b9ea35cfe46f8c0cc28f36c4c7438b6541375 test_client 1403876845574', 
-          'get', 
-          'notification_preferences', 
-          'test_client', '2014-06-27 09:47:25 -0400')
-I, [2014-06-27T09:47:25.578209 #30338]  INFO -- : {:data=>"stuff", :client=>"test_client", :ottoken=>"f2fb171589ffdb6dc035339d082b9ea35cfe46f8c0cc28f36c4c7438b6541375 test_client 1403876845574", :action=>"get", :controller=>"notification_preferences"}
-I, [2014-06-27T09:47:25.578296 #30338]  INFO -- : Response: 200 text/json {:data=>"stuff"}
-I, [2014-06-27T09:47:25.582746 #30338]  INFO -- : Request: controller:notification_preferences action:create method:post
-I, [2014-06-27T09:47:25.582849 #30338]  INFO -- : Parameters: {:username=>"phil", :password=>"hello phil", :opt1=>"this", :opt2=>"more", :opt3=>"go for it"}
-I, [2014-06-27T09:47:25.582899 #30338]  INFO -- : create_post
-D, [2014-06-27T09:47:25.583429 #30338] DEBUG -- : Query: #<Mysql2::Result:0x007fbcf3883738> && 278 for SQL:
-SELECT shared_secret FROM clients WHERE name='test_client' LIMIT 1
-D, [2014-06-27T09:47:25.583812 #30338] DEBUG -- : Query: #<Mysql2::Result:0x007fbcf3880998> && 278 for SQL:
-SELECT ottoken FROM request_log WHERE ottoken='0593aed7765fb32c4d1c0b410d84f975eb8b34dc1d8f4facfd101053dc736d55 test_client 1403876845579' LIMIT 1
-D, [2014-06-27T09:47:25.584518 #30338] DEBUG -- : Query:  && 279 for SQL:
-INSERT INTO request_log (ottoken, action, controller, client, created_at) values (
-          '0593aed7765fb32c4d1c0b410d84f975eb8b34dc1d8f4facfd101053dc736d55 test_client 1403876845579', 
-          'create', 
-          'notification_preferences', 
-          'test_client', '2014-06-27 09:47:25 -0400')
-I, [2014-06-27T09:47:25.584618 #30338]  INFO -- : {:username=>"phil", :password=>"hello phil", :opt1=>"this", :opt2=>"more", :opt3=>"go for it", :client=>"test_client", :ottoken=>"0593aed7765fb32c4d1c0b410d84f975eb8b34dc1d8f4facfd101053dc736d55 test_client 1403876845579", :action=>"create", :controller=>"notification_preferences"}
-I, [2014-06-27T09:47:25.584717 #30338]  INFO -- : Response: 200 text/json {:posted=>"LIKE_THIS!", :opt1=>"this", :opt2=>"more", :opt3=>"go for it"}
-I, [2014-06-27T09:47:25.588290 #30338]  INFO -- : Request: controller:notification_preferences action:update method:put
-I, [2014-06-27T09:47:25.588387 #30338]  INFO -- : Parameters: {:username=>"phil", :password=>"hello phil", :opt1=>"ok", :opt2=>"so", :opt3=>"go for it"}
-I, [2014-06-27T09:47:25.588435 #30338]  INFO -- : update_put
-I, [2014-06-27T09:47:25.588511 #30338]  INFO -- : Response: 422 text/plain Missing required parameter data
-I, [2014-06-27T09:48:56.778537 #30365]  INFO -- : Started running (KeepBusy): Log file: /Users/joshthedudeoflife/re_prefs_svc/log/run.log
-I, [2014-06-27T09:49:16.095328 #30365]  INFO -- : Request: controller:notification_preferences action:update method:put
-I, [2014-06-27T09:49:16.095504 #30365]  INFO -- : Parameters: {:username=>"ABC", :name=>"def", :id=>"abc", :data=>"{\"assetclass\":[\"A\",\"B\",\"C\",\"D\"],\"states\":[\"Alabama\",\"Alaska\",\"Arizona\",\"Arkansas\",\"California\",\"Colorado\",\"Connecticut\",\"Delaware\",\"District Of Columbia\",\"Florida\",\"Georgia\",\"Hawaii\",\"Idaho\",\"Illinois\",\"Indiana\",\"Iowa\",\"Kansas\",\"Kentucky\",\"Louisiana\",\"Maine\",\"Maryland\",\"Massachusetts\",\"Michigan\",\"Minnesota\",\"Mississippi\",\"Missouri\",\"Montana\",\"Nebraska\",\"Nevada\",\"New Hampshire\",\"New Jersey\",\"New Mexico\",\"New York\",\"North Carolina\",\"North Dakota\",\"Ohio\",\"Oklahoma\",\"Oregon\",\"Pennsylvania\",\"Rhode Island\",\"South Carolina\",\"South Dakota\",\"Tennessee\",\"Texas\",\"Utah\",\"Vermont\",\"Virginia\",\"Washington\",\"West Virginia\",\"Wisconsin\",\"Wyoming\"],\"investments\":{\"minimum\":50001,\"maximum\":60000}}"}
-I, [2014-06-27T09:49:16.095600 #30365]  INFO -- : update_put
-D, [2014-06-27T09:49:16.108737 #30365] DEBUG -- : Query: #<Mysql2::Result:0x007ff67906a8e8> && 0 for SQL:
+          're_portal_prefs_1', '2014-07-01 10:47:03 -0400')
+I, [2014-07-01T10:47:03.478706 #49332]  INFO -- : {:username=>"ABC", :name=>"def", :id=>"abc", :data=>"{\"assetclass\":[\"B\"],\"states\":[\"Alaska\"],\"investments\":{\"minimum\":\"50001\",\"maximum\":\"60000\"}}", :client=>"re_portal_prefs_1", :ottoken=>"4a306d506cb174451d65f49c421595079c967f7e2a3293750cdc3a22b2507fb2 re_portal_prefs_1 1404226023309", :action=>"update", :controller=>"notification_preferences"}
+I, [2014-07-01T10:47:03.478856 #49332]  INFO -- : /Users/joshthedudeoflife/re_prefs_files/abc
+I, [2014-07-01T10:47:03.478989 #49332]  INFO -- : Response: 200 text/json {:data=>"{\"assetclass\":[\"B\"],\"states\":[\"Alaska\"],\"investments\":{\"minimum\":\"50001\",\"maximum\":\"60000\"}}"}
+I, [2014-07-01T11:13:55.266424 #49332]  INFO -- : Request: controller:notification_preferences action:create method:post
+I, [2014-07-01T11:13:55.266602 #49332]  INFO -- : Parameters: {:username=>"ABC", :name=>"def", :id=>"abc", :data=>"{\"assetclass\":[\"B\"],\"states\":[\"Alaska\"],\"investments\":{\"minimum\":\"50001\",\"maximum\":\"60000\"}}"}
+I, [2014-07-01T11:13:55.266657 #49332]  INFO -- : create_post
+D, [2014-07-01T11:13:55.267430 #49332] DEBUG -- : Query: #<Mysql2::Result:0x007f9602083000> && 546 for SQL:
 SELECT shared_secret FROM clients WHERE name='re_portal_prefs_1' LIMIT 1
-D, [2014-06-27T09:49:16.109661 #30365] DEBUG -- : Query: #<Mysql2::Result:0x007ff679098fe0> && 0 for SQL:
-SELECT ottoken FROM request_log WHERE ottoken='e868e15666b2b58487c3ecb29498a09f4c2c11304e87bc74d59686590efb58d6 re_portal_prefs_1 1403876956064' LIMIT 1
-D, [2014-06-27T09:49:16.110573 #30365] DEBUG -- : Query:  && 280 for SQL:
+D, [2014-07-01T11:13:55.268087 #49332] DEBUG -- : Query: #<Mysql2::Result:0x007f9602088b90> && 546 for SQL:
+SELECT ottoken FROM request_log WHERE ottoken='acf049f16bedad034c738b531f82d5cab9d6cb6895dcfe853cc4b202b20a5c46 re_portal_prefs_1 1404227635251' LIMIT 1
+D, [2014-07-01T11:13:55.269472 #49332] DEBUG -- : Query:  && 547 for SQL:
 INSERT INTO request_log (ottoken, action, controller, client, created_at) values (
-          'e868e15666b2b58487c3ecb29498a09f4c2c11304e87bc74d59686590efb58d6 re_portal_prefs_1 1403876956064', 
-          'update', 
+          'acf049f16bedad034c738b531f82d5cab9d6cb6895dcfe853cc4b202b20a5c46 re_portal_prefs_1 1404227635251', 
+          'create', 
           'notification_preferences', 
-          're_portal_prefs_1', '2014-06-27 09:49:16 -0400')
-I, [2014-06-27T09:49:16.110757 #30365]  INFO -- : {:username=>"ABC", :name=>"def", :id=>"abc", :data=>"{\"assetclass\":[\"A\",\"B\",\"C\",\"D\"],\"states\":[\"Alabama\",\"Alaska\",\"Arizona\",\"Arkansas\",\"California\",\"Colorado\",\"Connecticut\",\"Delaware\",\"District Of Columbia\",\"Florida\",\"Georgia\",\"Hawaii\",\"Idaho\",\"Illinois\",\"Indiana\",\"Iowa\",\"Kansas\",\"Kentucky\",\"Louisiana\",\"Maine\",\"Maryland\",\"Massachusetts\",\"Michigan\",\"Minnesota\",\"Mississippi\",\"Missouri\",\"Montana\",\"Nebraska\",\"Nevada\",\"New Hampshire\",\"New Jersey\",\"New Mexico\",\"New York\",\"North Carolina\",\"North Dakota\",\"Ohio\",\"Oklahoma\",\"Oregon\",\"Pennsylvania\",\"Rhode Island\",\"South Carolina\",\"South Dakota\",\"Tennessee\",\"Texas\",\"Utah\",\"Vermont\",\"Virginia\",\"Washington\",\"West Virginia\",\"Wisconsin\",\"Wyoming\"],\"investments\":{\"minimum\":50001,\"maximum\":60000}}", :client=>"re_portal_prefs_1", :ottoken=>"e868e15666b2b58487c3ecb29498a09f4c2c11304e87bc74d59686590efb58d6 re_portal_prefs_1 1403876956064", :action=>"update", :controller=>"notification_preferences"}
-I, [2014-06-27T09:49:16.111274 #30365]  INFO -- : /var/folders/fc/90zsg_ts5hz_bjq2sh04xgbw0000gn/T/abc20140627-30365-1i5jzbz
-I, [2014-06-27T09:49:16.111578 #30365]  INFO -- : Response: 200 text/json {:data=>"{\"assetclass\":[\"A\",\"B\",\"C\",\"D\"],\"states\":[\"Alabama\",\"Alaska\",\"Arizona\",\"Arkansas\",\"California\",\"Colorado\",\"Connecticut\",\"Delaware\",\"District Of Columbia\",\"Florida\",\"Georgia\",\"Hawaii\",\"Idaho\",\"Illinois\",\"Indiana\",\"Iowa\",\"Kansas\",\"Kentucky\",\"Louisiana\",\"Maine\",\"Maryland\",\"Massachusetts\",\"Michigan\",\"Minnesota\",\"Mississippi\",\"Missouri\",\"Montana\",\"Nebraska\",\"Nevada\",\"New Hampshire\",\"New Jersey\",\"New Mexico\",\"New York\",\"North Carolina\",\"North Dakota\",\"Ohio\",\"Oklahoma\",\"Oregon\",\"Pennsylvania\",\"Rhode Island\",\"South Carolina\",\"South Dakota\",\"Tennessee\",\"Texas\",\"Utah\",\"Vermont\",\"Virginia\",\"Washington\",\"West Virginia\",\"Wisconsin\",\"Wyoming\"],\"investments\":{\"minimum\":50001,\"maximum\":60000}}"}
-I, [2014-06-27T09:53:37.717390 #30413]  INFO -- : Started running (KeepBusy): Log file: /Users/joshthedudeoflife/re_prefs_svc/log/run.log
-I, [2014-06-27T09:53:57.259105 #30413]  INFO -- : Request: controller:notification_preferences action:update method:put
-I, [2014-06-27T09:53:57.259296 #30413]  INFO -- : Parameters: {:username=>"ABC", :name=>"def", :id=>"abc", :data=>"{\"assetclass\":[\"A\",\"B\",\"C\",\"D\"],\"states\":[\"Alabama\",\"Alaska\",\"Arizona\",\"Arkansas\",\"California\",\"Colorado\",\"Connecticut\",\"Delaware\",\"District Of Columbia\",\"Florida\",\"Georgia\",\"Hawaii\",\"Idaho\",\"Illinois\",\"Indiana\",\"Iowa\",\"Kansas\",\"Kentucky\",\"Louisiana\",\"Maine\",\"Maryland\",\"Massachusetts\",\"Michigan\",\"Minnesota\",\"Mississippi\",\"Missouri\",\"Montana\",\"Nebraska\",\"Nevada\",\"New Hampshire\",\"New Jersey\",\"New Mexico\",\"New York\",\"North Carolina\",\"North Dakota\",\"Ohio\",\"Oklahoma\",\"Oregon\",\"Pennsylvania\",\"Rhode Island\",\"South Carolina\",\"South Dakota\",\"Tennessee\",\"Texas\",\"Utah\",\"Vermont\",\"Virginia\",\"Washington\",\"West Virginia\",\"Wisconsin\",\"Wyoming\"],\"investments\":{\"minimum\":50001,\"maximum\":60001}}"}
-I, [2014-06-27T09:53:57.259396 #30413]  INFO -- : update_put
-D, [2014-06-27T09:53:57.273821 #30413] DEBUG -- : Query: #<Mysql2::Result:0x007fb0d386a958> && 0 for SQL:
+          're_portal_prefs_1', '2014-07-01 11:13:55 -0400')
+I, [2014-07-01T11:13:55.269655 #49332]  INFO -- : {:username=>"ABC", :name=>"def", :id=>"abc", :data=>"{\"assetclass\":[\"B\"],\"states\":[\"Alaska\"],\"investments\":{\"minimum\":\"50001\",\"maximum\":\"60000\"}}", :client=>"re_portal_prefs_1", :ottoken=>"acf049f16bedad034c738b531f82d5cab9d6cb6895dcfe853cc4b202b20a5c46 re_portal_prefs_1 1404227635251", :action=>"create", :controller=>"notification_preferences"}
+W, [2014-07-01T11:13:55.269930 #49332]  WARN -- : Error processing request: #<IOError: not opened for writing>
+/Users/joshthedudeoflife/re_prefs_svc/lib/api_models/implementation.rb:51:in `write'
+/Users/joshthedudeoflife/re_prefs_svc/lib/api_models/implementation.rb:51:in `notification_preferences_create_post'
+/Users/joshthedudeoflife/re_prefs_svc/lib/secure_api/api_control.rb:51:in `do_request'
+/Users/joshthedudeoflife/re_prefs_svc/lib/secure_api/api_server.rb:205:in `block (5 levels) in process_http_request'
+/Users/joshthedudeoflife/re_prefs_svc/lib/secure_api/api_server.rb:204:in `catch'
+/Users/joshthedudeoflife/re_prefs_svc/lib/secure_api/api_server.rb:204:in `block (4 levels) in process_http_request'
+/Users/joshthedudeoflife/re_prefs_svc/lib/secure_api/api_server.rb:199:in `catch'
+/Users/joshthedudeoflife/re_prefs_svc/lib/secure_api/api_server.rb:199:in `block (3 levels) in process_http_request'
+/Users/joshthedudeoflife/re_prefs_svc/lib/secure_api/api_server.rb:196:in `catch'
+/Users/joshthedudeoflife/re_prefs_svc/lib/secure_api/api_server.rb:196:in `block (2 levels) in process_http_request'
+/Users/joshthedudeoflife/re_prefs_svc/lib/secure_api/api_server.rb:195:in `catch'
+/Users/joshthedudeoflife/re_prefs_svc/lib/secure_api/api_server.rb:195:in `block in process_http_request'
+/Users/joshthedudeoflife/.rvm/gems/ruby-2.0.0-p353/gems/eventmachine-1.0.3/lib/eventmachine.rb:1037:in `call'
+/Users/joshthedudeoflife/.rvm/gems/ruby-2.0.0-p353/gems/eventmachine-1.0.3/lib/eventmachine.rb:1037:in `block in spawn_threadpool'
+I, [2014-07-01T11:20:35.438855 #49409]  INFO -- : Started running (KeepBusy): Log file: /Users/joshthedudeoflife/re_prefs_svc/log/run.log
+I, [2014-07-01T11:21:05.818627 #49409]  INFO -- : Request: controller:notification_preferences action:create method:post
+I, [2014-07-01T11:21:05.818805 #49409]  INFO -- : Parameters: {:username=>"ABC", :name=>"def", :id=>"abc", :data=>"{\"assetclass\":[\"B\"],\"states\":[\"Maryland\",\"New York\"],\"investments\":{\"minimum\":\"50001\",\"maximum\":\"60000\"}}"}
+I, [2014-07-01T11:21:05.818860 #49409]  INFO -- : create_post
+D, [2014-07-01T11:21:05.840787 #49409] DEBUG -- : Query: #<Mysql2::Result:0x007f9bd1848590> && 0 for SQL:
 SELECT shared_secret FROM clients WHERE name='re_portal_prefs_1' LIMIT 1
-D, [2014-06-27T09:53:57.274880 #30413] DEBUG -- : Query: #<Mysql2::Result:0x007fb0d3898f38> && 0 for SQL:
-SELECT ottoken FROM request_log WHERE ottoken='c14ecff84d5a94ca3edfaf89201764d3863d8aa51e4deff30fd125b23befa398 re_portal_prefs_1 1403877237227' LIMIT 1
-D, [2014-06-27T09:53:57.343228 #30413] DEBUG -- : Query:  && 281 for SQL:
+D, [2014-07-01T11:21:05.841454 #49409] DEBUG -- : Query: #<Mysql2::Result:0x007f9bd18608e8> && 0 for SQL:
+SELECT ottoken FROM request_log WHERE ottoken='59d1e0d0c8edeb580c388e7b18781a05c07cdf067d045edc9d34d5fe62c1d058 re_portal_prefs_1 1404228065784' LIMIT 1
+D, [2014-07-01T11:21:05.844533 #49409] DEBUG -- : Query:  && 548 for SQL:
 INSERT INTO request_log (ottoken, action, controller, client, created_at) values (
-          'c14ecff84d5a94ca3edfaf89201764d3863d8aa51e4deff30fd125b23befa398 re_portal_prefs_1 1403877237227', 
-          'update', 
+          '59d1e0d0c8edeb580c388e7b18781a05c07cdf067d045edc9d34d5fe62c1d058 re_portal_prefs_1 1404228065784', 
+          'create', 
           'notification_preferences', 
-          're_portal_prefs_1', '2014-06-27 09:53:57 -0400')
-I, [2014-06-27T09:53:57.343508 #30413]  INFO -- : {:username=>"ABC", :name=>"def", :id=>"abc", :data=>"{\"assetclass\":[\"A\",\"B\",\"C\",\"D\"],\"states\":[\"Alabama\",\"Alaska\",\"Arizona\",\"Arkansas\",\"California\",\"Colorado\",\"Connecticut\",\"Delaware\",\"District Of Columbia\",\"Florida\",\"Georgia\",\"Hawaii\",\"Idaho\",\"Illinois\",\"Indiana\",\"Iowa\",\"Kansas\",\"Kentucky\",\"Louisiana\",\"Maine\",\"Maryland\",\"Massachusetts\",\"Michigan\",\"Minnesota\",\"Mississippi\",\"Missouri\",\"Montana\",\"Nebraska\",\"Nevada\",\"New Hampshire\",\"New Jersey\",\"New Mexico\",\"New York\",\"North Carolina\",\"North Dakota\",\"Ohio\",\"Oklahoma\",\"Oregon\",\"Pennsylvania\",\"Rhode Island\",\"South Carolina\",\"South Dakota\",\"Tennessee\",\"Texas\",\"Utah\",\"Vermont\",\"Virginia\",\"Washington\",\"West Virginia\",\"Wisconsin\",\"Wyoming\"],\"investments\":{\"minimum\":50001,\"maximum\":60001}}", :client=>"re_portal_prefs_1", :ottoken=>"c14ecff84d5a94ca3edfaf89201764d3863d8aa51e4deff30fd125b23befa398 re_portal_prefs_1 1403877237227", :action=>"update", :controller=>"notification_preferences"}
-I, [2014-06-27T09:53:57.344456 #30413]  INFO -- : /var/folders/fc/90zsg_ts5hz_bjq2sh04xgbw0000gn/T/abc20140627-30413-1d8czpi
-I, [2014-06-27T09:53:57.344746 #30413]  INFO -- : Response: 200 text/json {:data=>"{\"assetclass\":[\"A\",\"B\",\"C\",\"D\"],\"states\":[\"Alabama\",\"Alaska\",\"Arizona\",\"Arkansas\",\"California\",\"Colorado\",\"Connecticut\",\"Delaware\",\"District Of Columbia\",\"Florida\",\"Georgia\",\"Hawaii\",\"Idaho\",\"Illinois\",\"Indiana\",\"Iowa\",\"Kansas\",\"Kentucky\",\"Louisiana\",\"Maine\",\"Maryland\",\"Massachusetts\",\"Michigan\",\"Minnesota\",\"Mississippi\",\"Missouri\",\"Montana\",\"Nebraska\",\"Nevada\",\"New Hampshire\",\"New Jersey\",\"New Mexico\",\"New York\",\"North Carolina\",\"North Dakota\",\"Ohio\",\"Oklahoma\",\"Oregon\",\"Pennsylvania\",\"Rhode Island\",\"South Carolina\",\"South Dakota\",\"Tennessee\",\"Texas\",\"Utah\",\"Vermont\",\"Virginia\",\"Washington\",\"West Virginia\",\"Wisconsin\",\"Wyoming\"],\"investments\":{\"minimum\":50001,\"maximum\":60001}}"}
-I, [2014-06-27T10:24:27.894908 #30548]  INFO -- : Started running (KeepBusy): Log file: /Users/joshthedudeoflife/re_prefs_svc/log/run.log
+          're_portal_prefs_1', '2014-07-01 11:21:05 -0400')
+I, [2014-07-01T11:21:05.844963 #49409]  INFO -- : {:username=>"ABC", :name=>"def", :id=>"abc", :data=>"{\"assetclass\":[\"B\"],\"states\":[\"Maryland\",\"New York\"],\"investments\":{\"minimum\":\"50001\",\"maximum\":\"60000\"}}", :client=>"re_portal_prefs_1", :ottoken=>"59d1e0d0c8edeb580c388e7b18781a05c07cdf067d045edc9d34d5fe62c1d058 re_portal_prefs_1 1404228065784", :action=>"create", :controller=>"notification_preferences"}
+I, [2014-07-01T11:21:05.845267 #49409]  INFO -- : /Users/joshthedudeoflife/re_prefs_files/abc7822627295
+I, [2014-07-01T11:21:05.846026 #49409]  INFO -- : Response: 200 text/json {:data=>"{\"assetclass\":[\"B\"],\"states\":[\"Maryland\",\"New York\"],\"investments\":{\"minimum\":\"50001\",\"maximum\":\"60000\"}}"}
+I, [2014-07-01T11:24:06.494456 #49433]  INFO -- : Started running (KeepBusy): Log file: /Users/joshthedudeoflife/re_prefs_svc/log/run.log
+I, [2014-07-01T11:24:25.737482 #49433]  INFO -- : Request: controller:notification_preferences action:create method:post
+I, [2014-07-01T11:24:25.737715 #49433]  INFO -- : Parameters: {:username=>"ABC", :name=>"def", :id=>"abc", :data=>"{\"assetclass\":[\"B\"],\"states\":[\"Alaska\"],\"investments\":{\"minimum\":\"50001\",\"maximum\":\"60000\"}}"}
+I, [2014-07-01T11:24:25.738341 #49433]  INFO -- : create_post
+D, [2014-07-01T11:24:25.754706 #49433] DEBUG -- : Query: #<Mysql2::Result:0x007f9a88848a58> && 0 for SQL:
+SELECT shared_secret FROM clients WHERE name='re_portal_prefs_1' LIMIT 1
+D, [2014-07-01T11:24:25.755559 #49433] DEBUG -- : Query: #<Mysql2::Result:0x007f9a888615d0> && 0 for SQL:
+SELECT ottoken FROM request_log WHERE ottoken='7d81a2ff09bf915967e0b1e1d551f82135facc2b0e7c28de1966a2d55118702f re_portal_prefs_1 1404228265654' LIMIT 1
+D, [2014-07-01T11:24:25.756804 #49433] DEBUG -- : Query:  && 549 for SQL:
+INSERT INTO request_log (ottoken, action, controller, client, created_at) values (
+          '7d81a2ff09bf915967e0b1e1d551f82135facc2b0e7c28de1966a2d55118702f re_portal_prefs_1 1404228265654', 
+          'create', 
+          'notification_preferences', 
+          're_portal_prefs_1', '2014-07-01 11:24:25 -0400')
+I, [2014-07-01T11:24:25.757009 #49433]  INFO -- : {:username=>"ABC", :name=>"def", :id=>"abc", :data=>"{\"assetclass\":[\"B\"],\"states\":[\"Alaska\"],\"investments\":{\"minimum\":\"50001\",\"maximum\":\"60000\"}}", :client=>"re_portal_prefs_1", :ottoken=>"7d81a2ff09bf915967e0b1e1d551f82135facc2b0e7c28de1966a2d55118702f re_portal_prefs_1 1404228265654", :action=>"create", :controller=>"notification_preferences"}
+I, [2014-07-01T11:24:25.757280 #49433]  INFO -- : /Users/joshthedudeoflife/re_prefs_files/abc8420272399
+I, [2014-07-01T11:24:25.758179 #49433]  INFO -- : Response: 200 text/json {:data=>"{\"assetclass\":[\"B\"],\"states\":[\"Alaska\"],\"investments\":{\"minimum\":\"50001\",\"maximum\":\"60000\"}}", :id=>"abc8420272399"}
+I, [2014-07-01T11:27:12.473216 #49433]  INFO -- : Request: controller:notification_preferences action:create method:post
+I, [2014-07-01T11:27:12.473350 #49433]  INFO -- : Parameters: {:username=>"ABC", :name=>"def", :id=>"", :data=>"{\"assetclass\":[\"B\"],\"states\":[\"Alaska\"],\"investments\":{\"minimum\":\"50001\",\"maximum\":\"60000\"}}"}
+I, [2014-07-01T11:27:12.473403 #49433]  INFO -- : create_post
+D, [2014-07-01T11:27:12.484064 #49433] DEBUG -- : Query: #<Mysql2::Result:0x007f9a88883090> && 549 for SQL:
+SELECT shared_secret FROM clients WHERE name='re_portal_prefs_1' LIMIT 1
+D, [2014-07-01T11:27:12.484721 #49433] DEBUG -- : Query: #<Mysql2::Result:0x007f9a88888c70> && 549 for SQL:
+SELECT ottoken FROM request_log WHERE ottoken='414861b9b8343bbb4285a82f693f9e83e0502f6be48e357d82dd561d76e5fce7 re_portal_prefs_1 1404228432461' LIMIT 1
+D, [2014-07-01T11:27:12.491829 #49433] DEBUG -- : Query:  && 550 for SQL:
+INSERT INTO request_log (ottoken, action, controller, client, created_at) values (
+          '414861b9b8343bbb4285a82f693f9e83e0502f6be48e357d82dd561d76e5fce7 re_portal_prefs_1 1404228432461', 
+          'create', 
+          'notification_preferences', 
+          're_portal_prefs_1', '2014-07-01 11:27:12 -0400')
+I, [2014-07-01T11:27:12.492047 #49433]  INFO -- : {:username=>"ABC", :name=>"def", :id=>"", :data=>"{\"assetclass\":[\"B\"],\"states\":[\"Alaska\"],\"investments\":{\"minimum\":\"50001\",\"maximum\":\"60000\"}}", :client=>"re_portal_prefs_1", :ottoken=>"414861b9b8343bbb4285a82f693f9e83e0502f6be48e357d82dd561d76e5fce7 re_portal_prefs_1 1404228432461", :action=>"create", :controller=>"notification_preferences"}
+I, [2014-07-01T11:27:12.492295 #49433]  INFO -- : /Users/joshthedudeoflife/re_prefs_files/abc254844494
+I, [2014-07-01T11:27:12.493104 #49433]  INFO -- : Response: 200 text/json {:data=>"{\"assetclass\":[\"B\"],\"states\":[\"Alaska\"],\"investments\":{\"minimum\":\"50001\",\"maximum\":\"60000\"}}", :id=>"abc254844494"}
+I, [2014-07-01T11:30:57.535172 #49433]  INFO -- : Request: controller:notification_preferences action:create method:post
+I, [2014-07-01T11:30:57.535276 #49433]  INFO -- : Parameters: {:username=>"ABC", :name=>"def", :data=>"{\"assetclass\":[\"B\"],\"states\":[\"Alaska\"],\"investments\":{\"minimum\":\"50001\",\"maximum\":\"60000\"}}"}
+I, [2014-07-01T11:30:57.535327 #49433]  INFO -- : create_post
+D, [2014-07-01T11:30:57.536510 #49433] DEBUG -- : Query: #<Mysql2::Result:0x007f9a888abc70> && 550 for SQL:
+SELECT shared_secret FROM clients WHERE name='re_portal_prefs_1' LIMIT 1
+D, [2014-07-01T11:30:57.537152 #49433] DEBUG -- : Query: #<Mysql2::Result:0x007f9a888b1f80> && 550 for SQL:
+SELECT ottoken FROM request_log WHERE ottoken='b61c9fe5e35e57c181c0637ad6d898d6bcd537ef04d96dba01683b6efab7f753 re_portal_prefs_1 1404228657531' LIMIT 1
+D, [2014-07-01T11:30:57.540504 #49433] DEBUG -- : Query:  && 551 for SQL:
+INSERT INTO request_log (ottoken, action, controller, client, created_at) values (
+          'b61c9fe5e35e57c181c0637ad6d898d6bcd537ef04d96dba01683b6efab7f753 re_portal_prefs_1 1404228657531', 
+          'create', 
+          'notification_preferences', 
+          're_portal_prefs_1', '2014-07-01 11:30:57 -0400')
+I, [2014-07-01T11:30:57.545386 #49433]  INFO -- : {:username=>"ABC", :name=>"def", :data=>"{\"assetclass\":[\"B\"],\"states\":[\"Alaska\"],\"investments\":{\"minimum\":\"50001\",\"maximum\":\"60000\"}}", :client=>"re_portal_prefs_1", :ottoken=>"b61c9fe5e35e57c181c0637ad6d898d6bcd537ef04d96dba01683b6efab7f753 re_portal_prefs_1 1404228657531", :action=>"create", :controller=>"notification_preferences"}
+I, [2014-07-01T11:30:57.545648 #49433]  INFO -- : /Users/joshthedudeoflife/re_prefs_files/abc7239983347
+I, [2014-07-01T11:30:57.546257 #49433]  INFO -- : Response: 200 text/json {:data=>"{\"assetclass\":[\"B\"],\"states\":[\"Alaska\"],\"investments\":{\"minimum\":\"50001\",\"maximum\":\"60000\"}}", :id=>"abc7239983347"}
+I, [2014-07-01T11:45:37.759294 #49433]  INFO -- : Request: controller:notification_preferences action:create method:post
+I, [2014-07-01T11:45:37.759397 #49433]  INFO -- : Parameters: {:username=>"ABC", :name=>"def", :data=>"{\"assetclass\":[\"B\"],\"states\":[\"Alaska\"],\"investments\":{\"minimum\":\"50001\",\"maximum\":\"60000\"}}"}
+I, [2014-07-01T11:45:37.759448 #49433]  INFO -- : create_post
+D, [2014-07-01T11:45:37.760601 #49433] DEBUG -- : Query: #<Mysql2::Result:0x007f9a88936b18> && 551 for SQL:
+SELECT shared_secret FROM clients WHERE name='re_portal_prefs_1' LIMIT 1
+D, [2014-07-01T11:45:37.761121 #49433] DEBUG -- : Query: #<Mysql2::Result:0x007f9a89008c70> && 551 for SQL:
+SELECT ottoken FROM request_log WHERE ottoken='b659ff640a2d536ecadc9b1277e2f6c3c8a1bf6be5626362b897873b5821d469 re_portal_prefs_1 1404229537757' LIMIT 1
+D, [2014-07-01T11:45:37.762576 #49433] DEBUG -- : Query:  && 552 for SQL:
+INSERT INTO request_log (ottoken, action, controller, client, created_at) values (
+          'b659ff640a2d536ecadc9b1277e2f6c3c8a1bf6be5626362b897873b5821d469 re_portal_prefs_1 1404229537757', 
+          'create', 
+          'notification_preferences', 
+          're_portal_prefs_1', '2014-07-01 11:45:37 -0400')
+I, [2014-07-01T11:45:37.762749 #49433]  INFO -- : {:username=>"ABC", :name=>"def", :data=>"{\"assetclass\":[\"B\"],\"states\":[\"Alaska\"],\"investments\":{\"minimum\":\"50001\",\"maximum\":\"60000\"}}", :client=>"re_portal_prefs_1", :ottoken=>"b659ff640a2d536ecadc9b1277e2f6c3c8a1bf6be5626362b897873b5821d469 re_portal_prefs_1 1404229537757", :action=>"create", :controller=>"notification_preferences"}
+I, [2014-07-01T11:45:37.762944 #49433]  INFO -- : /Users/joshthedudeoflife/re_prefs_files/abc770081522
+I, [2014-07-01T11:45:37.763631 #49433]  INFO -- : Response: 200 text/json {:data=>"{\"assetclass\":[\"B\"],\"states\":[\"Alaska\"],\"investments\":{\"minimum\":\"50001\",\"maximum\":\"60000\"}}", :id=>"abc770081522"}
+I, [2014-07-01T11:47:18.220073 #49433]  INFO -- : Request: controller:notification_preferences action:create method:post
+I, [2014-07-01T11:47:18.220284 #49433]  INFO -- : Parameters: {:username=>"ABC", :name=>"def", :data=>"{\"assetclass\":[\"B\"],\"states\":[\"Alaska\"],\"investments\":{\"minimum\":\"50001\",\"maximum\":\"60000\"}}"}
+I, [2014-07-01T11:47:18.220352 #49433]  INFO -- : create_post
+D, [2014-07-01T11:47:18.239452 #49433] DEBUG -- : Query: #<Mysql2::Result:0x007f9a8894f618> && 552 for SQL:
+SELECT shared_secret FROM clients WHERE name='re_portal_prefs_1' LIMIT 1
+D, [2014-07-01T11:47:18.240926 #49433] DEBUG -- : Query: #<Mysql2::Result:0x007f9a889564b8> && 552 for SQL:
+SELECT ottoken FROM request_log WHERE ottoken='882be46d43b2aa974e78f6392649eeef6ed864b2a89bff80cac9d9f59d821166 re_portal_prefs_1 1404229638193' LIMIT 1
+D, [2014-07-01T11:47:18.272664 #49433] DEBUG -- : Query:  && 553 for SQL:
+INSERT INTO request_log (ottoken, action, controller, client, created_at) values (
+          '882be46d43b2aa974e78f6392649eeef6ed864b2a89bff80cac9d9f59d821166 re_portal_prefs_1 1404229638193', 
+          'create', 
+          'notification_preferences', 
+          're_portal_prefs_1', '2014-07-01 11:47:18 -0400')
+I, [2014-07-01T11:47:18.272983 #49433]  INFO -- : {:username=>"ABC", :name=>"def", :data=>"{\"assetclass\":[\"B\"],\"states\":[\"Alaska\"],\"investments\":{\"minimum\":\"50001\",\"maximum\":\"60000\"}}", :client=>"re_portal_prefs_1", :ottoken=>"882be46d43b2aa974e78f6392649eeef6ed864b2a89bff80cac9d9f59d821166 re_portal_prefs_1 1404229638193", :action=>"create", :controller=>"notification_preferences"}
+I, [2014-07-01T11:47:18.273259 #49433]  INFO -- : /Users/joshthedudeoflife/re_prefs_files/abc2274546076
+I, [2014-07-01T11:47:18.273527 #49433]  INFO -- : Response: 200 text/json {:data=>"{\"assetclass\":[\"B\"],\"states\":[\"Alaska\"],\"investments\":{\"minimum\":\"50001\",\"maximum\":\"60000\"}}", :id=>"abc2274546076"}
+I, [2014-07-01T11:49:40.196371 #49433]  INFO -- : Request: controller:notification_preferences action:create method:post
+I, [2014-07-01T11:49:40.196482 #49433]  INFO -- : Parameters: {:username=>"ABC", :name=>"def", :data=>"{\"assetclass\":[\"B\"],\"states\":[\"Alaska\"],\"investments\":{\"minimum\":\"50001\",\"maximum\":\"60000\"}}"}
+I, [2014-07-01T11:49:40.196529 #49433]  INFO -- : create_post
+D, [2014-07-01T11:49:40.197061 #49433] DEBUG -- : Query: #<Mysql2::Result:0x007f9a8896f968> && 553 for SQL:
+SELECT shared_secret FROM clients WHERE name='re_portal_prefs_1' LIMIT 1
+D, [2014-07-01T11:49:40.197543 #49433] DEBUG -- : Query: #<Mysql2::Result:0x007f9a8897f688> && 553 for SQL:
+SELECT ottoken FROM request_log WHERE ottoken='9f928d0877acdde708cfd1d5e051fe04ca423108a22eb3d5c6d0fb2c05035541 re_portal_prefs_1 1404229780188' LIMIT 1
+D, [2014-07-01T11:49:40.198194 #49433] DEBUG -- : Query:  && 554 for SQL:
+INSERT INTO request_log (ottoken, action, controller, client, created_at) values (
+          '9f928d0877acdde708cfd1d5e051fe04ca423108a22eb3d5c6d0fb2c05035541 re_portal_prefs_1 1404229780188', 
+          'create', 
+          'notification_preferences', 
+          're_portal_prefs_1', '2014-07-01 11:49:40 -0400')
+I, [2014-07-01T11:49:40.198294 #49433]  INFO -- : {:username=>"ABC", :name=>"def", :data=>"{\"assetclass\":[\"B\"],\"states\":[\"Alaska\"],\"investments\":{\"minimum\":\"50001\",\"maximum\":\"60000\"}}", :client=>"re_portal_prefs_1", :ottoken=>"9f928d0877acdde708cfd1d5e051fe04ca423108a22eb3d5c6d0fb2c05035541 re_portal_prefs_1 1404229780188", :action=>"create", :controller=>"notification_preferences"}
+I, [2014-07-01T11:49:40.198493 #49433]  INFO -- : /Users/joshthedudeoflife/re_prefs_files/abc33786907
+I, [2014-07-01T11:49:40.198674 #49433]  INFO -- : Response: 200 text/json {:data=>"{\"assetclass\":[\"B\"],\"states\":[\"Alaska\"],\"investments\":{\"minimum\":\"50001\",\"maximum\":\"60000\"}}", :id=>"abc33786907"}
+I, [2014-07-01T11:50:39.934552 #49433]  INFO -- : Request: controller:notification_preferences action:get method:get
+I, [2014-07-01T11:50:39.934655 #49433]  INFO -- : Parameters: {:username=>"ABC", :name=>"def", :id=>"abc33786907"}
+I, [2014-07-01T11:50:39.934758 #49433]  INFO -- : get_get
+D, [2014-07-01T11:50:39.935328 #49433] DEBUG -- : Query: #<Mysql2::Result:0x007f9a88911ef8> && 554 for SQL:
+SELECT shared_secret FROM clients WHERE name='re_portal_prefs_1' LIMIT 1
+D, [2014-07-01T11:50:39.935804 #49433] DEBUG -- : Query: #<Mysql2::Result:0x007f9a89023ef8> && 554 for SQL:
+SELECT ottoken FROM request_log WHERE ottoken='01bf01ae34264bc1b406f1958bf056ad1d4c18cc5b446158bef765239fbcbabf re_portal_prefs_1 1404229839929' LIMIT 1
+D, [2014-07-01T11:50:39.936606 #49433] DEBUG -- : Query:  && 555 for SQL:
+INSERT INTO request_log (ottoken, action, controller, client, created_at) values (
+          '01bf01ae34264bc1b406f1958bf056ad1d4c18cc5b446158bef765239fbcbabf re_portal_prefs_1 1404229839929', 
+          'get', 
+          'notification_preferences', 
+          're_portal_prefs_1', '2014-07-01 11:50:39 -0400')
+I, [2014-07-01T11:50:39.936764 #49433]  INFO -- : this is line 31 {:username=>"ABC", :name=>"def", :id=>"abc33786907", :client=>"re_portal_prefs_1", :ottoken=>"01bf01ae34264bc1b406f1958bf056ad1d4c18cc5b446158bef765239fbcbabf re_portal_prefs_1 1404229839929", :action=>"get", :controller=>"notification_preferences"}
+I, [2014-07-01T11:50:39.936878 #49433]  INFO -- : /Users/joshthedudeoflife/re_prefs_files/abc33786907
+I, [2014-07-01T11:50:39.936941 #49433]  INFO -- : Lets go here
+I, [2014-07-01T11:50:39.937032 #49433]  INFO -- : Response: 200 text/json {:data=>"{\"assetclass\":[\"B\"],\"states\":[\"Alaska\"],\"investments\":{\"minimum\":\"50001\",\"maximum\":\"60000\"}}"}
+I, [2014-07-02T10:03:51.381070 #49433]  INFO -- : Request: controller:notification_preferences action:create method:post
+I, [2014-07-02T10:03:51.395572 #49433]  INFO -- : Parameters: {:username=>"ABC", :name=>"def", :data=>"{\"assetclass\":[\"A\"],\"states\":[\"Kentucky\"],\"investments\":{\"minimum\":\"50001\",\"maximum\":\"60000\"}}"}
+I, [2014-07-02T10:03:51.395706 #49433]  INFO -- : create_post
+D, [2014-07-02T10:03:51.396447 #49433] DEBUG -- : Query: #<Mysql2::Result:0x007f9a89030b08> && 555 for SQL:
+SELECT shared_secret FROM clients WHERE name='re_portal_prefs_1' LIMIT 1
+D, [2014-07-02T10:03:51.397053 #49433] DEBUG -- : Query: #<Mysql2::Result:0x007f9a890475d8> && 555 for SQL:
+SELECT ottoken FROM request_log WHERE ottoken='8d10b9b660d38c99c32cf2d032cb04e3da0cba750064a05dde611eb9cfbd65d4 re_portal_prefs_1 1404309831357' LIMIT 1
+D, [2014-07-02T10:03:51.416666 #49433] DEBUG -- : Query:  && 556 for SQL:
+INSERT INTO request_log (ottoken, action, controller, client, created_at) values (
+          '8d10b9b660d38c99c32cf2d032cb04e3da0cba750064a05dde611eb9cfbd65d4 re_portal_prefs_1 1404309831357', 
+          'create', 
+          'notification_preferences', 
+          're_portal_prefs_1', '2014-07-02 10:03:51 -0400')
+I, [2014-07-02T10:03:51.416875 #49433]  INFO -- : {:username=>"ABC", :name=>"def", :data=>"{\"assetclass\":[\"A\"],\"states\":[\"Kentucky\"],\"investments\":{\"minimum\":\"50001\",\"maximum\":\"60000\"}}", :client=>"re_portal_prefs_1", :ottoken=>"8d10b9b660d38c99c32cf2d032cb04e3da0cba750064a05dde611eb9cfbd65d4 re_portal_prefs_1 1404309831357", :action=>"create", :controller=>"notification_preferences"}
+I, [2014-07-02T10:03:51.434710 #49433]  INFO -- : /Users/joshthedudeoflife/re_prefs_files/abc4953586043
+I, [2014-07-02T10:03:51.435021 #49433]  INFO -- : Response: 200 text/json {:data=>"{\"assetclass\":[\"A\"],\"states\":[\"Kentucky\"],\"investments\":{\"minimum\":\"50001\",\"maximum\":\"60000\"}}", :id=>"abc4953586043"}
+I, [2014-07-02T10:03:52.423052 #49433]  INFO -- : Request: controller:notification_preferences action:get method:get
+I, [2014-07-02T10:03:52.423160 #49433]  INFO -- : Parameters: {:username=>"ABC", :name=>"def", :id=>"abc4953586043"}
+I, [2014-07-02T10:03:52.423211 #49433]  INFO -- : get_get
+D, [2014-07-02T10:03:52.423799 #49433] DEBUG -- : Query: #<Mysql2::Result:0x007f9a890545d0> && 556 for SQL:
+SELECT shared_secret FROM clients WHERE name='re_portal_prefs_1' LIMIT 1
+D, [2014-07-02T10:03:52.424514 #49433] DEBUG -- : Query: #<Mysql2::Result:0x007f9a89067ea0> && 556 for SQL:
+SELECT ottoken FROM request_log WHERE ottoken='606aeb8b12c8873755cbc87b0a33e3eae508fb49a0e6ff06f0d41257e5d23fbb re_portal_prefs_1 1404309832417' LIMIT 1
+D, [2014-07-02T10:03:52.425467 #49433] DEBUG -- : Query:  && 557 for SQL:
+INSERT INTO request_log (ottoken, action, controller, client, created_at) values (
+          '606aeb8b12c8873755cbc87b0a33e3eae508fb49a0e6ff06f0d41257e5d23fbb re_portal_prefs_1 1404309832417', 
+          'get', 
+          'notification_preferences', 
+          're_portal_prefs_1', '2014-07-02 10:03:52 -0400')
+I, [2014-07-02T10:03:52.425613 #49433]  INFO -- : this is line 31 {:username=>"ABC", :name=>"def", :id=>"abc4953586043", :client=>"re_portal_prefs_1", :ottoken=>"606aeb8b12c8873755cbc87b0a33e3eae508fb49a0e6ff06f0d41257e5d23fbb re_portal_prefs_1 1404309832417", :action=>"get", :controller=>"notification_preferences"}
+I, [2014-07-02T10:03:52.425725 #49433]  INFO -- : /Users/joshthedudeoflife/re_prefs_files/abc4953586043
+I, [2014-07-02T10:03:52.454065 #49433]  INFO -- : Lets go here
+I, [2014-07-02T10:03:52.454225 #49433]  INFO -- : Response: 200 text/json {:data=>"{\"assetclass\":[\"A\"],\"states\":[\"Kentucky\"],\"investments\":{\"minimum\":\"50001\",\"maximum\":\"60000\"}}"}

@@ -49,7 +49,10 @@ module KeepBusy
   LOG = Logger.new(KB_LOG)
   LOG.info "Started running (#{self}): Log file: #{KB_LOG}"
   puts "Logging to #{KB_LOG}"  
-
+  ES_SERVER = Stretcher::Server.new('http://127.0.0.1:9200')
+  index_name = 'KeepBusy_User_Preferences'
+  ES_INDEX = ES_SERVER.index(index_name)
+  #in elastic search we need to create an index. 
 end
 
 Log = KeepBusy.logger
