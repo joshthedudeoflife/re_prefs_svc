@@ -1,6 +1,6 @@
 DEBUG = true
 Encoding.default_external = Encoding::UTF_8
-
+require 'stretcher'
 require 'fileutils' 
 require 'rubygems'
 require 'json'
@@ -50,9 +50,9 @@ module KeepBusy
   LOG.info "Started running (#{self}): Log file: #{KB_LOG}"
   puts "Logging to #{KB_LOG}"  
   ES_SERVER = Stretcher::Server.new('http://127.0.0.1:9200')
-  index_name = 'KeepBusy_User_Preferences'
+  index_name = 'keepbusy_user_preferences'
   ES_INDEX = ES_SERVER.index(index_name)
-  #in elastic search we need to create an index. 
+  #in elastic search we need to create an index.
 end
 
 Log = KeepBusy.logger

@@ -7,6 +7,7 @@ gem 'httpclient'
 gem 'hashie'
 gem 'connection_pool'
 gem 'logger'
+gem 'stretcher'
 group :development, :test do
   gem 'rspec'
 end
