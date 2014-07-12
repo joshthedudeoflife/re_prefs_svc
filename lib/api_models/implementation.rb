@@ -64,6 +64,7 @@ module SecureApi
     
     
     def admin_status_get
+      KeepBusy.logger.info("admin_status_get")
       set_response status: Response::OK, content_type: Response::JSON, content: {} 
     end
 
